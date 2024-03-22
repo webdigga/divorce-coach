@@ -1,6 +1,6 @@
 ---
 title: About Divorce Coaching
-description: Lorem ipsum dolor sit amet.
+description: The Fasted Growing Coaching Niche
 articleLink: /posts/about-divorce-coaching/
 imageAlt: iPad with information on
 image: /static/img/about-coaching.webp
