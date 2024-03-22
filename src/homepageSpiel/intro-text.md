@@ -1,5 +1,5 @@
 ---
-title: Lorem ipsum dolor sit amet
+title: Your New Coaching Journey Starts Here
 description: >-
   The Divorce Coaching Accreditations & Programmes are ideal opportunities for
   individuals at any stage of their coaching journey. Whether you're just
