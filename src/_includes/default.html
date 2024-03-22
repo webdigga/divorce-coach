@@ -48,11 +48,7 @@
 	<meta name="twitter:site" content="{{ settings.title }}">
     <meta name="og:locale" property="og:locale" content="en_GB">  
 
-    {% block head %}{% endblock %}
     <link rel="stylesheet" type="text/css" href="/static/css/style.css"/>
-    {% if prism == true %}
-      <link rel="stylesheet" type="text/css" href="/static/css/prism-tomorrow.css">
-    {% endif %}
 
 	{% if env.isProd %}
 		<script>
@@ -79,12 +75,6 @@
     {% include "./partials/footer.html" %}
 
     <script src="/static/js/alpine.js"></script>
-
-    {% if path == "home" %}
-      <!-- Netlify Identity Widget -->
-      <!-- Needed only if you are using Netlify Identity feature -->
-      <script type="text/javascript" src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
-    {% endif %}
 
 	{% if env.isProd %}
 
