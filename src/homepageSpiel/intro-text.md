@@ -1,9 +1,14 @@
 ---
 title: Lorem ipsum dolor sit amet
-description: |-
-  Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, Lorem ipsum dolor sit amet.
+description: >-
+  The Divorce Coaching Accreditations & Programmes are ideal opportunities for
+  individuals at any stage of their coaching journey. Whether you're just
+  starting out or seeking to specialise in the burgeoning field of divorce
+  coaching, our comprehensive program has you covered.
 
-  Lorem ipsum dolor sit amet Lorem ipsum dolor sit amet Lorem ipsum dolor sit amet Lorem ipsum dolor sit amet Lorem ipsum dolor sit amet.
 
-  Lorem ipsum dolor sit amet Lorem ipsum dolor sit amet Lorem ipsum dolor sit amet Lorem ipsum dolor sit amet <a href="/posts/book-a-free-call" class="underline">here</a>, Lorem ipsum dolor sit amet Lorem ipsum dolor sit amet Lorem ipsum dolor sit amet Lorem ipsum dolor sit amet.
+  By enrolling on these courses, you'll gain invaluable skills to excel as a Breakup and Divorce Coach while also acquiring the know-how to establish and expand a thriving coaching enterprise.
+
+
+  Whether you're driven by a passion for helping others navigate the challenges of divorce or seeking to capitalise on the growing demand for specialized coaching services, Divorce Coaching Accreditations provides the comprehensive training and support you need to thrive in this rewarding and impactful field.
 ---
