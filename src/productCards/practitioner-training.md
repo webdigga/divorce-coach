@@ -1,6 +1,6 @@
 ---
 title: Practitioner training
-description: "Lorem ipsum dolor sit amet."
+description: Become An Accredited Divorce & Breakup Coach
 articleLink: /posts/practitioner-training
 imageAlt: Person writing notes on a pad
 image: /static/img/practitioner-training.webp
