@@ -1,6 +1,6 @@
 ---
 title: Breakup support groups
-description: "Lorem ipsum dolor sit amet."
+description: Find A Coach Or Join A Support Group
 articleLink: /posts/breakup-support-groups/
 imageAlt: Group support session
 image: /static/img/breakup-support.webp
