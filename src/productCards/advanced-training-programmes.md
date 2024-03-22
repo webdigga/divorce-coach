@@ -1,6 +1,6 @@
 ---
 title: Advanced training programmes
-description: "Lorem ipsum dolor sit amet."
+description: Advanced Training & Coaching Skills
 articleLink: /posts/advanced-training-programmes/
 imageAlt: Planning and training session with post-its
 image: /static/img/advanced-training.webp
