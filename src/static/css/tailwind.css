@@ -41,3 +41,6 @@ body pre[class*="language-"] {
 		width: 848px;
 	}
 }
+
+/* To stop flicker after deferring Alpine JS */
+[x-cloak] { display: none !important; }
