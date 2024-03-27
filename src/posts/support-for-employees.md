@@ -6,6 +6,11 @@ type: Article
 tags:
   - article
 heroImage: /static/img/support-employees-large.webp
+highlightsBox:
+  - title: Highlights box one
+    highlightsListItem:
+      - highlight: highlight 1
+      - highlight: highlight 2
 ---
 **Why does your business needs to offer support?**
 
