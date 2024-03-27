@@ -11,6 +11,10 @@ highlightsBox:
     highlightsListItem:
       - highlight: highlight 1
       - highlight: highlight 2
+  - title: Highlights box two
+    highlightsListItem:
+      - highlight: highlight 1
+      - highlight: highlight 2
 ---
 **Why does your business needs to offer support?**
 
