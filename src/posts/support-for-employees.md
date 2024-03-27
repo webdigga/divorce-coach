@@ -9,12 +9,12 @@ heroImage: /static/img/support-employees-large.webp
 highlightsBox:
   - title: Highlights box one
     highlightsListItem:
-      - highlight: highlight 1
-      - highlight: highlight 2
+      - highlight: highlight box 1 1
+      - highlight: highlight box 1 2
   - title: Highlights box two
     highlightsListItem:
-      - highlight: highlight 1
-      - highlight: highlight 2
+      - highlight: highlight box 2 1
+      - highlight: highlight box 2 2
 ---
 **Why does your business needs to offer support?**
 
