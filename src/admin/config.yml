@@ -59,23 +59,12 @@ collections:
         name: "highlightsBox"
         widget: "list"
         fields:
-          - label: Highlights list
-            name: highlightsList
+          - { label: Title, name: title, widget: string }
+          - label: Highlights list item
+            name: highlightsListItem
             widget: list
             fields:
               - { label: Highlight, name: highlight, widget: string }
-      - label: "Testimonials"
-        name: "testimonials"
-        widget: "list"
-        summary: '{{fields.quote}} - {{fields.author.name}}'
-        fields:
-          - {label: Quote, name: quote, widget: string, default: "Everything is awesome!"}
-          - label: Author
-            name: author
-            widget: object
-            fields:
-              - {label: Name, name: name, widget: string, default: "Emmet"}
-              - {label: Avatar, name: avatar, widget: image, default: "/img/emmet.jpg"}
   - label: "ProductCard"
     name: "productCard"
     folder: "src/productCards"
