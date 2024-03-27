@@ -56,7 +56,7 @@ collections:
               - { label: Image Alt, name: imageAlt, widget: string }
               - { label: Image, name: image, widget: image }
       - label: "Highlights box"
-        name: "highlightsBox"
+        name: "highlightsBoxes"
         widget: "list"
         fields:
           - { label: Title, name: title, widget: string }

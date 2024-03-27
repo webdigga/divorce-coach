@@ -6,7 +6,7 @@ type: Article
 tags:
   - article
 heroImage: /static/img/support-employees-large.webp
-highlightsBox:
+highlightsBoxes:
   - title: Highlights box one
     highlightsListItem:
       - highlight: highlight box 1 1
