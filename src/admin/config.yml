@@ -55,6 +55,15 @@ collections:
             fields:
               - { label: Image Alt, name: imageAlt, widget: string }
               - { label: Image, name: image, widget: image }
+      - label: "Highlights box"
+        name: "highlightsBox"
+        widget: "list"
+        fields:
+          - label: Highlights list
+            name: highlightsList
+            widget: list
+            fields:
+              - { label: Highlight, name: highlight, widget: string }
   - label: "ProductCard"
     name: "productCard"
     folder: "src/productCards"
