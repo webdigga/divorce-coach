@@ -7,14 +7,14 @@ tags:
   - article
 heroImage: /static/img/support-employees-large.webp
 highlightsBoxes:
-  - title: Highlights box one
+  - title: Breakup & Divorce Coaching
     highlightsListItem:
-      - highlight: highlight box 1 1
-      - highlight: highlight box 1 2
-  - title: Highlights box two
+      - highlight: 1-1 private online video sessions
+      - highlight: Coaching from Accredited Breakup & Divorce Coach specialists
+  - title: Domestic Abuse Support
     highlightsListItem:
-      - highlight: highlight box 2 1
-      - highlight: highlight box 2 2
+      - highlight: Breakup, Divorce & Domestic Abuse Awareness Accreditation for Corporates
+      - highlight: ‘How to spot the signs of abuse’ training for HR and Management
 ---
 **Why does your business needs to offer support?**
 
