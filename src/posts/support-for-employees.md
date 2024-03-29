@@ -11,10 +11,18 @@ highlightsBoxes:
     highlightsListItem:
       - highlight: 1-1 private online video sessions
       - highlight: Coaching from Accredited Breakup & Divorce Coach specialists
+      - highlight: Access to a global network of Divorce & Breakup coaches
+      - highlight: Online support group sessions
+      - highlight: Flexible Group and 1-1 coaching sessions to fit around you
   - title: Domestic Abuse Support
     highlightsListItem:
-      - highlight: Breakup, Divorce & Domestic Abuse Awareness Accreditation for Corporates
-      - highlight: ‘How to spot the signs of abuse’ training for HR and Management
+      - highlight: Breakup, Divorce & Domestic Abuse Awareness Accreditation for
+          Corporates
+      - highlight: ‘How to spot the signs of abuse’ training for HR, Recruitment and
+          Management
+      - highlight: Signposting & safeguarding traing for HR, Recruitment & Management
+      - highlight: Domestic abuse workshop, half day and full day traiing sessions
+      - highlight: 1-1 and group training sessions for employees
 ---
 **Why does your business needs to offer support?**
 
