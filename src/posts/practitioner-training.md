@@ -1,21 +1,33 @@
 ---
-title: Practitioner training
-description: Lorem ipsum dolor sit amet
+title: Practitioner Training Programmes
+description: Breakup & Divorce Coaching Accreditations
 date: 2024-03-11T11:28:32.363Z
 type: Article
 tags:
   - article
 heroImage: /static/img/practitioner-training-large.webp
+highlightsBoxes:
+  - title: " Is the Divorce & Breakup Practitioner Accreditation Programme For Me?"
+    highlightsListItem:
+      - highlight: Have you been through a difficult divorce or breakup and would like
+          to use your experience to help others?
+      - highlight: Do you have any transferable skills or existing coaching experience?
+      - highlight: Are you looking for additional income or a second revenue stream?
+      - highlight: Are you in a demanding job and suffering from burn out and would like
+          a change?
+      - highlight: Are you passionate about helping others?
+      - highlight: Would you like help and support in marketing and growing your own
+          coaching business?
+      - highlight: Are you already a coach and looking to broaden your existing coaching
+          techniques and strategies?
+      - highlight: Are you a mentor, work in Personal Development, HR, Recruitment or
+          any industry helping others?
+      - highlight: Are you interested in coaching and becoming a coach?
+      - highlight: Are you looking for a change in career and looking for a rewarding
+          one that helps others?
 ---
-* Lorem ipsum dolor sit amet
-* Lorem ipsum dolor sit amet
-* Lorem ipsum dolor sit amet
-* Lorem ipsum dolor sit amet
-* Lorem ipsum dolor sit amet
-* Lorem ipsum dolor sit amet
+**Breakup & Divorce Coaching Accreditations empower you to effectively coach both men and women to cope better with any breakup or divorce they may experience.**
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur vitae risus in justo placerat venenatis. Vestibulum rutrum posuere convallis. Vestibulum vel pharetra erat. Sed sed ornare risus, eu porta est. Aliquam in felis arcu. Donec rutrum commodo posuere. Maecenas nec tristique sem. Duis at tincidunt nisi. Mauris quis consequat odio.
+These online accreditation programmes are ideal for individuals who are new to coaching or already have a coaching business and wish to specialise in this rapidly growing niche.
 
-Nullam eget pretium magna. Sed efficitur sem sit amet nunc porta, vel tempor ex tempus. Aliquam eu condimentum felis. Duis lorem lacus, iaculis eget pulvinar quis, tincidunt sit amet elit. Etiam faucibus, ligula et ornare facilisis, metus lectus ultricies nunc, et rutrum orci turpis molestie erat. Maecenas dictum semper urna, a pellentesque eros condimentum quis. Nunc nec erat nisi. In sagittis nisl dapibus, euismod turpis nec, faucibus arcu. Morbi accumsan tellus a eros luctus placerat. Nam a porta metus, ac tristique arcu. Curabitur ullamcorper elementum est, eget lobortis leo cursus quis.
-
-In eu enim vulputate, accumsan est ut, tincidunt nibh. Aliquam ultricies elit quis eros pellentesque, ac blandit felis tempus. Duis suscipit venenatis vestibulum. Sed pulvinar gravida urna, non pretium purus ultrices non. Pellentesque neque quam, cursus sed ante at, ultrices cursus dui. Aenean in aliquam risus. Morbi nulla ligula, aliquet non feugiat vel, rutrum vitae nunc. Aenean commodo, enim vel viverra elementum, justo lorem lobortis ante, ac blandit sem sem id elit. In ullamcorper egestas turpis vel consequat. Sed ac quam pharetra, ultricies erat sit amet, rutrum ligula. Mauris molestie lorem mi, eu suscipit eros sagittis vitae. Nam tincidunt libero in dolor pharetra, id accumsan diam mattis. Donec non facilisis libero, ut sodales felis.
+You will gain comprehensive skills to become an exceptional Breakup and Divorce Coach and establish a thriving coaching business.
