@@ -16,6 +16,7 @@ highlightsBoxes:
       - highlight: Are you in a demanding job and suffering from burn out and would like
           a change?
       - highlight: Are you passionate about helping others?
+  - highlightsListItem:
       - highlight: Would you like help and support in marketing and growing your own
           coaching business?
       - highlight: Are you already a coach and looking to broaden your existing coaching
@@ -25,6 +26,7 @@ highlightsBoxes:
       - highlight: Are you interested in coaching and becoming a coach?
       - highlight: Are you looking for a change in career and looking for a rewarding
           one that helps others?
+    title: Are You Interested In A Second Revenue Stream?
 ---
 **Breakup & Divorce Coaching Accreditations empower you to effectively coach both men and women to cope better with any breakup or divorce they may experience.**
 
