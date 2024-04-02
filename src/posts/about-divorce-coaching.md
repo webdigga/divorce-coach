@@ -13,7 +13,7 @@ Divorce coaching is a rewarding and specialised field aimed at providing compreh
 
 Key components of divorce coaching include:
 
-**Emotional Suppor**t: Divorce coaches create a safe and empathetic environment for clients to express their emotions and process their feelings without judgment.
+**Emotional Suppor**t: Divorce coaches create a safe and empathetic environment for clients to express their emotions and process their feelings without judgement.
 
 **Goal Setting:** Coaches assist clients in identifying and clarifying their objectives during and after divorce, such as determining custody arrangements, financial settlements, co-parenting strategies, and personal well-being goals.
 

@@ -42,9 +42,9 @@ highlightsBoxes:
           nonverbal cues and signals you convey as a coach and learn how to use
           body language effectively to establish rapport, trust, and connection
           with your clients"
-      - highlight: "Practicing self-care: Develop personalized self-care routines to
+      - highlight: "Practising self-care: Develop personalised self-care routines to
           nurture your own well-being and maintain resilience and balance as a
-          coach, ensuring you remain strong and centered in your practice"
+          coach, ensuring you remain strong and centred in your practice"
       - highlight: "Growing your network: Expand your personal network of trauma
           recovery specialists and allied professionals, facilitating
           collaboration and referrals to support your clients' holistic healing
@@ -70,7 +70,7 @@ Prepare to be inspired, challenged, and empowered as you embark on this journey 
 4. Expand your coaching "lane," enabling you to delve deeper into the issues and challenges faced by your existing clients.
 5. Increase your impact with each client by leveraging your enhanced coaching skills and expertise.
 6. Gain confidence to coach clients in virtually any situation, knowing that you have the knowledge and tools to support them effectively.
-7. Add an instant extra revenue stream to your coaching business by attracting clients seeking specialized support.
+7. Add an instant extra revenue stream to your coaching business by attracting clients seeking specialised support.
 8. Become a member of an elite Master Practitioner Mastermind Group, providing you with ongoing support, collaboration, and professional development opportunities.
 
-Overall, this training program offers a comprehensive pathway to elevate your coaching practice, attract new clients, and achieve greater success and fulfillment in your coaching career.
+Overall, this training program offers a comprehensive pathway to elevate your coaching practice, attract new clients, and achieve greater success and fulfilment in your coaching career.

@@ -22,10 +22,10 @@ youTubeVideos:
     videoTitle: Navigating Divorce With A Narcissist
 accreditationImages:
   - accreditationImage:
-      imageAlt: Image at text here
+      imageAlt: The best you, winner, self development coach of the year
       image: /static/img/best-you-award.avif
   - accreditationImage:
-      imageAlt: Image alt text here
+      imageAlt: Accredited cpd course, 2023 - 2024
       image: /static/img/accreditation-1-1-.webp
   - accreditationImage:
       image: /static/img/download.png

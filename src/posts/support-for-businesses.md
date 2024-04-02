@@ -7,9 +7,9 @@ tags:
   - article
 heroImage: /static/img/support-businesses-large.webp
 ---
-**By offering breakup and divorce support can contribute to a more compassionate and resilient workplace culture, benefiting both employees and the organization as a whole.**
+**By offering breakup and divorce support can contribute to a more compassionate and resilient workplace culture, benefiting both employees and the organisation as a whole.**
 
-Your business can greatly benefit from breakup and divorce support provided by our expert coaches. We understand the emotional challenges and practical difficulties that employees face during this time, and we tailor our advice to help them cope more effectively. Our coaches utilize a wide range of tools and techniques to facilitate rapid transformations from the very first session.
+Your business can greatly benefit from breakup and divorce support provided by our expert coaches. We understand the emotional challenges and practical difficulties that employees face during this time, and we tailor our advice to help them cope more effectively. Our coaches utilise a wide range of tools and techniques to facilitate rapid transformations from the very first session.
 
 As breakup specialists, we empower employees to take control of their emotions and provide effective methods for maintaining productivity, clarity of mind, and a positive focus. By navigating the breakup or divorce process alongside them, employees feel supported and not alone. They have answers to their questions and dedicated time outside of the workplace to process negative emotions in a safe, confidential environment.
 
@@ -28,4 +28,4 @@ Domestic Abuse **DOES** impact on your business:
 7. Over 1/10 report that the abuse continues in the workplace, in 81% of cases this is through abusive emails or phone calls
 8. 90% of those experiencing domestic abuse said it created conflict and tension with colleagues
 
-Act now and book a call with Sara Davison or Email Rob: rob@saradavison.com for more information today.
+Act now and book a call with Sara Davison or email Rob: rob@saradavison.com for more information today.

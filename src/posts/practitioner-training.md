@@ -13,7 +13,7 @@ highlightsBoxes:
           to use your experience to help others?
       - highlight: Do you have any transferable skills or existing coaching experience?
       - highlight: Are you looking for additional income or a second revenue stream?
-      - highlight: Are you in a demanding job and suffering from burn out and would like
+      - highlight: Are you in a demanding job and suffering from burnout and would like
           a change?
       - highlight: Are you passionate about helping others?
   - highlightsListItem:

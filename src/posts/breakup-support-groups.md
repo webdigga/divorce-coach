@@ -25,4 +25,4 @@ highlightsBoxes:
 ---
 **Coping with a breakup or divorce can be a challenging and emotionally turbulent experience.** 
 
-Below are some of the options avilable to you to help you cope with a breakup or divorce.
+Below are some of the options available to you to help you cope with a breakup or divorce.

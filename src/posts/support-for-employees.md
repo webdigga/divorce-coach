@@ -20,11 +20,11 @@ highlightsBoxes:
           Corporates
       - highlight: ‘How to spot the signs of abuse’ training for HR, Recruitment and
           Management
-      - highlight: Signposting & safeguarding traing for HR, Recruitment & Management
-      - highlight: Domestic abuse workshop, half day and full day traiing sessions
+      - highlight: Signposting & safeguarding training for HR, Recruitment & Management
+      - highlight: Domestic abuse workshop, half day and full day training sessions
       - highlight: 1-1 and group training sessions for employees
 ---
-**Why does your business needs to offer support?**
+**Why does your business need to offer support?**
 
 Domestic abuse inflicts profound physical and emotional wounds, manifesting in various forms such as physical, financial, emotional, and psychological abuse. Research underscores that a significant portion of domestic abuse victims are targeted even at their workplace, imposing adverse effects on both the abused individuals and their colleagues.
 

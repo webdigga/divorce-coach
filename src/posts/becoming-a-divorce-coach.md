@@ -45,7 +45,7 @@ Through Sara's Divorce Coaching program, you'll gain insight into:
 
 **Becoming an Outstanding Coach:** Acquire the foundational skills needed to excel in coaching, applicable across various niches.
 
-**Breakup & Divorce Coaching Techniques:** Learn specialized strategies tailored to address diverse breakup scenarios.
+**Breakup & Divorce Coaching Techniques:** Learn specialised strategies tailored to address diverse breakup scenarios.
 
 **Essential Toolkit**: Equip yourself with a comprehensive array of techniques and strategies essential for guiding clients through breakup and divorce challenges.
 
