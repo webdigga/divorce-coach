@@ -27,6 +27,9 @@ accreditationImages:
   - accreditationImage:
       imageAlt: Image alt text here
       image: /static/img/accreditation-1-1-.webp
+  - accreditationImage:
+      image: /static/img/download.png
+      imageAlt: The International Divorce Coach of Excellence
 ---
 Sara Davison, a renowned Coach, podcaster, and bestselling author, is dedicated to assisting individuals worldwide in navigating their breakups with resilience. Drawing from her personal experience of overcoming a marriage breakdown, Sara has curated a comprehensive toolkit comprising techniques, strategies, and practical advice to help individuals mitigate negative emotions and progress with newfound confidence.
 
