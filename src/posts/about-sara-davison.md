@@ -6,11 +6,15 @@ type: Article
 tags:
   - article
 heroImage: /static/img/about-sara-large.webp
-inTheMediaAndAccreditationsCopy: In the media Lorem ipsum dolor sit amet,
-  consectetur adipiscing elit. Cras venenatis consequat sem sed convallis. Sed
-  at odio id nulla scelerisque sollicitudin. Suspendisse ullamcorper vulputate
-  porttitor. Vivamus sed commodo dui, nec feugiat mi. Maecenas cursus magna vel
-  ipsum tempus rutrum
+inTheMediaAndAccreditationsCopy: Sara Davison, known as The Divorce Coach, is a
+  highly acclaimed professional in her field. With a track record of excellence,
+  she has earned recognition as an award-winning coach, a two-time best-selling
+  author, and a prominent figure in the media landscape worldwide. Sara's
+  expertise extends across various platforms, including television appearances,
+  podcasting, and contributions as a media commentator. Her vast experience and
+  insights make her a trusted authority in the realm of divorce coaching,
+  empowering individuals globally to navigate the complexities of divorce with
+  confidence and clarity.
 youTubeVideos:
   - embedPath: https://www.youtube.com/embed/syuXcUGdnU0?si=2iFTEFmODpfTFYFQ
     videoTitle: Breakup & Divorce Webinar
