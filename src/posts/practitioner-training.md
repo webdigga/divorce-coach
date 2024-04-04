@@ -2,7 +2,7 @@
 title: Practitioner Training Programmes
 description: Breakup & Divorce Coaching Accreditations
 date: 2024-03-11T11:28:32.363Z
-type: Article
+type: article
 tags:
   - article
 heroImage: /static/img/practitioner-training-large.webp

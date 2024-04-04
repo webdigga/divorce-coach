@@ -4,7 +4,7 @@ description: Divorce coaching aims to empower individuals to navigate the
   divorce process with confidence, clarity, and resilience, ultimately helping
   them to move forward and rebuild their lives in a positive way.
 date: 2024-03-11T11:28:32.363Z
-type: Article
+type: article
 tags:
   - article
 heroImage: /static/img/about-coaching-large.webp

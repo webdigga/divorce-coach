@@ -2,7 +2,7 @@
 title: Support for businesses
 description: The impact of Divorce, Breakup and Domestic Abuse on your business
 date: 2024-03-11T11:28:32.363Z
-type: Article
+type: article
 tags:
   - article
 heroImage: /static/img/support-businesses-large.webp

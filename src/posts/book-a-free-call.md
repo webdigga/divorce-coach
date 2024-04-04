@@ -2,7 +2,7 @@
 title: Book a free call
 description: Breakup & Divorce Coach Training Discovery call
 date: 2024-03-13T09:11:44.082Z
-type: Article
+type: article
 tags:
   - article
 heroImage: /static/img/book-a-call.webp

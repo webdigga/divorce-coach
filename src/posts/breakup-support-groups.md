@@ -2,7 +2,7 @@
 title: Breakup support groups
 description: A support network and options to help you cope with a breakup and divorce
 date: 2024-03-11T11:28:32.363Z
-type: Article
+type: article
 tags:
   - article
 heroImage: /static/img/group-session.webp

@@ -66,7 +66,11 @@ module.exports = function (eleventyConfig) {
   });
 
   eleventyConfig.addCollection("productPosts", function(collectionApi) {
-    return collectionApi.getFilteredByTags("product");
+    return collectionApi.getFilteredByTags("article");
+  });
+
+  eleventyConfig.addCollection("blogPosts", function(collectionApi) {
+    return collectionApi.getFilteredByTags("blog");
   });
 
   // Let Eleventy transform HTML files as nunjucks

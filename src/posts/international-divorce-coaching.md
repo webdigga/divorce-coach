@@ -2,7 +2,7 @@
 title: International Divorce Coaching
 description: The International Divorce Coach Of Excellence
 date: 2024-03-29T11:52
-type: Article
+type: article
 tags:
   - article
 heroImage: /static/img/international.jpg

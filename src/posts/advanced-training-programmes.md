@@ -2,7 +2,7 @@
 title: Advanced training programmes
 description: Master Practitioner Accreditation Programme
 date: 2024-03-11T11:28:32.363Z
-type: Article
+type: article
 tags:
   - article
 heroImage: /static/img/advanced-training-large.webp
