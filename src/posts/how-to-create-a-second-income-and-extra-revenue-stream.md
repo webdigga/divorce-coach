@@ -15,7 +15,7 @@ highlightsBoxes:
           breakup & divorce
       - highlight: Essential business tools to attract your ideal clients, including
           marketing, social media, webinar, and networking strategies
-      - highlight: Operating your own coaching business offers flexibility—you can work
+      - highlight: Operating your own coaching business offers flexibility - you can work
           from home and set your own hours
       - highlight: This rapidly expanding niche is profoundly rewarding, as it
           positively impacts numerous individuals

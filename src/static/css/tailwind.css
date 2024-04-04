@@ -40,6 +40,10 @@ body pre[class*="language-"] {
 	.article-content {
 		width: 848px;
 	}
+
+	.article-content--large {
+		width: 1024px;
+	}
 }
 
 /* To stop flicker after deferring Alpine JS */
