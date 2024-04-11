@@ -5,7 +5,7 @@ date: 2024-04-03
 type: article
 tags:
   - blog
-heroImage: /static/img/pexels-rdne-stock-project-6670052.jpg
+heroImage: /static/img/narcissist.webp
 highlightsBoxes:
   - title: "Common Narcissist Traits "
     highlightsListItem:
