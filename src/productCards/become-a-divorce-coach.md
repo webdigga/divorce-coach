@@ -1,5 +1,5 @@
 ---
-title: Becoming a Divorce Coach
+title: Becoming a Certified Divorce Coach
 description: A New Career Or Additional Revenue Stream
 articleLink: /posts/becoming-a-divorce-coach/
 imageAlt: One to one training session

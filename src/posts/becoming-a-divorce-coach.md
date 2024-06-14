@@ -1,5 +1,5 @@
 ---
-title: Becoming a Divorce Coach
+title: Becoming a Certified Divorce Coach
 description: Become a divorce and breakup coach
 date: 2024-03-11T11:28:32.363Z
 type: article
