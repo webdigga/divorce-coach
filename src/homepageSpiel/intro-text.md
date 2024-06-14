@@ -1,7 +1,7 @@
 ---
 title: Your New Coaching Journey Starts Here
 description: >-
-  The Divorce Coaching Accreditations & Programmes are ideal opportunities for
+  The **Divorce Coaching** Accreditations & Programmes are ideal opportunities for
   individuals at any stage of their coaching journey. Whether you're just
   starting out or seeking to specialise in the burgeoning field of divorce
   coaching, our comprehensive program has you covered.
