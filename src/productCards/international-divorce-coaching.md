@@ -1,5 +1,5 @@
 ---
-title: International Divorce Coaching
+title: International programme
 description: The International Divorce Coach Centre Of Excellence
 articleLink: /posts/international-divorce-coaching/
 imageAlt: Laptop World Map

@@ -1,5 +1,5 @@
 ---
-title: International Divorce Coaching
+title: International programme
 description: The International Divorce Coach Of Excellence
 date: 2024-03-29T11:52
 type: article
@@ -11,7 +11,7 @@ Embark on a transformative journey to become an Accredited Breakup and Divorce C
 
 Through our comprehensive training program, you'll receive unparalleled guidance and expertise from Sara Davison herself, leveraging her years of experience and proven methodologies in the field of divorce coaching.
 
-Here's what our program offers:
+Here's what our programme offers:
 
 1. Expert Guidance from the Best: Learn from Sara Davison, renowned as the UK's #1 Divorce Coach, who will share her insights, strategies, and techniques honed over decades of coaching experience.
 2. Comprehensive Training: Acquire the essential skills and knowledge needed to support individuals through the emotional and practical challenges of breakup and divorce with confidence and compassion.

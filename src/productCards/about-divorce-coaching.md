@@ -1,5 +1,5 @@
 ---
-title: About Divorce Coaching
+title: About the Course
 description: The Fasted Growing Coaching Niche
 articleLink: /posts/about-divorce-coaching/
 imageAlt: iPad with information on
