@@ -3,7 +3,7 @@ title: Are Couples Putting Divorce On Hold Due To The Cost Of Living Crisis?
 description: Is the cost of divorce and the cost of living crisis the reasons
   for a for lack of break-ups?
 date: 2024-04-25
-type: article
+type: blog
 tags:
   - blog
 heroImage: /static/img/pexels-cottonbro-4065137.webp
