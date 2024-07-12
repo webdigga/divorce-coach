@@ -63,21 +63,21 @@
     {% if type === 'home' %}
       <script type="application/ld+json">
         {
-          "@context": "https://schema.org/",
+          "@context": "https://schema.org",
           "@type": "WebSite",
           "name": "{{ settings.title }}",
           "description": "{{ settings.description }}",
           "image": "android-chrome-512x512.png",
           "url": "{{ env.site }}"
         }
-        </script>
+      </script>
     {% endif %}
 
     {% if type === 'article' %}
       <script type="application/ld+json">
         {
-          "@context": "http://schema.org/",
-          "@type":"WebPage",
+          "@context": "http://schema.org",
+          "@type":"Article",
           "name":"{{ title }}",
           "url":"{{ env.site }}/{{ title | slugify }}/",
           "description":"{{ description }}",
