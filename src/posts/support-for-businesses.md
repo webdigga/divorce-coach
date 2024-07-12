@@ -17,7 +17,7 @@ Ensuring that employees have the right specialist support during relationship br
 
 A business that stands by its staff and supports them through their darkest moments creates loyal and highly motivated employees who are invested in the company's long-term growth.
 
-Domestic Abuse **DOES** impact on your business:
+## Domestic Abuse **DOES** impact on your business:
 
 1. £14 billion lost by businesses each year through decreased productivity time off work, lost wages and sick pay as a result of domestic abuse
 2. Over half of those experiencing domestic abuse have to take time off work as a result of abuse and nearly half were late to work
