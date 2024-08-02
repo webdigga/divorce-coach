@@ -30,13 +30,13 @@ collections:
         label: "type"
         name: "type"
         create: true
-        options: ["article", "blog", "privacy"]
+        options: ["article", "blog", "privacy", "landing"]
       - widget: select
         label: "tags"
         name: "tags"
         multiple: true
         create: true
-        options: ["article", "blog", "privacy"]
+        options: ["article", "blog", "privacy", "landing"]
       - label: "Hero image"
         name: "heroImage"
         widget: "image"
