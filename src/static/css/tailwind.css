@@ -36,6 +36,12 @@ body pre[class*="language-"] {
 	}
 }
 
+@media (min-width: 1280px) {
+	.booking-form {
+		min-height: 800px;
+	}
+}
+
 @media (min-width: 1024px) {
 	.article-content {
 		width: 848px;
