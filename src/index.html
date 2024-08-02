@@ -15,7 +15,7 @@ type: home
 	{% set productCardList = collections.productCard %}
 
     {% for productCard in productCardList | sort(false, true, 'data.order') %}
-		{% include "./_includes/components/product-card.html" %}
+		  {% include "./_includes/components/product-card.html" %}
     {% endfor %}
   </div>
 </div>
