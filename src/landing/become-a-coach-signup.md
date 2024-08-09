@@ -30,6 +30,8 @@ tags:
 
 Are you looking for a new career or an additional income stream? Do you love helping others? Training to become an accredited Divorce & Breakup Coach could be the perfect opportunity for you, especially if you have a background in coaching, enjoy working with people, or have personally experienced a difficult breakup or divorce.
 
+<iframe width="560" height="315" src="https://www.youtube.com/embed/b9wF3cJbyIo?si=k16DP9DQyceNVwYf" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
 ### Why Become a Breakup & Divorce Coach?
 
 * Help Others: Use your experience and empathy to support individuals through challenging times.
