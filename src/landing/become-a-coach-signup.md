@@ -55,3 +55,7 @@ Are you looking for a new career or an additional income stream? Do you love hel
 ### Get Started Today
 
 Book a FREE Discovery Call to learn more about becoming an Accredited Breakup & Divorce Coach. Discover how this career can offer you flexibility, fulfilment, and financial independence.
+
+<div class="flex justify-end">
+<a href="#booking-form-calendly" class="self-end inline md:block bg-[color:var(--primary-color)] text-white py-4 px-12 rounded-full hover:bg-[color:var(--primary-hover)] no-underline">Book now</a>
+</div>
