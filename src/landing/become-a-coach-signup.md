@@ -26,34 +26,28 @@ type: landing
 tags:
   - landing
 ---
-Discover a New Career as an Accredited Divorce & Breakup Coach
+## Discover a New Career as an Accredited Divorce & Breakup Coach
 
 Are you looking for a new career or an additional income stream? Do you love helping others? Training to become an accredited Divorce & Breakup Coach could be the perfect opportunity for you, especially if you have a background in coaching, enjoy working with people, or have personally experienced a difficult breakup or divorce.
 
-Why Become a Breakup & Divorce Coach?
+### Why Become a Breakup & Divorce Coach?
 
-•	Help Others: Use your experience and empathy to support individuals through challenging times.
+* Help Others: Use your experience and empathy to support individuals through challenging times.
+* Ideal for Various Backgrounds: Perfect for those who have worked in HR, Finance, Legal sectors, or even stay-at-home parents seeking a new revenue stream.
+* Flexible Hours: Build a rewarding career with flexible hours and your own client base.
 
-•	Ideal for Various Backgrounds: Perfect for those who have worked in HR, Finance, Legal sectors, or even stay-at-home parents seeking a new revenue stream.
+### Comprehensive Training Program
 
-•	Flexible Hours: Build a rewarding career with flexible hours and your own client base.
+* Accredited Certification: Gain a recognized certification as a Breakup & Divorce Coach.
+* Expert Guidance: Learn from Sara Davison, the multi award-winning Divorce Coach.
+* Complete Skillset: Acquire all the tools and skills needed to become an outstanding and successful coach.
+* Build Your Business: Learn how to create a thriving coaching practice that you will love.
 
-Comprehensive Training Program
+### Financial Flexibility
 
-•	Accredited Certification: Gain a recognized certification as a Breakup & Divorce Coach.
+* Flexible Payment Plans: Affordable payment options to fit your budget.
+* Quick ROI: Cover the cost of the course in just 2 or 3 sessions per month.
 
-•	Expert Guidance: Learn from Sara Davison, the multi award-winning Divorce Coach.
-
-•	Complete Skillset: Acquire all the tools and skills needed to become an outstanding and successful coach.
-
-•	Build Your Business: Learn how to create a thriving coaching practice that you will love.
-
-Financial Flexibility
-
-•	Flexible Payment Plans: Affordable payment options to fit your budget.
-
-•	Quick ROI: Cover the cost of the course in just 2 or 3 sessions per month.
-
-Get Started Today
+### Get Started Today
 
 Book a FREE Discovery Call to learn more about becoming an Accredited Breakup & Divorce Coach. Discover how this career can offer you flexibility, fulfilment, and financial independence.
