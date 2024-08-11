@@ -1,5 +1,6 @@
 ---
 title: Book a free call
+seoTitle: Divorce Coaching | Get Expert Guidance Today
 description: Breakup & Divorce Coach Training Discovery call
 date: 2024-03-13T09:11:44.082Z
 type: article

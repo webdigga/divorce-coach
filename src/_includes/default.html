@@ -18,7 +18,9 @@
     <meta name="google-site-verification" content="hmHlDrSLisVW7Gg6rkO6VSK4SzIu5whY96XbZM9DWmI" />
 
     <title>
-      {% if title %}
+      {% if seoTitle %}
+        {{ seoTitle }}
+      {% elif title %}
         {{ title }}
       {% else %}
         {{ settings.title }}
@@ -61,6 +63,8 @@
     {% endif %}
 
     {% if type === 'home' %}
+      <link rel="canonical" href="{{ env.site }}/" />
+
       <script type="application/ld+json">
         {
           "@context": "https://schema.org",
