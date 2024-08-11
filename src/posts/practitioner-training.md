@@ -1,5 +1,6 @@
 ---
 title: Practitioner Training Programmes
+seoTitle: Divorce Coaching | Advanced Certification & Skills
 description: Breakup & Divorce Coaching Accreditations
 date: 2024-03-11T11:28:32.363Z
 type: article

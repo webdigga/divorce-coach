@@ -1,5 +1,6 @@
 ---
 title: How to create a second income and extra revenue stream..
+seoTitle: Divorce Coaching | Expert Tips & Strategies
 description: Empower yourself and establish a second income stream as a Breakup Coach.
 date: 2024-04-03
 type: latestNews

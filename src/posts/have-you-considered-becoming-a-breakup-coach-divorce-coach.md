@@ -1,5 +1,6 @@
 ---
 title: Have You Considered Becoming a Breakup & Divorce Coach?
+seoTitle: Divorce Coaching | Explore Your Opportunities
 description: How To Become a Successful Breakup & Divorce Coach
 date: 2024-06-28
 type: latestNews
