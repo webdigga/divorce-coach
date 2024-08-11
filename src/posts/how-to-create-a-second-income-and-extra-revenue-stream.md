@@ -8,8 +8,7 @@ tags:
   - latestNews
 heroImage: /static/img/second-income-stream-large.webp
 highlightsBoxes:
-  - title: Even if you have no prior coaching experience, our comprehensive training
-      covers the following
+  - title: No coaching experience needed—our training covers everything you need
     highlightsListItem:
       - highlight: How to excel as a Coach
       - highlight: Effective tools and techniques for coaching clients dealing with

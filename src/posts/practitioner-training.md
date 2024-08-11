@@ -1,7 +1,7 @@
 ---
 title: Practitioner Training Programmes
 seoTitle: Divorce Coaching | Advanced Certification & Skills
-description: Breakup & Divorce Coaching Accreditations
+description: Advance your career with our practitioner training programs. Gain essential skills and certification to become a proficient divorce coach
 date: 2024-03-11T11:28:32.363Z
 type: article
 tags:

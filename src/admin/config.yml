@@ -29,9 +29,14 @@ collections:
         label: "SEO Title",
         name: "seoTitle",
         widget: "string",
-        hint: "*This title will be used in the title tag for search engines (characters)*"
+        hint: "*This title will be used in the title tag for search engines (less than 60 characters)*"
       }
-      - { label: "Description", name: "description", widget: "string" }
+      - {
+        label: "Description",
+        name: "description",
+        widget: "string",
+        hint: "*Used in search engines (more than 70 characters and less than 155 characters)*"
+      }
       - label: "Publish Date"
         name: "date"
         widget: "datetime"

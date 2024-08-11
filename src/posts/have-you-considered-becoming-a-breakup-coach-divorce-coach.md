@@ -1,7 +1,7 @@
 ---
 title: Have You Considered Becoming a Breakup & Divorce Coach?
 seoTitle: Divorce Coaching | Explore Your Opportunities
-description: How To Become a Successful Breakup & Divorce Coach
+description: Considering a career as a breakup and divorce coach? Explore how our program can help you get started and make a positive impact on clients' lives
 date: 2024-06-28
 type: latestNews
 tags:

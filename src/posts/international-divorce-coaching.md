@@ -1,7 +1,7 @@
 ---
 title: International programme
 seoTitle: Divorce Coaching | Global Certification & Training
-description: The International Divorce Coach Of Excellence
+description: Join our International Divorce Coaching Program to gain global certification and expertise. Enhance your skills and reach clients worldwide
 date: 2024-03-29T11:52
 type: article
 tags:

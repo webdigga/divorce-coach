@@ -1,9 +1,7 @@
 ---
 title: About the Course
 seoTitle: Divorce Coaching | Become a Certified Divorce Coach
-description: Divorce coaching aims to empower individuals to navigate the
-  divorce process with confidence, clarity, and resilience, ultimately helping
-  them to move forward and rebuild their lives in a positive way.
+description: Discover our comprehensive Divorce Coaching Certification Course. Gain the skills and knowledge to become a certified divorce coach.
 date: 2024-03-11T11:28:32.363Z
 type: article
 tags:

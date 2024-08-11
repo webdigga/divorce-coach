@@ -1,7 +1,7 @@
 ---
 title: Book a free call
 seoTitle: Divorce Coaching | Get Expert Guidance Today
-description: Breakup & Divorce Coach Training Discovery call
+description: Book a free call with our expert divorce coaches to get personalized advice and support. Start your journey to a smoother divorce process today
 date: 2024-03-13T09:11:44.082Z
 type: article
 tags:
