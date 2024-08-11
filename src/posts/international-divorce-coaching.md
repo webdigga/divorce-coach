@@ -1,5 +1,6 @@
 ---
 title: International programme
+seoTitle: Divorce Coaching | Global Certification & Training
 description: The International Divorce Coach Of Excellence
 date: 2024-03-29T11:52
 type: article

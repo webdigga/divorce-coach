@@ -1,5 +1,6 @@
 ---
 title: Advanced training programmes
+seoTitle: Divorce Coaching | Elevate Your Expertise
 description: Master Practitioner Accreditation Programme
 date: 2024-03-11T11:28:32.363Z
 type: article
