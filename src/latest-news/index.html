@@ -1,34 +1,34 @@
 ---
-layout: blogList
+layout: latestNews
 ---
 
 <section class="mt-15">
-    {% set bloglist = collections.blogPosts %}
+    {% set latestNews = collections.latestNews %}
 
-    {% for blog in bloglist | reverse %}
+    {% for news in latestNews | reverse %}
         <article class="my-8">
 
             <h2 class="font-bold text-3xl text-gray-900 mb-2">
 
-                <a href="{{ blog.url | url }}">
-                    {% if blog.data.title %}
-                        {{ blog.data.title }}
+                <a href="{{ news.url | url }}">
+                    {% if news.data.title %}
+                        {{ news.data.title }}
                     {% else %}
                         Untitled
                     {% endif %}
                 </a>
             </h2>
-            {% if blog.data.description %}
+            {% if news.data.description %}
                 <p class="text-lg text-gray-500 mb-3">
-                    {{ blog.data.description }}
+                    {{ news.data.description }}
                 </p>
             {% endif %}
 
-            <time class="text-gray-500 mb-3 text-sm italic block">{{ blog.data.date | readableDate }}</time>
+            <time class="text-gray-500 mb-3 text-sm italic block">{{ news.data.date | readableDate }}</time>
 
             <p>
                 <a
-                    href="{{ blog.url | url }}"
+                    href="{{ news.url | url }}"
                     class="text-[color:var(--primary-color)] hover:text-[color:var(--primary-hover)] font-bold text-lg">
                     Read more →
                 </a>

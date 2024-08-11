@@ -41,13 +41,13 @@ collections:
         label: "type"
         name: "type"
         create: true
-        options: ["article", "blog", "privacy"]
+        options: ["article", "latestNews", "privacy"]
       - widget: select
         label: "tags"
         name: "tags"
         multiple: true
         create: true
-        options: ["article", "blog", "privacy"]
+        options: ["article", "latestNews", "privacy"]
       - label: "Hero image"
         name: "heroImage"
         widget: "image"

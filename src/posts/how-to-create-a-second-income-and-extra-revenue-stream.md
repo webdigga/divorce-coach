@@ -2,9 +2,9 @@
 title: How to create a second income and extra revenue stream..
 description: Empower yourself and establish a second income stream as a Breakup Coach.
 date: 2024-04-03
-type: blog
+type: latestNews
 tags:
-  - blog
+  - latestNews
 heroImage: /static/img/second-income-stream-large.webp
 highlightsBoxes:
   - title: Even if you have no prior coaching experience, our comprehensive training

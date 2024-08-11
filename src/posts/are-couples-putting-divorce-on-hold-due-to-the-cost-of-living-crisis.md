@@ -3,9 +3,9 @@ title: Are Couples Putting Divorce On Hold Due To The Cost Of Living Crisis?
 description: Is the cost of divorce and the cost of living crisis the reasons
   for a for lack of break-ups?
 date: 2024-04-25
-type: blog
+type: latestNews
 tags:
-  - blog
+  - latestNews
 heroImage: /static/img/pexels-cottonbro-4065137.webp
 ---
 Financial constraints are a significant factor preventing couples from pursuing divorce, outpacing concerns about the impact on children, recent data reveals. According to research conducted by Investec Wealth & Investment, 40% of married individuals in the UK who have contemplated divorce cite financial reasons as the primary obstacle to proceeding. This surpasses worries about the well-being of their children, with 39% attributing their hesitation to potential familial repercussions.

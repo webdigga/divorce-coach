@@ -2,9 +2,9 @@
 title: How do I know if I'm in a relationship with a narcissist?
 description: "Common Narcissist Traits "
 date: 2024-04-03
-type: blog
+type: latestNews
 tags:
-  - blog
+  - latestNews
 heroImage: /static/img/narcissist.webp
 highlightsBoxes:
   - title: "Common Narcissist Traits "

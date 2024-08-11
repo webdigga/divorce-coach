@@ -101,7 +101,9 @@
       </script>
     {% endif %}
 
-    {% if type === 'blog' %}
+    {% if type === 'latestNews' %}
+      <link rel="canonical" href="{{ env.site }}/latest-news" />
+
       <script type="application/ld+json">
         {
           "@context": "https://schema.org",
