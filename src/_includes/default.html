@@ -58,9 +58,15 @@
     <meta name="twitter:site" content="{{ settings.title }}">
     <meta name="og:locale" property="og:locale" content="en_GB">
 
-    {% if type === 'home' %}
+    {% if title %}
+      <link rel="canonical" href="{{ env.site }}/{{ title | slugify }}/" />
+    {% elif type === 'home' %}
       <link rel="canonical" href="{{ env.site }}/" />
+    {% elif type === 'latestNews' %}
+      <link rel="canonical" href="{{ env.site }}/latest-news" />
+    {% endif %}
 
+    {% if type === 'home' %}
       <script type="application/ld+json">
         {
           "@context": "https://schema.org",
