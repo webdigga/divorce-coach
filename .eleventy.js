@@ -70,10 +70,6 @@ module.exports = function (eleventyConfig) {
     return content;
   });
 
-  eleventyConfig.addCollection("productPosts", function(collectionApi) {
-    return collectionApi.getFilteredByTags("article");
-  });
-
   eleventyConfig.addCollection("blogPosts", function(collectionApi) {
     return collectionApi.getFilteredByTags("blog");
   });
