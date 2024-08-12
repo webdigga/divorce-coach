@@ -24,6 +24,12 @@ highlightsBoxes:
       - highlight: Let go of your ex and move on
       - highlight: New life after Divorce. Create a new future you're excited to live
 ---
-## Coping with a breakup or divorce can be a challenging and emotionally turbulent experience
+## Coping with a breakup or divorce can be emotionally challenging
+
+Navigating the end of a relationship can be incredibly challenging, and having a supportive network during this time is crucial. Our breakup support groups are designed to provide you with a safe, understanding environment where you can share your experiences, gain insights, and receive encouragement from others who are going through similar situations.
+
+### Join Our Breakup Support Group
+
+If you’re ready to find support and connect with others who understand your experience, we invite you to join one of our breakup support groups. Reach out to us for more information on upcoming sessions and how to get involved.
 
 Below are some of the options available to you to help you cope with a breakup or divorce.

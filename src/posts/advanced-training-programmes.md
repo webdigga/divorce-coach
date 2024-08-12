@@ -52,7 +52,7 @@ highlightsBoxes:
           journeys"
 ---
 
-## Take Your Divorce Coaching Skills to the Next Level with Advanced Training
+## Elevate Your Divorce Coaching Skills with Advanced Training
 
 ### What is the Master Practitioner Accreditation Programme?
 
