@@ -28,9 +28,9 @@ tags:
 ---
 <div class="flex justify-around">
 
-<img src="/static/img/accreditation-1-1-.webp" alt="Accredited CPD" width="300px" height="300px" style="max-width='33%'" class="self-start" />
-<img src="/static/img/best-you-award.avif" alt="Self development coach of the year" width="300px" height="300px" style="max-width='33%'" class="self-start" />
-<img src="/static/img/download.png" alt="International divorce coach centre of excellence" width="300px" height="300px" style="max-width='33%'" class="self-start" />
+<img src="/static/img/accreditation-1-1-.webp" alt="Accredited CPD" width="300px" height="300px" style="max-width: 33%" class="self-start" />
+<img src="/static/img/best-you-award.avif" alt="Self development coach of the year" width="300px" height="300px" style="max-width: 33%" class="self-start" />
+<img src="/static/img/download.png" alt="International divorce coach centre of excellence" width="300px" height="300px" style="max-width: 33%" class="self-start" />
 
 </div>
 
