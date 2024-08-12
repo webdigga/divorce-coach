@@ -6,7 +6,7 @@ date: 2024-03-29T11:52
 type: article
 tags:
   - article
-heroImage: /static/img/international.jpg
+heroImage: /static/img/international-large.webp
 ---
 Embark on a transformative journey to become an Accredited Breakup and Divorce Coach under the mentorship of Sara Davison, recognised as the UK's leading Divorce Coach.
 
