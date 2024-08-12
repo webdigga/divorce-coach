@@ -191,11 +191,26 @@ collections:
         file: "src/_data/settings.yaml"
         fields:
           - { label: Site Name, name: siteName, widget: string }
-          - { label: Title, name: title, widget: string }
+          - {
+            label: Title,
+            name: title,
+            widget: string
+          }
+          - {
+            label: SEO Title,
+            name: seoTitle,
+            widget: string,
+            hint: "*This title will be used in the title tag for search engines (less than 60 characters)*"
+          }
           - { label: Author, name: author, widget: string }
           - { label: URL, name: url, widget: string }
           - { label: Powered by, name: poweredBy, widget: string }
-          - { label: Description, name: description, widget: string }
+          - {
+            label: Description,
+            name: description,
+            widget: string,
+            hint: "*Used in search engines (more than 70 characters and less than 155 characters)*"
+          }
           - { label: Type (type of template), name: type, widget: string }
           - { label: Logo (Alt), name: logoAlt, widget: string }
           - label: "Logo (URL)"

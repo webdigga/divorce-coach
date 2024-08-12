@@ -15,6 +15,8 @@ The study also indicates that one in ten people have contemplated divorcing thei
 
 Moreover, financial anxieties outweigh concerns about familial reactions to divorce, with a quarter of respondents citing family response as the primary reason for remaining in unhappy marriages. Only 22% expressed worries about their partner's ability to cope, while 11% cited apprehension about potential retribution.
 
+## How the Cost of Living Crisis is Impacting Divorce Decisions
+
 The financial implications of divorce extend beyond immediate concerns, with the prospect of shouldering living costs independently serving as a deterrent for many couples. Living expenses, including rent, mortgage, and utilities, typically double for individuals living alone compared to those in a partnership. Research by the Pension and Lifetime Savings Association indicates that singles require £187,000 more in their pension to maintain a comparable lifestyle to couples.
 
 Navigating the complexities of divorce, including property division and pension arrangements, requires careful consideration and expert advice. The process can be financially burdensome, with an average total cost of £14,500, encompassing court fees, mediation, and legal representation. While the cost of filing for divorce is relatively modest at £593, additional expenses can quickly escalate, particularly in contested cases.

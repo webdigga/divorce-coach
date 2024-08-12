@@ -10,6 +10,8 @@ heroImage: /static/img/about-coaching-large.webp
 ---
 Divorce coaching is a rewarding and specialised field aimed at providing comprehensive support to individuals undergoing divorce proceedings. Divorce coaches offer a blend of emotional, practical, and occasionally legal guidance to help clients navigate the intricate challenges of divorce and its aftermath. They cater to clients at various stages of the divorce journey, whether they're contemplating divorce, currently undergoing proceedings, or adjusting to life post-divorce.
 
+## What You'll Learn in Our Divorce Coaching Certification Course
+
 Key components of divorce coaching include:
 
 **Emotional Support**: Divorce coaches create a safe and empathetic environment for clients to express their emotions and process their feelings without judgement.

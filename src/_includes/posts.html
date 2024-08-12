@@ -34,7 +34,7 @@ layout: default
 
                         <div class="p-5 flex flex-col grow">
                             {% if highlightsBox.title %}
-                                <h2 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 pb-2 border-b border-gray-200">{{ highlightsBox.title }}</h2>
+                                <h3 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 pb-2 border-b border-gray-200">{{ highlightsBox.title }}</h3>
                             {% endif %}
 
                             {% if highlightsBox.highlightsListItem[0] %}
@@ -100,7 +100,7 @@ layout: default
     {% for youTubeVideo in youTubeVideos %}
         {% if youTubeVideo.videoTitle and youTubeVideo.embedPath %}
             <div class="lg:w-1/2 h-96 mb-24  prose max-w-full {% if cls.next() %}lg:mr-5{% endif %}">
-                <h2 class="mt-0">{{ youTubeVideo.videoTitle }}</h2>		
+                <h3 class="mt-0">{{ youTubeVideo.videoTitle }}</h3>		
                 <iframe
                     width="100%"
                     height="100%"

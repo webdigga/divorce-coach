@@ -9,8 +9,9 @@ tags:
 heroImage: /static/img/becoming-large.webp
 ---
 
+## Why Become a Certified Divorce Coach?
 
-Discover how you can embark on a fulfilling journey as a Coach in this rapidly expanding niche, offering numerous advantages:
+Discover how you can embark on a fulfilling journey as a Coach in this rapidly expanding niche, offering numerous advantages.
 
 
 
