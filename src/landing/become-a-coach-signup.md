@@ -26,6 +26,10 @@ type: landing
 tags:
   - landing
 ---
+![Accredited CPD](/static/img/accreditation-1-1-.webp "Accredited CPD")
+
+![](/static/img/best-you-award.avif)
+
 ## Discover a New Career as an Accredited Divorce & Breakup Coach
 
 Are you looking for a new career or an additional income stream? Do you love helping others? Training to become an accredited Divorce & Breakup Coach could be the perfect opportunity for you, especially if you have a background in coaching, enjoy working with people, or have personally experienced a difficult breakup or divorce.
