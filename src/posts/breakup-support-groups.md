@@ -24,6 +24,6 @@ highlightsBoxes:
       - highlight: Let go of your ex and move on
       - highlight: New life after Divorce. Create a new future you're excited to live
 ---
-**Coping with a breakup or divorce can be a challenging and emotionally turbulent experience.** 
+## Coping with a breakup or divorce can be a challenging and emotionally turbulent experience
 
 Below are some of the options available to you to help you cope with a breakup or divorce.

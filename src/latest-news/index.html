@@ -7,17 +7,16 @@ layout: latestNews
 
     {% for news in latestNews | reverse %}
         <article class="my-8">
-
-            <h2 class="font-bold text-3xl text-gray-900 mb-2">
-
-                <a href="{{ news.url | url }}">
-                    {% if news.data.title %}
-                        {{ news.data.title }}
-                    {% else %}
-                        Untitled
-                    {% endif %}
-                </a>
-            </h2>
+            <a
+              href="{{ news.url | url }}"
+              class="font-bold text-3xl text-gray-900 mb-3 block">
+                {% if news.data.title %}
+                    {{ news.data.title }}
+                {% else %}
+                    Untitled
+                {% endif %}
+            </a>
+           
             {% if news.data.description %}
                 <p class="text-lg text-gray-500 mb-3">
                     {{ news.data.description }}

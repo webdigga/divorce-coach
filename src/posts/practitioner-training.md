@@ -29,7 +29,9 @@ highlightsBoxes:
           one that helps others?
     title: Are You Interested In A Second Revenue Stream?
 ---
-**Breakup & Divorce Coaching Accreditations empower you to effectively coach both men and women to cope better with any breakup or divorce they may experience.**
+## Enhance Your Expertise with Practitioner Training Programs
+
+Breakup & Divorce Coaching Accreditations empower you to effectively coach both men and women to cope better with any breakup or divorce they may experience.
 
 These online accreditation programmes are ideal for individuals who are new to coaching or already have a coaching business and wish to specialise in this rapidly growing niche.
 

@@ -51,7 +51,10 @@ highlightsBoxes:
           collaboration and referrals to support your clients' holistic healing
           journeys"
 ---
-**What is the Master Practitioner Accreditation Programme?**
+
+## Take Your Divorce Coaching Skills to the Next Level with Advanced Training
+
+### What is the Master Practitioner Accreditation Programme?
 
 The triple-accredited training program offered by Sara Davison, CPD Standards Office, and The Dash Charity provides comprehensive and reputable education for coaches seeking to support victims of domestic abuse through the breakup and divorce process.
 
@@ -63,7 +66,7 @@ Accredited by Sara Davison, a distinguished expert in divorce coaching, as well 
 
 Prepare to be inspired, challenged, and empowered as you embark on this journey to deepen your coaching skills and make a meaningful impact in the lives of your clients.
 
-**What does becoming a Master Practitioner Mean?**
+### What does becoming a Master Practitioner Mean?
 
 1. Significantly advance your coaching toolkit and skills, equipping you with a diverse range of strategies and techniques.
 2. Attract a brand new niche of clients who are seeking support in navigating challenging situations such as divorce and toxic relationships.

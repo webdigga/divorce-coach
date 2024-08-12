@@ -51,7 +51,9 @@ highlightsBoxes:
           angry, hostile, or dismissive when confronted with feedback that
           challenges their self-image."
 ---
-Identifying whether you're in a relationship with a narcissist can be challenging, as narcissistic behaviour can manifest in various ways and may not always be immediately apparent. However, here are some common Narcissist Traits that you may be dealing with a narcissist.
+Identifying whether you're in a relationship with a narcissist can be challenging, as narcissistic behaviour can manifest in various ways and may not always be immediately apparent. However, below are some common Narcissist Traits that you may be dealing with a narcissist.
+
+## Identifying Narcissistic Traits in Your Relationship
 
 If you notice a pattern in any of the nariccist traits and behaviours highlighted below in a person over time and feel consistently manipulated, invalidated, or diminished in the relationship, support is available to you.
 

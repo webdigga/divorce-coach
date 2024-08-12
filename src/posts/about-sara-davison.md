@@ -36,6 +36,8 @@ Sara Davison, a renowned Coach, podcaster, and bestselling author, is dedicated 
 
 Established by Sara Davison, The Divorce Coach, a multi-award-winning author, podcaster, and media commentator, offers a unique opportunity to join an inclusive International Coaching Community. With Sara's guidance, aspiring Coaches gain access to invaluable resources and support to establish and expand their coaching ventures successfully.
 
+## Meet Your Certified Divorce Coach
+
 Joining her vibrant coaching community not only provides a supportive environment but also equips you with essential business tools necessary for cultivating a thriving coaching practice tailored to your passion.
 
 Her Breakup & Divorce Coaching Accreditations empower Coaches to effectively support individuals, regardless of gender, through the emotional upheaval and practical hurdles of any breakup.
