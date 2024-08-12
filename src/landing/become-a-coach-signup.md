@@ -26,13 +26,11 @@ type: landing
 tags:
   - landing
 ---
-<div class="flex">
+<div class="flex justify-around">
 
-![Accredited CPD](/static/img/accreditation-1-1-.webp "Accredited CPD")
-
-![Self development coach of the year](/static/img/best-you-award.avif "Self development coach of the year")
-
-![International divorce coach centre of excellence](/static/img/download.png "International divorce coach centre of excellence")
+<img src="/static/img/accreditation-1-1-.webp" alt="Accredited CPD" width="300px" height="300px" />
+<img src="/static/img/best-you-award.avif" alt="Self development coach of the year" width="300px" height="300px" />
+<img src="/static/img/download.png" alt="International divorce coach centre of excellence" width="300px" height="300px" />
 
 </div>
 
