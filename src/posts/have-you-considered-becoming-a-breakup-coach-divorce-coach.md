@@ -58,4 +58,4 @@ Book a call with **Sara Davison** to learn more about her coach training. Ask an
 
 Make an impact, support others, and build a career you'll love.
 
-Book your Free Discovery Call [HERE.](https://divorce-coaching.com/book-a-free-call/)
+[Book your Free Discovery Call HERE](https://divorce-coaching.com/book-a-free-call/).

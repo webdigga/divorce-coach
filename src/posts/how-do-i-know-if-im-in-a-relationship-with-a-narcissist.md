@@ -57,4 +57,4 @@ Identifying whether you're in a relationship with a narcissist can be challengin
 
 If you notice a pattern in any of the nariccist traits and behaviours highlighted below in a person over time and feel consistently manipulated, invalidated, or diminished in the relationship, support is available to you.
 
-Being in a narcissistic or toxic relationship can also have a huge impact on your workplace and there is support for businesses and employees [here](/support-for-employees/)
+Being in a narcissistic or toxic relationship can also have a huge impact on your workplace and there is [support for businesses and employees here](/support-for-employees/).
