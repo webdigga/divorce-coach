@@ -27,11 +27,13 @@ tags:
   - landing
 ---
 <div class="flex">
+
 ![Accredited CPD](/static/img/accreditation-1-1-.webp "Accredited CPD")
 
 ![Self development coach of the year](/static/img/best-you-award.avif "Self development coach of the year")
 
 ![International divorce coach centre of excellence](/static/img/download.png "International divorce coach centre of excellence")
+
 </div>
 
 ## Discover a New Career as an Accredited Divorce & Breakup Coach
