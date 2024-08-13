@@ -1,6 +1,6 @@
 ---
 title: Becoming a Certified Divorce Coach
-seoTitle: Divorce Coaching | Comprehensive Certification Program
+seoTitle: Becoming a Certified Divorce Coach | Certification Program
 description: Ready to become a certified divorce coach? Explore our comprehensive program and gain the skills to support clients through their divorce journey
 date: 2024-03-11T11:28:32.363Z
 type: article

@@ -1,6 +1,6 @@
 ---
 title: Breakup support groups
-seoTitle: Divorce Coaching | Find Healing & Community
+seoTitle: Breakup support groups | Find Healing & Community
 description: A support network and options to help you cope with a breakup and divorce
 date: 2024-03-11T11:28:32.363Z
 type: article

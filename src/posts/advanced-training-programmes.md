@@ -1,6 +1,6 @@
 ---
 title: Advanced training programmes
-seoTitle: Divorce Coaching | Elevate Your Expertise
+seoTitle: Advanced training programmes | Elevate Your Expertise
 description: Elevate your expertise with our advanced divorce coaching training programs. Gain skills and certification to excel in the field of divorce coaching
 date: 2024-03-11T11:28:32.363Z
 type: article

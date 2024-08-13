@@ -1,6 +1,6 @@
 ---
 title: Support for employees
-seoTitle: Divorce Coaching | Professional Guidance for Your Workforce
+seoTitle: Support for employees | Professional Guidance at Work
 description: Provide support for employees going through divorce with our expert programs. Enhance workplace well-being and productivity through tailored solutions
 date: 2024-03-11T11:28:32.363Z
 type: article

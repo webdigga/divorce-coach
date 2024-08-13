@@ -1,6 +1,6 @@
 ---
 title: About the Course
-seoTitle: Divorce Coaching | Become a Certified Divorce Coach
+seoTitle: About the Course | Become a Certified Divorce Coach
 description: Discover our comprehensive Divorce Coaching Certification Course. Gain the skills and knowledge to become a certified divorce coach.
 date: 2024-03-11T11:28:32.363Z
 type: article

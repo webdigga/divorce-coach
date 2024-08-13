@@ -1,6 +1,6 @@
 ---
 title: How do I know if I'm in a relationship with a narcissist?
-seoTitle: Divorce Coaching | Narcissistic Relationship
+seoTitle: How do I know if I'm in a relationship with a narcissist?
 description: Wondering if you're in a relationship with a narcissist? Discover key signs and insights to help you identify narcissistic behavior and seek support
 date: 2024-04-03
 type: latestNews

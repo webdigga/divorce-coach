@@ -1,6 +1,6 @@
 ---
 title: The Divorce Coach
-seoTitle: Divorce coaching | Expert Guidance for Your Divorce Journey
+seoTitle: The Divorce Coach | Expert Guidance for Your Divorce Journey
 description: Learn how to become an accredited break up and divorce coach with Sara Davison
 date: 2024-03-11T11:28:32.363Z
 type: article
