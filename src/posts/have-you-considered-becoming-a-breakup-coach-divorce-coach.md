@@ -57,5 +57,3 @@ As part of the programme, you'll join a large global community with buddy coachi
 Book a call with **Sara Davison** to learn more about her coach training. Ask any questions you may have and discover how you can make a meaningful difference in the lives of those going through **breakup and divorce**.
 
 Make an impact, support others, and build a career you'll love.
-
-[Book your Free Discovery Call HERE](https://divorce-coaching.com/book-a-free-call/).

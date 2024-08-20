@@ -28,4 +28,4 @@ Many of our community's Coaches have successfully created an additional revenue 
 
 Becoming an accredited Breakup & Divorce Coach not only provides a reliable extra income source but also equips you with lifelong skills that can transition into a full-time career whenever you're ready.
 
-Whether you aspire to build a coaching business generating a full-time income or simply an additional £1000 per month, why not explore how this opportunity could work for you. [Book a FREE discovery call here](/book-a-free-call/).
+Whether you aspire to build a coaching business generating a full-time income or simply an additional £1000 per month, why not explore how this opportunity could work for you.

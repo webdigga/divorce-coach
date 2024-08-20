@@ -13,16 +13,26 @@ layout: default
 
     <div class="lg:pr-8 article-content {% if 'latestNews' in tags %}article-content--large{% endif %}">
         <div class="pb-5 mb-5 border-b border-gray-100 flex flex-col md:flex-row md:justify-between {% if 'latestNews' in tags %}md:items-end{% endif %}">
-            <h1 class="font-bold text-5xl text-left inline-block mb-5 md:mb-0">{{ title }}</h1>
+          <h1 class="font-bold text-5xl text-left inline-block mb-5 md:mb-0">{{ title }}</h1>
 
-            {% if 'latestNews' in tags %}
-                <time class="text-gray-500 text-sm italic block md:text-right min-w-28">{{ date | readableDate }}</time>
-            {% endif %}
+          {% if 'latestNews' in tags %}
+              <time class="text-gray-500 text-sm italic block md:text-right min-w-28">{{ date | readableDate }}</time>
+          {% endif %}
         </div>
     
         <article class="prose my-4 max-w-none flex flex-col md:block">
     
-            {{ content | safe }}
+          {{ content | safe }}
+
+          {% if 'latestNews' in tags %}
+            <div class="flex justify-end">
+              <a
+                href="/book-a-free-call"
+                class="no-underline bg-[color:var(--primary-color)] text-white py-4 px-12 rounded-full hover:bg-[color:var(--primary-hover)]">
+                Book a Free Discovery Call
+              </a>
+            </div>
+          {% endif %}
 
         </article>
 
@@ -71,7 +81,7 @@ layout: default
 
     </div>
 
-    <!-- Calendly -->
+  <!-- Calendly -->
 	{% if 'latestNews' not in tags %}
 		<section class="lg:w-96">
 			<iframe
