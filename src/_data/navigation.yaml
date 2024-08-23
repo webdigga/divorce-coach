@@ -9,3 +9,5 @@ items:
     url: /book-a-free-call/
   - text: Latest News
     url: /latest-news/
+  - text: FAQs
+    url: /faqs/
