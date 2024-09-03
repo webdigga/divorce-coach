@@ -99,9 +99,13 @@ layout: default
 
 <!-- In the media and accreditations copy -->
 {% if inTheMediaAndAccreditationsCopy %}
-    <section class="container 2xl:max-w-6xl px-6 pt-8 mt-8 border-t mb-8">
+  <section class="container 2xl:max-w-6xl px-6 pt-8 mt-8 border-t mb-8">
+    <div class="lg:pr-8">
+      <article class="prose my-4 max-w-none flex flex-col md:block">
         {{ inTheMediaAndAccreditationsCopy }}
-    </section>
+      </article>
+    </div>
+  </section>
 {% endif %}	
 
 <!-- YouTube videos -->
