@@ -21,7 +21,7 @@ heroImage: /static/img/pexels-pixabay-221164.webp
 
 ### 3. How Does the Training Program Work?
 
-**Answer:** An accredited Divorce and Brea Up training program includes:
+**Answer:** An accredited Divorce and Break Up training program includes:
 
 * 40+ Detailed Training Videos: Recorded live, these videos cover all my coaching techniques and how to apply them with clients
 * 1 Year of Live Coaching: Receive ongoing support with live coaching sessions directly with Sara Davison
@@ -30,7 +30,7 @@ heroImage: /static/img/pexels-pixabay-221164.webp
 * Structured Coursework: A three-part coursework structure ensures you master your coaching skills
 * Private Facebook Group: Access a community of Sara Davison-accredited coaches for support and advice
 * Accreditation and Marketing Support: Earn your Break-Up & Divorce Coach Accreditation certificate and gain access to marketing logos for The Sara Davison Break-Up & Divorce Coach Accreditation and The International Divorce Coach Centre of Excellence
-* Business Promotion Opportunities: Get featured in The Divorce Coach Clinic webinar series to promote your coaching business.
+* Business Promotion Opportunities: Get featured in The Divorce Coach Clinic webinar series to promote your coaching business
 
 ### 4. Is This Course Right for Me?
 
