@@ -8,7 +8,7 @@ date: 2024-09-13
 type: latestNews
 tags:
   - latestNews
-heroImage: /static/img/pexels-olly-3772618-1-.webp
+heroImage: /static/img/pexels-olly-3772618.webp
 ---
 ## **How It Affects Employees and Productivity**
 
