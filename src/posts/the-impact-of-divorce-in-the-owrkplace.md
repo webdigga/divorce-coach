@@ -1,5 +1,5 @@
 ---
-title: The impact of Divorce in the owrkplace
+title: The impact of Divorce on the workplace
 seoTitle: Corporates and Businesses are now seeking Breakup, Divorce & Domestic
   Abuse Coaches
 description: Businesses are increasingly recognising the need for Breakup,
