@@ -1,7 +1,7 @@
-<div class="w-full border-b border-solid border-bottom-gray-100">
-    <nav class="flex items-center justify-center lg:justify-between flex-wrap p-6 lg:px-0 container mx-auto" x-data="{ isOpen: false }" @keydown.escape="isOpen = false"  @click.away="isOpen = false">
+<div class="w-full border-b border-solid border-bottom-gray-100 bg-white">
+    <nav class="flex items-center justify-center lg:justify-between flex-wrap px-6 lg:px-0 container mx-auto py-2 sm:py-0" x-data="{ isOpen: false }" @keydown.escape="isOpen = false"  @click.away="isOpen = false">
         <!--Logo etc-->
-        <div class="flex items-center">
+        <div class="flex items-center max-w-[50%]">
             <a href="/" class="text-indigo-500 font-bold text-lg">
 				<img src="{{ settings.logoUrl }}" alt="{{ settings.logoAlt }}" width="100px" height="100px" class="max-h-26" />
 			</a>

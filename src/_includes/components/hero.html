@@ -1,14 +1,32 @@
 {% set hero = collections.hero %}
 
-<div class="bg-gray-50 flex items-center mb-8">
-	<section
-		class="w-full bg-cover bg-center py-32"
-		style="background-image: url('{{ hero[0].data.image }}');"
-	>
-		<div class="container mx-auto text-center text-white">
-			<h1 class="text-5xl font-medium mb-6">{{ hero[0].data.title }}</h1>
-			<p class="text-xl mb-12">{{ hero[0].data.description }}</p>
-			<a href="{{ hero[0].data.buttonUrl }}" class="bg-[color:var(--primary-color)] text-white py-4 px-12 rounded-full hover:bg-[color:var(--primary-hover)]">{{ hero[0].data.buttonText }}</a>
-		</div>
-	</section>
-</div>
+<section class="content-center grow">
+  <div class="mx-auto max-w-screen-xl px-4 py-32 lg:flex lg:items-center">
+    <div class="mx-auto max-w-xl text-center">
+      <h1 class="text-3xl font-extrabold sm:text-5xl">{{ hero[0].data.title }}</h1>
+      <h2 class="text-xl font-extrabold sm:text-2xl">
+        <strong class="font-extrabold text-[color:var(--primary-color)] sm:block"> {{ hero[0].data.description }}. </strong>
+      </h2>
+
+      <p class="mt-4 sm:text-xl/relaxed">
+        At Divorce Coaching, we specialise in training individuals to become professional divorce coaches. Our comprehensive certification program equips you with the skills, knowledge, and tools needed to guide others through the challenges of divorce.
+      </p>
+
+      <div class="mt-8 flex flex-wrap justify-center gap-4" x-data="">
+        <button
+          @click="document.getElementById('findOutMore').scrollIntoView({ behavior: 'smooth' })"
+          class="block w-full rounded bg-[color:var(--primary-color)] px-12 py-3 text-sm font-medium text-white shadow hover:opacity-70 focus:outline-none focus:ring sm:w-auto"
+        >
+          Get Started
+        </button>
+
+        <a
+          class="block w-full rounded px-12 py-3 text-sm font-medium text-[color:var(--primary-color)] shadow hover:opacity-70 focus:outline-none focus:ring sm:w-auto"
+          href="/book-a-free-call/"
+        >
+          Book a Free Call
+        </a>
+      </div>
+    </div>
+  </div>
+</section>
