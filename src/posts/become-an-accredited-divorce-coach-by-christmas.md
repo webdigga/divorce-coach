@@ -19,7 +19,7 @@ This rapidly growing field allows you to make a meaningful difference in people�
 
 Some coaches treat this as a part-time hustle, earning around £1,000 per month, while others have turned it into a full-time career, making £8,000 or more every month.
 
-> "I would just like to say, how much I am thoroughly enjoying this course! The content of information is amazing. I don't think I have ever enjoyed studying so much, it’s almost become a hobby!!" Sharon
+> I would just like to say, how much I am thoroughly enjoying this course! The content of information is amazing. I don't think I have ever enjoyed studying so much, it’s almost become a hobby!! ~ Sharon
 
 ## Flexible, CPD-Accredited Training:
 
