@@ -1,6 +1,6 @@
 ---
-title: Become an Accredited Divorce Coach by Christmas
-seoTitle: New Year New Opportunities
+title: Get Accredited as a Divorce Coach by Xmas
+seoTitle: Get Accredited as a Divorce Coach by Xmas | Divorce Coaching
 description: Start the New Year with a fresh career or a second income by
   becoming a Breakup and Divorce Coach
 date: 2024-10-11
@@ -9,7 +9,7 @@ tags:
   - latestNews
 heroImage: /static/img/pexels-funandthames-332825.webp
 ---
-## Ready Become an Accredited Divorce Coach by Christmas?
+## Ready for a Career Change?
 
 Are you ready for a career change or seeking a way to create a second income stream? Imagine starting 2025 with a brand-new focus, fresh skillset, and an opportunity to help others while earning extra income. Whether you're looking to add a side hustle or dive into a rewarding new career, becoming a Breakup & Divorce Coach could be the perfect fit for you!
 
