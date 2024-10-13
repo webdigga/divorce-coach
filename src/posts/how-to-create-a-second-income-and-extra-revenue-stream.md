@@ -6,7 +6,6 @@ date: 2024-04-03
 type: latestNews
 tags:
   - latestNews
-heroImage: /static/img/second-income-stream-large.webp
 highlightsBoxes:
   - title: No coaching experience needed—our training covers everything you need
     highlightsListItem:

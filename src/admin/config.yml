@@ -53,14 +53,6 @@ collections:
         multiple: true
         create: true
         options: ["article", "latestNews", "privacy"]
-      - label: "Hero image"
-        name: "heroImage"
-        widget: "image"
-        choose_url: true
-        required: false
-        media_library:
-          config:
-            multiple: false
       - { label: "In the media and accreditations copy", name: "inTheMediaAndAccreditationsCopy", widget: "string", required: false }
       - label: "YouTube video path"
         name: "youTubeVideos"

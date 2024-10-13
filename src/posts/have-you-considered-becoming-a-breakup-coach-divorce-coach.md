@@ -6,7 +6,6 @@ date: 2024-06-28
 type: latestNews
 tags:
   - latestNews
-heroImage: /static/img/pexels-pixabay-277124.webp
 ---
 ## Is a Career as a Breakup and Divorce Coach Right for You?
 

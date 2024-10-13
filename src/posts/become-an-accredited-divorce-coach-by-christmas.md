@@ -7,7 +7,6 @@ date: 2024-10-11
 type: latestNews
 tags:
   - latestNews
-heroImage: /static/img/pexels-funandthames-332825.webp
 ---
 ## Ready for a Career Change?
 

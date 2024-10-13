@@ -6,7 +6,6 @@ date: 2024-08-20
 type: latestNews
 tags:
   - latestNews
-heroImage: /static/img/pexels-shvets-production-7176325.webp
 ---
 Did You Know? Corporations and Businesses are seeking Breakup, Divorce & Domestic Abuse Coaches to support their teams!
 

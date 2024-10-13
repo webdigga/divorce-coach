@@ -6,9 +6,8 @@ date: 2024-04-03
 type: latestNews
 tags:
   - latestNews
-heroImage: /static/img/narcissist.webp
 highlightsBoxes:
-  - title: "Common Narcissist Traits "
+  - title: "Common Narcissist Traits"
     highlightsListItem:
       - highlight: "Self-Importance: Narcissists often have an inflated sense of
           self-importance. They may exaggerate their achievements, talents, or

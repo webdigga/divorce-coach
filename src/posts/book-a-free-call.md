@@ -6,7 +6,6 @@ date: 2024-03-13T09:11:44.082Z
 type: article
 tags:
   - article
-heroImage: /static/img/book-a-call.webp
 ---
 * Are you looking for a career change or additional revenue stream?
 * Are you passionate about helping others?

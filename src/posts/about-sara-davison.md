@@ -6,7 +6,6 @@ date: 2024-03-11T11:28:32.363Z
 type: article
 tags:
   - article
-heroImage: /static/img/about-sara-large.webp
 inTheMediaAndAccreditationsCopy: Sara Davison, known as The Divorce Coach, is a
   highly acclaimed professional in her field. With a track record of excellence,
   she has earned recognition as an award-winning coach, a two-time best-selling

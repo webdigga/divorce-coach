@@ -6,7 +6,6 @@ date: 2024-03-11T11:28:32.363Z
 type: article
 tags:
   - article
-heroImage: /static/img/becoming-large.webp
 ---
 
 ## Why Become a Certified Divorce Coach?

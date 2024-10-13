@@ -6,7 +6,6 @@ date: 2024-03-11T11:28:32.363Z
 type: article
 tags:
   - article
-heroImage: /static/img/practitioner-training-large.webp
 highlightsBoxes:
   - title: " Is the Divorce & Breakup Practitioner Accreditation Programme For Me?"
     highlightsListItem:

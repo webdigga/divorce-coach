@@ -7,7 +7,6 @@ date: 2024-08-23
 type: article
 tags:
   - article
-heroImage: /static/img/pexels-pixabay-221164.webp
 ---
 ## Frequently Asked Questions About Divorce Coaching
 
