@@ -28,9 +28,9 @@ tags:
 ---
 <div class="flex justify-around">
 
-<img src="/static/img/accreditation-1-1-.webp" alt="Accredited CPD" width="300px" height="300px" style="max-width: 33%" class="self-start m-0" />
-<img src="/static/img/best-you-award.avif" alt="Self development coach of the year" width="300px" height="300px" style="max-width: 33%" class="self-start m-0" />
-<img src="/static/img/download.png" alt="International divorce coach centre of excellence" width="300px" height="300px" style="max-width: 33%" class="self-start m-0" />
+<img src="/static/img/accreditation-1-1-.webp" alt="Accredited CPD" width="200px" height="200px" style="max-width: 33%" class="self-start m-0" />
+<img src="/static/img/best-you-award.avif" alt="Self development coach of the year" width="200px" height="200px" style="max-width: 33%" class="self-start m-0" />
+<img src="/static/img/download.png" alt="International divorce coach centre of excellence" width="200px" height="200px" style="max-width: 33%" class="self-start m-0" />
 
 </div>
 
@@ -65,5 +65,5 @@ Are you looking for a new career or an additional income stream? Do you love hel
 Book a FREE Discovery Call to learn more about becoming an Accredited Breakup & Divorce Coach. Discover how this career can offer you flexibility, fulfilment, and financial independence.
 
 <div class="flex justify-end">
-<a href="#booking-form-calendly" class="self-end inline md:block bg-[color:var(--primary-color)] text-white py-4 px-12 rounded-md hover:bg-[color:var(--primary-hover)] no-underline">Book now</a>
+<a href="#booking-form-calendly" class="self-end inline md:block bg-[color:var(--primary-color)] text-white py-4 px-12 rounded-md hover:opacity-70 no-underline">Book now</a>
 </div>

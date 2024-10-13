@@ -5,10 +5,8 @@
 /*Your Custom CSS Goes here*/
 
 :root {
-  --primary-color: #0b336f;
-  --primary-hover: #08224a;
-  --affiliate-color: #FFD814;
-  --affiliate-hover: #F7CA00;
+  --primary-color: #2C537E;
+  --light-blue: #b3d9ff;
 }
 
 body {

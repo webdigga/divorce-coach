@@ -143,6 +143,7 @@ collections:
     fields:
       - { label: "Title", name: "title", widget: "string" }
       - { label: "Description", name: "description", widget: "string" }
+      - { label: "Introduction Text", name: "introText", widget: "text" }
       - { label: "Button text", name: "buttonText", widget: "string" }
       - { label: "Button URL", name: "buttonUrl", widget: "string" }
       - label: "Image"

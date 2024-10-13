@@ -1,17 +1,17 @@
-<div class="w-full border-b border-solid border-bottom-gray-100 bg-white">
+<div class="w-full bg-[color:var(--primary-color)]">
     <nav class="flex items-center justify-center lg:justify-between flex-wrap lg:px-0 container mx-auto py-2 sm:py-0" x-data="{ isOpen: false }" @keydown.escape="isOpen = false"  @click.away="isOpen = false">
       <!--Logo etc-->
       
       <a href="/" class="text-indigo-500 font-bold text-lg flex items-center max-w-[50%]">
         <img src="{{ settings.logoUrl }}" alt="{{ settings.logoAlt }}" width="100px" height="100px" class="max-h-26" />
-        <div class="mb-0 text-2xl font-bold tracking-tight text-gray-900">{{ settings.siteName }}</div>
+        <div class="mb-0 text-2xl font-bold tracking-tight text-white">{{ settings.siteName }}</div>
       </a>      
 
       <!--Toggle button (hidden on large screens)-->
       <button
         @click="isOpen = !isOpen"
         type="button"
-        class="ml-auto lg:hidden px-2 text-primary-500 hover:text-primary-500 focus:outline-none focus:text-primary-500" :class="{ 'transition transform-180': isOpen }"
+        class="ml-auto lg:hidden px-2 text-white hover:opacity-70 focus:outline-none" :class="{ 'transition transform-180': isOpen }"
         aria-label="Menu">  
           <span>Menu</span>
           <svg class="h-6 w-6 fill-current inline-block" xmlns="http://www.w3.org/2000/svg" viewbox="0 0 24 24">
@@ -33,7 +33,7 @@
           {% for item in navigation.items %}
             {% if item.showInPrimary %}
               <li class="nav__item">
-                <a @click="isOpen = false" class="text-ml inline-block text-gray-500 no-underline hover:text-indigo-500 py-2 px-4" href="{{ item.url }}">{{ item.text }}</a>
+                <a @click="isOpen = false" class="text-ml inline-block text-white no-underline hover:opacity-70 py-2 px-4" href="{{ item.url }}">{{ item.text }}</a>
               </li>
             {% endif %}
           {% endfor %}
