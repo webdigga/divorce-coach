@@ -4,7 +4,7 @@ layout: default
 
 {% include "./partials/navbar.html" %}
 
-<div class="container 2xl:max-w-6xl mt-6 px-6 flex flex-col lg:flex-row {% if 'latestNews' in tags %}justify-center{% endif %}">
+<div class="container mt-6 px-6 flex flex-col lg:flex-row {% if 'latestNews' in tags %}justify-center{% endif %}">
 
     <div class="lg:pr-8 article-content {% if 'latestNews' in tags %}article-content--large{% endif %}">
         <div class="pb-5 mb-5 border-b border-gray-100 flex flex-col md:flex-row md:justify-between {% if 'latestNews' in tags %}md:items-end{% endif %}">
@@ -78,7 +78,7 @@ layout: default
 
   <!-- Calendly -->
 	{% if 'latestNews' not in tags %}
-		<section class="lg:w-96">
+		<section>
 			<iframe
 				src="https://calendly.com/saradavison/practitioner-call?embed_domain=divorce-coaching.com&amp;embed_type=Inline&amp;hide_gdpr_banner=1&amp;background_color=f1f8f0&amp;text_color=040404&amp;primary_color=894a84&utm_source=arragon-affiliates&utm_content={{ title }}"
 				width="100%"
@@ -104,37 +104,40 @@ layout: default
 {% endif %}	
 
 <!-- YouTube videos -->
-<section class="container 2xl:max-w-6xl px-6 lg:flex lg:relative lg:justify-center lg:mb-11">
-    {% set cls = cycler(true, false) %}
-    {% for youTubeVideo in youTubeVideos %}
-        {% if youTubeVideo.videoTitle and youTubeVideo.embedPath %}
-            <div class="lg:w-1/2 h-96 mb-24  prose max-w-full {% if cls.next() %}lg:mr-5{% endif %}">
-                <h3 class="mt-0">{{ youTubeVideo.videoTitle }}</h3>		
-                <iframe
-                    width="100%"
-                    height="100%"
-                    src="{{ youTubeVideo.embedPath }}"
-                    title="{{ youTubeVideo.videoTitle }}"
-                    frameborder="0"
-                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                    allowfullscreen
-                    class="relative">
-                </iframe>
-            </div>			
-        {% endif %}
-    {% endfor %}
-</section>
+{% if youTubeVideos %}
+  <section class="container 2xl:max-w-6xl px-6 lg:flex lg:relative lg:justify-center lg:mb-11">
+      {% set cls = cycler(true, false) %}
+      {% for youTubeVideo in youTubeVideos %}
+          {% if youTubeVideo.videoTitle and youTubeVideo.embedPath %}
+              <div class="lg:w-1/2 h-96 mb-24  prose max-w-full {% if cls.next() %}lg:mr-5{% endif %}">
+                  <h3 class="mt-0">{{ youTubeVideo.videoTitle }}</h3>		
+                  <iframe
+                      width="100%"
+                      height="100%"
+                      src="{{ youTubeVideo.embedPath }}"
+                      title="{{ youTubeVideo.videoTitle }}"
+                      frameborder="0"
+                      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                      allowfullscreen
+                      class="relative">
+                  </iframe>
+              </div>			
+          {% endif %}
+      {% endfor %}
+  </section>
+{% endif %}
 
 <!-- Accreditations -->
-<section class="container 2xl:max-w-6xl px-6">
-    {% for accreditationImage in accreditationImages %}
-        <img
-            src="{{ accreditationImage.accreditationImage.image }}"
-            alt="{{ accreditationImage.accreditationImage.imageAlt }}"
-            width="200px"
-            height="100%"
-            class="inline-block"
-            loading="lazy"
-        />
-    {% endfor %}
-</section>
+{% if accreditationImages %}
+  <section class="container 2xl:max-w-6xl px-6 flex flex-col items-center sm:flex-row sm:justify-center">
+      {% for accreditationImage in accreditationImages %}
+          <img
+              src="{{ accreditationImage.accreditationImage.image }}"
+              alt="{{ accreditationImage.accreditationImage.imageAlt }}"
+              width="200px"
+              class="inline-block"
+              loading="lazy"
+          />
+      {% endfor %}
+  </section>
+{% endif %}

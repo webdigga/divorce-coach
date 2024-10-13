@@ -39,27 +39,35 @@ body pre[class*="language-"] {
 	min-height: 1130px;
 }
 
-@media (min-width: 698px) {
+@media (min-width: 640px) {
 	.booking-form {
-		min-height: 1246px;
+		min-width: 400px;
+	}
+}
+
+@media (min-width: 768px) {
+	.booking-form {
+		min-height: 1220px;
+	}
+}
+
+@media (min-width: 1024px) {
+	.booking-form {
+		min-height: 1155px;
 	}
 }
 
 @media (min-width: 1280px) {
 	.booking-form {
-		min-height: 800px;
-	}
-}
-
-@media (min-width: 1024px) {
-	.article-content {
-		width: 848px;
-	}
-
-	.article-content--large {
-		width: 1024px;
+		min-width: 500px;
 	}
 }
 
 /* To stop flicker after deferring Alpine JS */
 [x-cloak] { display: none !important; }
+
+@layer components {
+  .container {
+    @apply max-w-none sm:max-w-screen-sm md:max-w-screen-md lg:max-w-screen-lg xl:max-w-screen-xl 2xl:max-w-screen-2xl;
+  }
+}
