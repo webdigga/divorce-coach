@@ -10,14 +10,14 @@ layout: default
 
     <div class="pb-5 mb-5 border-b border-gray-100 flex flex-col md:flex-row md:justify-between">
       <h1 class="font-bold text-5xl text-left inline-block mb-5 md:mb-0">{{ title }}</h1>
-      <a href="#booking-form-calendly" class="self-end inline md:block bg-[color:var(--primary-color)] text-white py-4 px-12 rounded-full hover:bg-[color:var(--primary-hover)]">Book now</a>
+      <a href="#booking-form-calendly" class="self-end inline md:block bg-[color:var(--primary-color)] text-white py-4 px-12 rounded-md hover:bg-[color:var(--primary-hover)]">Book now</a>
     </div>
 
     <!-- Highlight boxes -->
     {% if highlightsBoxes[0] %}
       <div class="grid grid-cols-1 md:grid-cols-2 gap-3 my-5 lg:mx-0 border-b border-gray-100 pb-5">
         {% for highlightsBox in highlightsBoxes %}
-          <div class="bg-white border border-gray-200 rounded-lg shadow flex flex-col">
+          <div class="bg-white border border-gray-200 rounded-md shadow flex flex-col">
 
             <div class="p-5 flex flex-col grow">
               {% if highlightsBox.title %}
