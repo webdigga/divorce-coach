@@ -1,9 +1,40 @@
 items:
   - text: Home
     url: /
+    showInPrimary: true
   - text: Book a free call
     url: /book-a-free-call/
+    showInPrimary: true
   - text: Latest News
     url: /latest-news/
+    showInPrimary: true
   - text: FAQs
     url: /faqs/
+    showInPrimary: true
+  - text: The Divorce Coach
+    url: /the-divorce-coach/
+    showInPrimary: false
+  - text: About the Course
+    url: /about-the-course/
+    showInPrimary: false
+  - text: Becoming a Certified Divorce Coach
+    url: /becoming-a-certified-divorce-coach/
+    showInPrimary: false
+  - text: Practitioner Training Programmes
+    url: /practitioner-training-programmes/
+    showInPrimary: false
+  - text: Advanced training programmes
+    url: /advanced-training-programmes/
+    showInPrimary: false
+  - text: Breakup support groups
+    url: /breakup-support-groups/
+    showInPrimary: false
+  - text: Support for businesses
+    url: /support-for-businesses/
+    showInPrimary: false
+  - text: Support for employees
+    url: /support-for-employees/
+    showInPrimary: false
+  - text: International programme
+    url: /international-programme/
+    showInPrimary: false

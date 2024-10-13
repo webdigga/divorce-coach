@@ -8,6 +8,9 @@ module.exports = {
       center: true,
     },
     extend: {
+      screens: {
+        'xs': '440px'
+      },
       colors: {},
     },
   },
