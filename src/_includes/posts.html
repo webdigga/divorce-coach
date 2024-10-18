@@ -11,9 +11,30 @@ layout: default
           <h1 class="font-bold text-5xl text-left inline-block mb-5 md:mb-0">{{ title }}</h1>
 
           {% if 'latestNews' in tags %}
-              <time class="text-gray-500 text-sm italic block md:text-right min-w-28">{{ date | readableDate }}</time>
+              <time class="text-gray-500 text-sm italic block md:text-right min-w-28">
+                {{ date | readableDate }}
+              </time>
           {% endif %}
         </div>
+
+        {% if 'latestNews' in tags %}
+          <span class="text-gray-500 text-sm italic md:justify-end pb-3 flex">
+            <svg
+              width="16px"
+              height="16px"
+              xmlns="http://www.w3.org/2000/svg"
+              fill="none"
+              viewBox="0 0 24 24"
+              stroke-width="1.5"
+              stroke="currentColor"
+              class="size-4 mr-2">
+              <title>Clock icon</title>
+              <path stroke-linecap="round" stroke-linejoin="round" d="M12 6v6h4.5m4.5 0a9 9 0 1 1-18 0 9 9 0 0 1 18 0Z" />
+            </svg>
+
+            About {{ content | readingTime }} reading time
+          </span>
+        {% endif %}
     
         <article class="prose my-4 max-w-none flex flex-col md:block">
     

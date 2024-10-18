@@ -3,6 +3,7 @@ const { DateTime } = require("luxon");
 const syntaxHighlight = require("@11ty/eleventy-plugin-syntaxhighlight");
 const htmlmin = require("html-minifier");
 const markdownIt = require("markdown-it");
+const readingTime = require('eleventy-plugin-reading-time');
 
 require('dotenv').config();
 
@@ -12,6 +13,9 @@ module.exports = function (eleventyConfig) {
 
   // Merge data instead of overriding
   eleventyConfig.setDataDeepMerge(true);
+
+  // Read time
+  eleventyConfig.addPlugin(readingTime);
 
   // human readable date
   eleventyConfig.addFilter("readableDate", (dateObj) => {
