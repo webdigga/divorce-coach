@@ -2,10 +2,12 @@
   <div class="mx-auto max-w-7xl">
     <div class="max-w-3xl mx-auto">
 
-      <a href="/" class="font-bold text-lg flex xs:justify-center items-center xs:ml-[-30px]">
-        <img src="{{ settings.logoUrl }}" alt="{{ settings.logoAlt }}" width="100px" height="100px" class="max-h-26" />
-        <div class="mb-0 text-2xl font-bold tracking-tight text-white">{{ settings.siteName }}</div>
-      </a>
+      <div class="flex xs:justify-center xs:ml-[-30px]">
+        <a href="/" class="font-bold text-lg flex flex-row items-center">
+          <img src="{{ settings.logoUrl }}" alt="{{ settings.logoAlt }}" width="100px" height="100px" class="max-h-26" />
+          <div class="mb-0 text-2xl font-bold tracking-tight text-white">{{ settings.siteName }}</div>
+        </a>
+      </div>
 
       {% if navigation.items %}
         <ul class="container columns-1 xs:columns-2 sm:columns-3 text-lg gap-7 md:flex-row md:gap-12 py-16 mb-10 border-b border-gray-200">
