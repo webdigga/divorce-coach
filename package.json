@@ -6,7 +6,8 @@
     "css": "postcss src/static/css/tailwind.css --o _site/static/css/style.css",
     "css:watch": "postcss src/static/css/tailwind.css --o _site/static/css/style.css --watch",
     "build": "rm -rf _site/ && cross-env NODE_ENV=production eleventy && npm run css",
-    "browsersync": "browser-sync start --server _site --files _site --port 8080 --no-notify --no-open"
+    "browsersync": "browser-sync start --server _site --files _site --port 8080 --no-notify --no-open",
+    "cms": "npx netlify-cms-proxy-server"
   },
   "devDependencies": {
     "@11ty/eleventy": "^2.0.0",
