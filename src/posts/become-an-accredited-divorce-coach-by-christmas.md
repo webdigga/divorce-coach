@@ -16,6 +16,8 @@ Are you ready for a career change or seeking a way to create a second income str
 
 This rapidly growing field allows you to make a meaningful difference in people’s lives, guiding them through one of life’s toughest transitions—breakups and divorces. With a Breakup & Divorce Coach Practitioner qualification, you can offer emotional support, practical advice, and actionable strategies to those who are struggling to cope. And the best part? You can earn while making a positive impact.
 
+<img src="/static/img/ring.webp" alt="Woman placing wedding ring on table" title="Woman placing wedding ring on table" class="Right" width="600px" height="450px" loading="lazy"/>
+
 Some coaches treat this as a part-time hustle, earning around £1,000 per month, while others have turned it into a full-time career, making £8,000 or more every month.
 
 > I would just like to say, how much I am thoroughly enjoying this course! The content of information is amazing. I don't think I have ever enjoyed studying so much, it’s almost become a hobby!! ~ Sharon

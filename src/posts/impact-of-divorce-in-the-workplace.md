@@ -22,9 +22,11 @@ Divorce can significantly affect employees' work performance and well-being in m
 
 ### **Corporates and Businesses Are Now Seeking Breakup, Divorce & Domestic Abuse Coaches - Unlock a New Coaching Revenue Stream**!
 
+<img src="/static/img/workplace.webp" alt="Workplace environment" title="Workplace environment" class="Left" width="600px" height="450px" loading="lazy"/>
+
 Did you know that more companies are actively looking for Breakup, Divorce, and Domestic Abuse Coaches to support employees facing personal challenges? This fast-growing, emerging coaching niche presents a lucrative opportunity, making now the perfect time to train with a leading Break Up & Divorce Coach.
 
-### **Why the Demand for Breakup Coaching Is Rising?**	
+### **Why the Demand for Breakup Coaching Is Rising?**
 
 According to research from the Harvard Business Journal, breakups can decrease workplace productivity by up to 40% - and not just for the year of the breakup, but for up to three years. This productivity loss spans the period when relationships start breaking down, the year of the divorce, and the following year as employees adjust to new childcare, lifestyle, and living arrangements.
 

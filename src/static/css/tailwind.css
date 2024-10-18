@@ -61,6 +61,21 @@ body pre[class*="language-"] {
 	}
 }
 
+/*
+  Article image component
+*/
+img.Centre {
+  @apply mx-auto;
+}
+
+img.Left {
+  @apply m-0 md:float-left md:pr-12 md:pb-8 md:max-w-[50%];
+}
+
+img.Right {
+  @apply m-0 md:float-right md:pl-12 md:pb-8 md:max-w-[50%];
+}
+
 /* To stop flicker after deferring Alpine JS */
 [x-cloak] { display: none !important; }
 
