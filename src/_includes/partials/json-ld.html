@@ -63,7 +63,15 @@
               "text": "<p>{{ faqsDataItem.answer | safe }}</p>"
             }
           }{{ "" if loop.last else "," }}{% endfor %}{% endif %}
-        ]
+        ],
+        "publisher": {
+          "@type": "Organization",
+          "name": "{{ settings.siteName }}",
+          "logo": {
+            "@type": "ImageObject",
+            "url": "android-chrome-512x512.png"
+          }
+        }
       }
 
     {% elseif seoSchemaPageType == 'Article' %}
@@ -96,7 +104,15 @@
         "name": "{{ seoTitle }}",
         "description": "{{ description }}",
         "image": "android-chrome-512x512.png",
-        "url": "{{ env.site }}"
+        "url": "{{ env.site }}",
+        "publisher": {
+          "@type": "Organization",
+          "name": "{{ settings.siteName }}",
+          "logo": {
+            "@type": "ImageObject",
+            "url": "android-chrome-512x512.png"
+          }
+        }
       }
 
     {% endif %}
