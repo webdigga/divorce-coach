@@ -1,0 +1,105 @@
+{% macro schema() %}
+
+  <script type="application/ld+json">
+    {% if seoSchemaPageType == 'Organization' %}
+
+      {# Organisation JSON ld #}
+        
+      {
+        "@context": "https://schema.org",
+        "@type": "Organization",
+        "image": "android-chrome-512x512.png",
+        "url": "{{ env.site }}",
+        "logo": "android-chrome-512x512.png",
+        "name": "{{ settings.siteName }}",
+        "description": "{{ settings.description }}",
+      }
+
+    {% elseif seoSchemaPageType == 'ContactPage' %}
+
+      {# ContactPage JSON ld #}
+
+      {
+        "@context": "https://schema.org",
+        "@type": "ContactPage",
+        "mainEntityOfPage": {
+          "@type": "WebPage",
+          "@id": "{{ env.site }}/contact/"
+        },
+        "publisher": {
+          "@type": "Organization",
+          "@id": "{{ env.site }}",
+          "name": "{{ settings.siteName }}",
+          "logo": "android-chrome-512x512.png",
+          "telephone": "{{ settings.phoneNumber }}",
+          "email": "{{ settings.email }}",
+          "url": "{{ env.site }}",
+          "image": "android-chrome-512x512.png",
+          "description": "{{ description }}",
+          "address": {
+            "@type": "PostalAddress",
+            "streetAddress": "{{ settings.addressLineOne | safe }} {{ settings.addressLineTwo | safe }}",
+            "addressLocality": "{{ settings.addressLineThree | safe }}",
+            "addressCountry": "{{ settings.country | safe }}",
+            "addressRegion": "{{ settings.city | safe }}",
+            "postalCode": "{{ settings.postCode | safe }}"
+          }
+        }
+      }
+
+    {% elseif seoSchemaPageType == 'FAQPage' %}
+
+      {# FAQPage JSON ld #}
+
+      {
+        "@context": "https://schema.org",
+        "@type": "FAQPage",
+        "mainEntity": [{% if faqsData.faqs %}{% for faqsDataItem in faqsData.faqs %}
+          {
+            "@type": "Question",
+            "name": "{{ faqsDataItem.question | safe }}",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "<p>{{ faqsDataItem.answer | safe }}</p>"
+            }
+          }{{ "" if loop.last else "," }}{% endfor %}{% endif %}
+        ]
+      }
+
+    {% elseif seoSchemaPageType == 'Article' %}
+
+      {# Article JSON ld #}
+
+      {
+        "@context": "https://schema.org",
+        "@type": "Article",
+        "headline": "{{ seoTitle | safe}}",
+        "image": "android-chrome-512x512.png",  
+        "publisher": {
+          "@type": "Organization",
+          "name": "{{ settings.siteName }}",
+          "logo": {
+            "@type": "ImageObject",
+            "url": "android-chrome-512x512.png"
+          }
+        },
+        "datePublished": "{{ date | iso8601 | safe }}"
+      }
+
+    {% else %}
+
+      {# WebSite JSON ld #}
+
+      {
+        "@context": "https://schema.org",
+        "@type": "WebSite",
+        "name": "{{ seoTitle }}",
+        "description": "{{ description }}",
+        "image": "android-chrome-512x512.png",
+        "url": "{{ env.site }}"
+      }
+
+    {% endif %}
+  </script>
+
+{% endmacro %}

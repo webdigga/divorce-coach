@@ -4,6 +4,8 @@ seoTitle: Latest news | Resources for Navigating Divorce
 layout: default
 type: website
 description: Stay updated with the latest news and insights on divorce coaching. Discover trends, tips, and important updates to support your divorce journey.
+eleventyComputed:
+  canonical: "{{ env.site }}/{{ title | slugify }}/"
 ---
 
 {% include "./partials/navbar.html" %}

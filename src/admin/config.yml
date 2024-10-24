@@ -55,7 +55,7 @@ collections:
         name: "tags"
         multiple: true
         create: true
-        options: ["article", "latestNews", "privacy"]
+        options: ["article", "latestNews", "privacy", "faq"]
       - { label: "In the media and accreditations copy", name: "inTheMediaAndAccreditationsCopy", widget: "string", required: false }
       - label: "YouTube video path"
         name: "youTubeVideos"
@@ -218,3 +218,19 @@ collections:
             media_library:
               config:
                 multiple: false
+  - label: "FAQs"
+    name: "faqs"
+    editor:
+      preview: false
+    files:
+      - label: "FAQs items"
+        name: "faqs"
+        file: "src/_data/faqsData.yaml"
+        fields:
+          - label: FAQ Items
+            name: faqs
+            widget: list
+            collapsed: false
+            fields:
+              - { label: Question, name: question, widget: string }
+              - { label: Answer, name: answer, widget: string }

@@ -1,0 +1,12 @@
+{% macro faqs() %}
+
+  {% if faqsData.faqs %}
+    <dl>
+      {% for faqsDataItem in faqsData.faqs %}
+        <dt><h3>{{ faqsDataItem.question }}</h3></dt>
+        <dd class="pl-0">{{ faqsDataItem.answer }}</dd>
+      {% endfor %}
+    </dl>
+  {% endif %}
+
+{% endmacro %}
