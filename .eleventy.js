@@ -26,7 +26,7 @@ module.exports = function (eleventyConfig) {
 
   // Make a ISO 8601 date here for the schema data
   eleventyConfig.addFilter("iso8601", (dateObj) => {
-    return DateTime.fromJSDate(dateObj, { zone: "utc" }).toFormat(
+    return DateTime.fromJSDate(dateObj, { zone: "utc" }).toISO(
       "yyyy-MM-dd"
     );
   });  
