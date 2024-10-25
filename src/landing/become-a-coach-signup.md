@@ -50,7 +50,7 @@ Are you looking for a new career or an additional income stream? Do you love hel
 
 ### Comprehensive Training Program
 
-* Accredited Certification: Gain a recognized certification as a Breakup & Divorce Coach.
+* Accredited Certification: Gain a recognised certification as a Breakup & Divorce Coach.
 * Expert Guidance: Learn from Sara Davison, the multi award-winning Divorce Coach.
 * Complete Skillset: Acquire all the tools and skills needed to become an outstanding and successful coach.
 * Build Your Business: Learn how to create a thriving coaching practice that you will love.

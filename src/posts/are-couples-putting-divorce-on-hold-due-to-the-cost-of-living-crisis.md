@@ -10,7 +10,7 @@ tags:
 ---
 Financial constraints are a significant factor preventing couples from pursuing divorce, outpacing concerns about the impact on children, recent data reveals. According to research conducted by Investec Wealth & Investment, 40% of married individuals in the UK who have contemplated divorce cite financial reasons as the primary obstacle to proceeding. This surpasses worries about the well-being of their children, with 39% attributing their hesitation to potential familial repercussions.
 
-The study also indicates that one in ten people have contemplated divorcing their partner but ultimately chose not to proceed. Faye Church, a chartered senior financial planner at Investec, emphasizes the pivotal role of financial considerations in the decision-making process, underscoring how the cost of divorce often renders it unfeasible for many.
+The study also indicates that one in ten people have contemplated divorcing their partner but ultimately chose not to proceed. Faye Church, a chartered senior financial planner at Investec, emphasises the pivotal role of financial considerations in the decision-making process, underscoring how the cost of divorce often renders it unfeasible for many.
 
 Moreover, financial anxieties outweigh concerns about familial reactions to divorce, with a quarter of respondents citing family response as the primary reason for remaining in unhappy marriages. Only 22% expressed worries about their partner's ability to cope, while 11% cited apprehension about potential retribution.
 
