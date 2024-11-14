@@ -37,8 +37,8 @@ collections:
         label: "Description",
         name: "description",
         widget: "string",
-        hint: "*Used in search engines (between 50 and 155 characters)*",
-        pattern: ['^.{50,155}$', "Must be between 50 and 155 characters"]
+        hint: "*Used in search engines (between 70 and 155 characters)*",
+        pattern: ['^.{70,155}$', "Must be between 70 and 155 characters"]
       }
       - label: "Publish Date"
         name: "date"
@@ -207,7 +207,8 @@ collections:
             label: Description,
             name: description,
             widget: string,
-            hint: "*Used in search engines (more than 70 characters and less than 155 characters)*"
+            hint: "*Used in search engines (more than 70 characters and less than 155 characters)*",
+            pattern: ['^.{70,155}$', "Must be between 70 and 155 characters"]
           }
           - { label: Type (type of template), name: type, widget: string }
           - { label: Logo (Alt), name: logoAlt, widget: string }
