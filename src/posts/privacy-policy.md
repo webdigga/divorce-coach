@@ -1,6 +1,6 @@
 ---
 title: Privacy policy
-seoTitle: Privacy policy
+seoTitle: Privacy policy | Divorce Coaching
 description: Cookie consent
 author: David White
 date: 2024-02-29T17:13:10.382Z

@@ -27,7 +27,7 @@ highlightsBoxes:
 
 Navigating the end of a relationship can be incredibly challenging, and having a supportive network during this time is crucial. Our breakup support groups are designed to provide you with a safe, understanding environment where you can share your experiences, gain insights, and receive encouragement from others who are going through similar situations.
 
-### Join Our Breakup Support Group
+## Join Our Breakup Support Group
 
 If you’re ready to find support and connect with others who understand your experience, we invite you to join one of our breakup support groups. Reach out to us for more information on upcoming sessions and how to get involved.
 

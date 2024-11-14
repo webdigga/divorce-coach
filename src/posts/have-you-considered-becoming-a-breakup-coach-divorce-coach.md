@@ -21,7 +21,7 @@ Why Choose an **Accredited Divorce Coaching Programme?**
 
 Many coaches enjoy this fast-growing side hustle, transforming it into a business they are passionate about. Here’s what you will learn:
 
-### Core Skills and Techniques
+## Core Skills and Techniques
 
 •	Become a Confident Coach: Develop the confidence and competence needed to excel as a Breakup & Divorce Coach.
 
@@ -31,7 +31,7 @@ Many coaches enjoy this fast-growing side hustle, transforming it into a busines
 
 •	Handling Challenges: Learn strategies to handle the most challenging clients and help them move forward.
 
-### Building a Successful Practice
+## Building a Successful Practice
 
 •	7 Steps to Success: Follow my 7-step guide to creating a thriving coaching practice.
 
@@ -47,11 +47,11 @@ Many coaches enjoy this fast-growing side hustle, transforming it into a busines
 
 •	Growth Strategies: Gain insights on how to grow your coaching business.
 
-### Join A Global Community
+## Join A Global Community
 
 As part of the programme, you'll join a large global community with buddy coaching opportunities, allowing you to practice your skills while learning and growing together.
 
-### Take the Next Step
+## Take the Next Step
 
 Book a call with **Sara Davison** to learn more about her coach training. Ask any questions you may have and discover how you can make a meaningful difference in the lives of those going through **breakup and divorce**.
 

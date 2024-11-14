@@ -25,7 +25,7 @@ Divorce Training Programmes Provide You with the Essential Business Tools to Suc
 * Position yourself as an indispensable asset for any corporate team
 * Maximise your revenue potential with corporate clients
 
-### Act Now?
+## Act Now?
 
 If you’ve been considering enrolling in divorce and breakup training program, now is the perfect time to join one of the fastest coaching niches and earn an additional revenue stream or start your own business and new career.
 

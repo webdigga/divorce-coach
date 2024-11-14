@@ -45,6 +45,6 @@ The CPD Standards Office Accredited training is designed to be flexible, allowin
 
 Whether you’re exploring coaching as a side hustle, looking to change careers, or already running a coaching business, now is the perfect time to get started. By scheduling a free discovery call today, you could be an accredited Breakup & Divorce Coach by Christmas!
 
-### Ready to Transform Lives—Including Your Own?
+## Ready to Transform Lives—Including Your Own?
 
 This is your chance to join a supportive and growing community, start making an impact, and create an extra revenue stream. Book your discovery call now and take the first step toward a rewarding career in breakup and divorce coaching!
