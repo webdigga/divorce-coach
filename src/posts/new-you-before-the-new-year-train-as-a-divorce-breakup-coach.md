@@ -1,7 +1,8 @@
 ---
-title: "New You Before the New Year: Train as a Divorce & Breakup Coach!"
-seoTitle: Train to become a Breakup and Divorce Coach this New Year
-description: Become a Certified Breakup and Divorce Coach by The New Year
+title: "Start Fresh this New Year: Divorce & Breakup Coach Training!"
+seoTitle: "Start Fresh this New Year: Divorce & Breakup Coach Training!"
+description: New year, new you. Start your journey to become a Certified Breakup
+  and Divorce Coach, achieving your certification by the New Year.
 date: 2024-11-14
 type: latestNews
 tags:
@@ -41,4 +42,4 @@ Our recommended programme from Sara Davison The Divorce Coach is fully accredite
 
 Whether you’re looking for a fulfilling side hustle, full-time career change or simply just to generate a second revenue stream, then her Breakup & Divorce Coach Training Course can help you create the business and lifestyle you’ve always wanted. Don’t wait until the new year—start your journey today!
 
-Book your Free Discovery Call [here](/book-a-free-call/).
+Book your [Free Discovery Call here](/book-a-free-call/).
