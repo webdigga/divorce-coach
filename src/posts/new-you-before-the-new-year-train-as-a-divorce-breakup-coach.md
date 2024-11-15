@@ -38,6 +38,8 @@ Divorce Coach. Here's a glimpse of what you'll gain:
 
 ## **Accredited and Supported Learning**
 
+<img src="/static/img/new-year-coaching.webp" alt="Woman having coaching" title="Woman having coaching" class="Right" width="600px" height="450px" loading="lazy"/>
+
 Our recommended programme from Sara Davison The Divorce Coach is fully accredited by the CPD Standards Office, ensuring that it meets high industry standards. This course is designed to give you the practical tools you need, with ongoing support from her vibrant community and access to live webinars when you need extra help.
 
 Whether you’re looking for a fulfilling side hustle, full-time career change or simply just to generate a second revenue stream, then her Breakup & Divorce Coach Training Course can help you create the business and lifestyle you’ve always wanted. Don’t wait until the new year—start your journey today!
