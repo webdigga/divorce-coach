@@ -8,6 +8,8 @@ type: latestNews
 tags:
   - latestNews
 ---
+<img src="/static/img/new-year-coaching.webp" alt="Woman having coaching" title="Woman having coaching" class="Right" width="600px" height="450px" loading="lazy"/>
+
 With the holiday season fast approaching, why not gift yourself the opportunity to start a new career as a certified Breakup & Divorce Coach? Now is the perfect time to gain a valuable qualification that not only allows you to create an additional income stream but also enables you to make a real difference in the lives of people navigating the challenges of breakup or divorce.
 
 Many Divorce & Breakup Coaches are generating an extra **£1500** per month as a side hustle, while others are earning **£6000+** every month by helping clients find clarity, healing, and empowerment after a breakup or
@@ -37,8 +39,6 @@ Divorce Coach. Here's a glimpse of what you'll gain:
 * Key strategies to grow and scale your coaching business
 
 ## **Accredited and Supported Learning**
-
-<img src="/static/img/new-year-coaching.webp" alt="Woman having coaching" title="Woman having coaching" class="Right" width="600px" height="450px" loading="lazy"/>
 
 Our recommended programme from Sara Davison The Divorce Coach is fully accredited by the CPD Standards Office, ensuring that it meets high industry standards. This course is designed to give you the practical tools you need, with ongoing support from her vibrant community and access to live webinars when you need extra help.
 
