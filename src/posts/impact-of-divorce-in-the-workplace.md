@@ -11,7 +11,7 @@ tags:
 ---
 ## How It Affects Employees and Productivity
 
-Divorce can significantly affect employees' work performance and well-being in many ways. Here are some of the key challenges faced by individuals going through a divorce:
+Divorce can significantly[ affect employees' work performance](/support-for-employees/) and well-being in many ways. Here are some of the key challenges faced by individuals going through a divorce:
 
 1. **Mental Health Issues:** Divorce often triggers anxiety, depression, and even substance abuse. A 2021 study revealed that 60% of people reported a decline in their mental health due to divorce.
 2. **Reduced Productivity:** The emotional toll of divorce can make it difficult for employees to focus on tasks and maintain productivity. According to the same 2021 study, 39% of individuals experienced a drop in their work output during this period.
@@ -24,7 +24,7 @@ Divorce can significantly affect employees' work performance and well-being in m
 
 <img src="/static/img/workplace.webp" alt="Workplace environment" title="Workplace environment" class="Left" width="600px" height="450px" loading="lazy"/>
 
-Did you know that more companies are actively looking for Breakup, Divorce, and Domestic Abuse Coaches to support employees facing personal challenges? This fast-growing, emerging coaching niche presents a lucrative opportunity, making now the perfect time to train with a leading Break Up & Divorce Coach.
+Did you know that more companies are [actively looking for Breakup, Divorce, and Domestic Abuse Coaches](/support-for-businesses/) to support employees facing personal challenges? This fast-growing, emerging coaching niche presents a lucrative opportunity, making now the perfect time to train with a leading Break Up & Divorce Coach.
 
 ## Why the Demand for Breakup Coaching Is Rising?
 
