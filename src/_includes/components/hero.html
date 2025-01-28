@@ -5,7 +5,7 @@
     <div class="mx-auto max-w-xl text-center">
       <h1 class="text-3xl font-extrabold sm:text-5xl text-white">{{ hero[0].data.title | safe }}</h1>
       <h2 class="text-xl font-extrabold sm:text-2xl">
-        <strong class="font-extrabold text-[color:var(--light-blue)] sm:block"> {{ hero[0].data.description | safe }}. </strong>
+        <strong class="font-extrabold text-[color:var(--secondary-colour)] sm:block"> {{ hero[0].data.description | safe }}. </strong>
       </h2>
 
       <p class="mt-4 sm:text-xl/relaxed text-white">{{ hero[0].data.introText | safe }}</p>
@@ -13,7 +13,7 @@
       <div class="mt-8 flex flex-wrap justify-center gap-4" x-data="">
         <button
           @click="document.getElementById('findOutMore').scrollIntoView({ behavior: 'smooth' })"
-          class="block w-full rounded-md bg-[color:var(--light-blue)] px-12 py-3 text-sm font-medium text-[color:var(--primary-color)] shadow hover:opacity-70 focus:outline-none focus:ring sm:w-auto"
+          class="block w-full rounded-md bg-[color:var(--secondary-colour)] px-12 py-3 text-sm font-medium text-[color:var(--primary-color)] shadow hover:opacity-70 focus:outline-none focus:ring sm:w-auto"
         >
           Get Started
         </button>

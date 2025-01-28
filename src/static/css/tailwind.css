@@ -5,8 +5,9 @@
 /*Your Custom CSS Goes here*/
 
 :root {
-  --primary-color: #2C537E;
-  --light-blue: #b3d9ff;
+  --primary-color: #894a84;
+  --secondary-colour: #ebf9e8;
+  --white: #ffffff;
 }
 
 body {

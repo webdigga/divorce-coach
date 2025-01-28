@@ -1,3 +1,7 @@
+{% import "./banner.html" as banner with context %}
+
+{{ banner.bannerMacro() }}
+
 <div class="w-full bg-[color:var(--primary-color)]">
     <nav class="flex items-center justify-center lg:justify-between flex-wrap lg:px-0 container mx-auto py-2 sm:py-0" x-data="{ isOpen: false }" @keydown.escape="isOpen = false"  @click.away="isOpen = false">
       <!--Logo etc-->
