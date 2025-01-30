@@ -8,8 +8,6 @@ type: latestNews
 tags:
   - latestNews
 ---
-<img src="/static/img/pexels-chuchuphinh-1057103.avif" alt="Woman walking up steps" title="Woman walking up steps" class="Right" width="600px" height="450px" loading="lazy"/>
-
 ## **How to Get a Divorce in the UK: A Step-by-Step Guide**
 
 If you're considering a divorce in the UK, understanding the legal process can make things smoother. Here’s everything you need to know:
@@ -57,6 +55,8 @@ A divorce does not automatically handle:
 **8. Seeking Legal Advice**
 
 Getting professional legal support can make the process less stressful. A divorce lawyer or family solicitor can guide you through legal complexities.
+
+<img src="/static/img/pexels-chuchuphinh-1057103.avif" alt="Woman walking up steps" title="Woman walking up steps" class="Right" width="600px" height="450px" loading="lazy"/>
 
 ## **Need Emotional Support or a New Career?**
 
