@@ -12,6 +12,8 @@ tags:
 
 If you're considering a divorce in the UK, understanding the legal process can make things smoother. Here’s everything you need to know:
 
+<img src="/static/img/pexels-chuchuphinh-1057103.avif" alt="Woman walking up steps" title="Woman walking up steps" class="Right" width="600px" height="450px" loading="lazy"/>
+
 **1. Check Your Eligibility**
 
 You can apply for a divorce in the UK if:
@@ -55,8 +57,6 @@ A divorce does not automatically handle:
 **8. Seeking Legal Advice**
 
 Getting professional legal support can make the process less stressful. A divorce lawyer or family solicitor can guide you through legal complexities.
-
-<img src="/static/img/pexels-chuchuphinh-1057103.avif" alt="Woman walking up steps" title="Woman walking up steps" class="Right" width="600px" height="450px" loading="lazy"/>
 
 ## **Need Emotional Support or a New Career?**
 
