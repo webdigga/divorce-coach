@@ -1,5 +1,5 @@
 ---
-title: how do i get a divorce
+title: How Do I Get a Divorce
 seoTitle: Thinking of getting divorced? How much does a Diovorce Cost?
 description: A step-by-step guide to getting a divorce in the UK and the support
   available after a difficult breakup
