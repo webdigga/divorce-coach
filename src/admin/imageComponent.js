@@ -3,21 +3,24 @@ CMS.registerEditorComponent({
   id: 'image',
   fromBlock: match =>
     match && {
-      image: match[1],
-      alt: match[2],
-      title: match[3],
-      position: match[4],
-      width: match[5],
-      height: match[6],
-      loading: match[7]
+      link: match[1],
+      image: match[2],
+      alt: match[3],
+      title: match[4],
+      position: match[5],
+      width: match[6],
+      height: match[7],
+      loading: match[8]
     },
-  toBlock: function({ image, alt, position, width, height }, getAsset, fields) {
-    return `<img src="${image || ''}" alt="${alt || ''}" title="${alt || ''}" class="${position || ''}" width="${width || '600px'}" height="${height || '450px'}" loading="lazy"/>`
+  toBlock: function({ image, alt, title, position, width, height, link }, getAsset, fields) {
+    const imgTag = `<img src="${image || ''}" alt="${alt || ''}" title="${title || ''}" class="${position || ''}" width="${width || '600px'}" height="${height || '450px'}" loading="lazy"/>`;
+    return link ? `<a href="${link}">${imgTag}</a>` : imgTag;
   },
-  toPreview: ({ image, alt, position, width, height }, getAsset, fields) => {
-    return `<img src="${image}" alt="${alt}" title="${title}" class="${position}" width="${width || '600px'}" height="${height || '450px'}" loading="lazy"/>`;
+  toPreview: ({ image, alt, title, position, width, height, link }, getAsset, fields) => {
+    const imgTag = `<img src="${image}" alt="${alt}" title="${title}" class="${position}" width="${width || '600px'}" height="${height || '450px'}" loading="lazy"/>`;
+    return link ? `<a href="${link}">${imgTag}</a>` : imgTag;
   },
-  pattern:  /^<img src="(.*?)" alt="(.*?)" title="(.*?)" class="(.*?)" width="(.*?)" height="(.*?)" loading="(.*?)"\/>$/s,
+  pattern: /^(?:<a href="(.*?)">)?<img src="(.*?)" alt="(.*?)" title="(.*?)" class="(.*?)" width="(.*?)" height="(.*?)" loading="lazy"\/>(?:<\/a>)?$/s,
   fields: [
     {
       label: 'Picture',
@@ -50,6 +53,12 @@ CMS.registerEditorComponent({
       name: 'height',
       widget: 'string',
       default: '450px'
+    },
+    {
+      label: 'Link URL',
+      name: 'link',
+      widget: 'string',
+      required: false
     }
   ]
 })

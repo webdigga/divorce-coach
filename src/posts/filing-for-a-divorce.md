@@ -30,6 +30,8 @@ Eligibility & Requirements:
 
 - - -
 
+
+
 ## Step-by-Step Guide to the Divorce Process
 
 1. Submit the Divorce Application
@@ -58,6 +60,8 @@ Eligibility & Requirements:
 * Once granted, your divorce is legally finalised
 
 - - -
+
+<a href="/book-a-free-call/"><img src="/static/img/divorce-coach-mpu.webp" alt="Advert for becomming a Divorce Coach" title="" class="Centre" width="336px" height="280px" loading="lazy"/></a>
 
 ## How Long Does a Divorce Take?
 
