@@ -28,7 +28,7 @@ Eligibility & Requirements:
 * A copy of your marriage certificate (original or certified) is required.
 * The court fee is £593 (as of 2024), but financial help may be available for low-income applicants.
 
-\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
+- - -
 
 ## Step-by-Step Guide to the Divorce Process
 
@@ -57,7 +57,7 @@ Eligibility & Requirements:
 * At least six weeks after the conditional order, you can apply for a final order (formerly decree absolute)
 * Once granted, your divorce is legally finalised
 
-\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
+- - -
 
 ## How Long Does a Divorce Take?
 
