@@ -14,7 +14,7 @@ tags:
 
 A Decree Absolute is the final legal document that officially ends a marriage or civil partnership in the UK. Issued by the court after a Decree Nisi (now called a Conditional Order), it confirms that the divorce or dissolution process is complete.
 
-Key Facts About the Decree Absolute
+**Key Facts About the Decree Absolute:**
 
 ✔️ It marks the final stage of the divorce process.
 
@@ -30,7 +30,7 @@ Key Facts About the Decree Absolute
 
 ## How to Apply for a Decree Absolute in the UK
 
-Step 1: Check Your Eligibility:
+**Step 1: Check Your Eligibility:**
 
 ✅ You must have a Decree Nisi (Conditional Order) from the court.
 
@@ -38,25 +38,25 @@ Step 1: Check Your Eligibility:
 
 ✅ If over 12 months have passed, you may need to explain the delay.
 
-Step 2: Complete the Application:
+**Step 2: Complete the Application:**
 
 ✍️ Fill out Form D36 (Application for a Decree Absolute).
 
 🖥️ If you applied for divorce online, you can submit your request via the HMCTS online portal.
 
-Step 3: Submit Your Application:
+**Step 3: Submit Your Application:**
 
 📩 Send Form D36 to the same court that issued your Decree Nisi.
 
 📲 If using the online divorce service, submit it digitally.
 
-Step 4: Wait for Court Approval:
+**Step 4: Wait for Court Approval:**
 
 ⏳ The court will review your application.
 
 📆 Processing time is usually a few days to a few weeks.
 
-Step 5: Receive Your Decree Absolute:
+**Step 5: Receive Your Decree Absolute:**
 
 📜 Once approved, you will receive the official Decree Absolute certificate.
 
