@@ -1,5 +1,5 @@
 ---
-title: jobs and new career trends in 2025
+title: Jobs And New Career Trends in 2025
 seoTitle: Job Search Statistics and Career Trends in the UK 2025
 description: The jobs market in the UK in 2025 is changing with more demand for
   working from home and flexible working
