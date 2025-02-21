@@ -55,7 +55,7 @@ collections:
         name: "tags"
         multiple: true
         create: true
-        options: ["article", "latestNews", "privacy", "faq", "divorce", "coaching"]
+        options: ["article", "privacy", "faq", "divorce", "coaching"]
       - { label: "In the media and accreditations copy", name: "inTheMediaAndAccreditationsCopy", widget: "string", required: false }
       - label: "YouTube video path"
         name: "youTubeVideos"
