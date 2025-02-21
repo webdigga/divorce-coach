@@ -5,7 +5,7 @@ description: Wondering if you're in a relationship with a narcissist? Discover k
 date: 2024-03-11T11:28:32.363Z
 type: latestNews
 tags:
-  - latestNews
+  - divorce
 highlightsBoxes:
   - title: "Common Narcissist Traits"
     highlightsListItem:

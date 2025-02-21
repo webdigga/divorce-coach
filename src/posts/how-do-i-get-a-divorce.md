@@ -6,7 +6,7 @@ description: A step-by-step guide to getting a divorce in the UK and the support
 date: 2025-01-30
 type: latestNews
 tags:
-  - latestNews
+  - divorce
 ---
 ## **How to Get a Divorce in the UK: A Step-by-Step Guide**
 

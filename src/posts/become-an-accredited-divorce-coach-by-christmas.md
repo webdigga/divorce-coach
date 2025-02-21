@@ -6,7 +6,7 @@ description: Start the New Year with a fresh career or a second income by
 date: 2024-03-11T11:28:32.363Z
 type: latestNews
 tags:
-  - latestNews
+  - coaching
 ---
 ## Ready for a Career Change?
 

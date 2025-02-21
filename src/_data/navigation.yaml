@@ -5,8 +5,11 @@ items:
   - text: Book a free call
     url: /book-a-free-call/
     showInPrimary: true
-  - text: Latest News
-    url: /latest-news/
+  - text: Divorce
+    url: /divorce/
+    showInPrimary: true
+  - text: Coaching
+    url: /coaching/
     showInPrimary: true
   - text: FAQs
     url: /faqs/

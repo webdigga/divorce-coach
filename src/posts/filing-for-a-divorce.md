@@ -6,7 +6,7 @@ description: This article will give you all of the information needed for
 date: 2025-02-01
 type: latestNews
 tags:
-  - latestNews
+  - divorce
 ---
 <img src="/static/img/pexels-karolina-grabowska-7876000.avif" alt="Person holding Divorce Documents" title="Person holding Divorce Documents" class="Right" width="600px" height="450px" loading="lazy"/>
 

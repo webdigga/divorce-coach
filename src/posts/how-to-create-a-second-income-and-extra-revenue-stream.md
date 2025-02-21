@@ -5,7 +5,7 @@ description: Empower yourself and establish a second income stream as a Breakup 
 date: 2024-03-11T11:28:32.363Z
 type: latestNews
 tags:
-  - latestNews
+  - coaching
 highlightsBoxes:
   - title: No coaching experience needed—our training covers everything you need
     highlightsListItem:

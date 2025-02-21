@@ -5,7 +5,7 @@ description: Divorce and break up coach training to help support businesses and 
 date: 2024-03-11T11:28:32.363Z
 type: latestNews
 tags:
-  - latestNews
+  - coaching
 ---
 Did You Know? Corporations and Businesses are seeking Breakup, Divorce & Domestic Abuse Coaches to support their teams!
 

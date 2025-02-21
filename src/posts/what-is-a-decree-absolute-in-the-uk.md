@@ -6,7 +6,7 @@ description: A Decree Absolute is the final legal document that officially ends
 date: 2025-02-05
 type: latestNews
 tags:
-  - latestNews
+  - divorce
 ---
 <img src="/static/img/pexels-pixabay-48148.avif" alt="Signing a legal document" title="" class="Right" width="600px" height="450px" loading="lazy"/>
 

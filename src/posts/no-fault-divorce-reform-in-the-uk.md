@@ -5,7 +5,7 @@ description: No fault divorce laws where introduced in England and Wales in Apri
 date: 2025-02-04
 type: latestNews
 tags:
-  - latestNews
+  - divorce
 ---
 <img src="/static/img/pexels-sora-shimazaki-5668481.avif" alt="Photo of Wooden Gavel" title="" class="Right" width="600px" height="450px" loading="lazy"/>
 

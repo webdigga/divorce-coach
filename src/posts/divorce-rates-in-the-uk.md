@@ -6,7 +6,7 @@ description: Discover the latest UK divorce statistics, trends, and insights.
 date: 2025-01-21
 type: latestNews
 tags:
-  - latestNews
+  - divorce
 ---
 ## Divorce Trends in the UK: Insights Leading Up to 2025
 

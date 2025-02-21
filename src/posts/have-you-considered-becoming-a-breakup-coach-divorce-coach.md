@@ -5,7 +5,7 @@ description: Considering a career as a breakup and divorce coach? Explore how ou
 date: 2024-03-11T11:28:32.363Z
 type: latestNews
 tags:
-  - latestNews
+  - coaching
 ---
 ## Is a Career as a Breakup and Divorce Coach Right for You?
 

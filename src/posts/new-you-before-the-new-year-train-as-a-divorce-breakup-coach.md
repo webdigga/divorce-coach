@@ -6,7 +6,7 @@ description: New year, new you. Start your journey to become a Certified Breakup
 date: 2024-11-14
 type: latestNews
 tags:
-  - latestNews
+  - coaching
 ---
 <img src="/static/img/new-year-coaching.webp" alt="Woman having coaching" title="Woman having coaching" class="Right" width="600px" height="450px" loading="lazy"/>
 

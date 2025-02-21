@@ -6,7 +6,7 @@ description: The jobs market in the UK in 2025 is changing with more demand for
 date: 2025-02-07
 type: latestNews
 tags:
-  - latestNews
+  - coaching
 ---
 <img src="/static/img/pexels-olly-789822.avif" alt="Career woman on phone" title="" class="Right" width="600px" height="450px" loading="lazy"/>
 

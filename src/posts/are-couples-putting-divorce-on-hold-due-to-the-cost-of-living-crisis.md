@@ -6,7 +6,7 @@ description: Is the cost of divorce and the cost of living crisis the reasons
 date: 2024-03-11T11:28:32.363Z
 type: latestNews
 tags:
-  - latestNews
+  - divorce
 ---
 Financial constraints are a significant factor preventing couples from pursuing divorce, outpacing concerns about the impact on children, recent data reveals. According to research conducted by Investec Wealth & Investment, 40% of married individuals in the UK who have contemplated divorce cite financial reasons as the primary obstacle to proceeding. This surpasses worries about the well-being of their children, with 39% attributing their hesitation to potential familial repercussions.
 

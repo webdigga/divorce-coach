@@ -49,7 +49,7 @@ collections:
         label: "type"
         name: "type"
         create: true
-        options: ["article", "latestNews", "privacy"]
+        options: ["article", "latestNews", "privacy", "divorce", "coaching"]
       - widget: select
         label: "tags"
         name: "tags"

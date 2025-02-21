@@ -12,12 +12,12 @@ eleventyComputed:
 
 <div class="container max-w-screen-lg mt-6 prose">
 
-    <h1 class="text-left font-bold text-5xl">{{ title }}</h1>
+    <h1 class="text-left font-bold text-5xl">{{ title | safe }}</h1>
 
-    <h2 class="font-bold text-3xl">Updates and Insights in Divorce Coaching</h2>
+    <h2 class="font-bold text-3xl">{{ subTitle | safe }}</h2>
 
     <p class="mb-8">
-      Welcome to our Latest News section, where we keep you informed about the most recent developments, trends, and insights in the world of divorce coaching. Whether you’re a divorce coach, a client, or simply interested in staying updated, this page provides valuable information and resources to support you.
+      {{ introText | safe }}
     </p>
 
     {{ content | safe }}
