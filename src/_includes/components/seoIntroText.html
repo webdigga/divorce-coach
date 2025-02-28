@@ -1,0 +1,20 @@
+{% macro seoIntroTextComponent() %} 
+
+  <div class="container container--medium text-center">
+    <div class="max-w-7xl mx-auto">
+      {% if seoIntroText.seoIntroText %}
+        
+        <div class="section prose max-w-full">
+          <h2>{{ seoIntroText.seoIntroText.heading }}</h2>
+          
+            <p>{{ seoIntroText.seoIntroText.content | markdown | safe }}</p>
+          
+        </div>
+        
+      {% else %}
+        <p>No content available.</p>
+      {% endif %}
+    </div>
+  </div>  
+
+{% endmacro %}

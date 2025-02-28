@@ -7,6 +7,8 @@ eleventyComputed:
   canonical: "{{ env.site }}/"
 ---
 
+{% import "./_includes/components/seoIntroText.html" as seoIntroText with context %}
+
 <section class="min-h-dvh bg-[color:var(--primary-color)] flex flex-col">
 
   {% include "./_includes/partials/navbar.html" %}
@@ -29,4 +31,8 @@ eleventyComputed:
       {% endfor %}
     </div>
   </div>
+</section>
+
+<section class="bg-[color:var(--secondary-colour)] py-8 mb-[-1.5rem]">
+  {{ seoIntroText.seoIntroTextComponent() }}
 </section>
