@@ -63,7 +63,9 @@
           
       </div>
       <span class="text-base text-center block">
-        <small class="text-white">Copyright © {{settings.poweredBy}} {{ helpers.currentYear() }}</small>
+        <small class="text-white">
+          © {{ helpers.currentYear() }} <a href="{{ settings.poweredByOneUrl }}" target="_blank" rel="noopener" class="underline">{{ settings.poweredByOne }}</a> & <a href="{{ settings.poweredByTwoUrl }}" target="_blank" rel="noopener" class="underline">{{ settings.poweredByTwo }}</a>. All rights reserved.
+        </small>
       </span>
 
       <p class="font-normal text-center">
