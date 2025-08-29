@@ -46,3 +46,10 @@ Before choosing a coaching programme, make sure you:
 2. **Research testimonials** - read and watch stories from past students
 3. **Speak to graduates** - learn about their experience and results
 4. **Compare providers** - ensure the training aligns with your professional goals.
+
+## **Other Recognised Coaching Accreditation Bodies**
+
+* **The Divorce Coaching Academy -** [ www.thedivorcecoachingacademy.com
+  ](https://www.thedivorcecoachingacademy.com?utm_source=chatgpt.com)Offers a **Diploma in Professional Divorce Coaching** accredited by the **Association for Coaching**
+* **ICF Coaching Programmes -** [ ICF Coaching Diploma
+  ](https://www.tobecome.org/icf-coaching-diploma?utm_source=chatgpt.com)The **International Coaching Federation (ICF)** is one of the most respected coaching bodies worldwide. In the UK alone, the ICF has over **3,700 members**, making this certification highly valuable for coaches who want global recognition
