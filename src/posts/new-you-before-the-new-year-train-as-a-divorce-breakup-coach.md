@@ -4,7 +4,7 @@ seoTitle: "Start Fresh this New Year: Divorce & Breakup Coach Training!"
 description: New year, new you. Start your journey to become a Certified Breakup
   and Divorce Coach, achieving your certification by the New Year.
 date: 2024-11-14
-type: latestNews
+type: article
 tags:
   - coaching
 ---

@@ -4,7 +4,7 @@ seoTitle: Divorce Trends in the UK - Insights Leading Up to 2025
 description: Discover the latest UK divorce statistics, trends, and insights.
   Stay informed about marriage and separation rates across the nation.
 date: 2025-01-21
-type: latestNews
+type: article
 tags:
   - divorce
 ---

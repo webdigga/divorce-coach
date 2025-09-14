@@ -4,7 +4,7 @@ seoTitle: What is a Decree Absolute and How to Apply For One
 description: A Decree Absolute is the final legal document that officially ends
   a marriage or civil partnership in the UK
 date: 2025-02-05
-type: latestNews
+type: article
 tags:
   - divorce
 ---

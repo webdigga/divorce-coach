@@ -4,7 +4,7 @@ seoTitle: Job Search Statistics and Career Trends in the UK 2025
 description: The jobs market in the UK in 2025 is changing with more demand for
   working from home and flexible working
 date: 2025-02-07
-type: latestNews
+type: article
 tags:
   - coaching
 ---

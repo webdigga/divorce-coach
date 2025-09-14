@@ -4,7 +4,7 @@ seoTitle: Step-by-Step Guide to Starting the Divorce Process in the UK
 description: This article will give you all of the information needed for
   starting the divorce process in the UK
 date: 2025-02-01
-type: latestNews
+type: article
 tags:
   - divorce
 ---

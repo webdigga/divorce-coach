@@ -3,7 +3,7 @@ title: No fault divorce reform in the uk
 seoTitle: How No Fault Divorce Laws Have Helped Reform Divorce Laws
 description: No fault divorce laws where introduced in England and Wales in April 2022
 date: 2025-02-04
-type: latestNews
+type: article
 tags:
   - divorce
 ---

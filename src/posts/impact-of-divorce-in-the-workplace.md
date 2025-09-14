@@ -5,7 +5,7 @@ description: Businesses recognise need for Breakup, Divorce, and Abuse Coaches
   to help employees manage personal crises that affect their well-being and
   productivity.
 date: 2024-03-11T11:28:32.363Z
-type: latestNews
+type: article
 tags:
   - coaching
 ---

@@ -4,7 +4,7 @@ seoTitle: Thinking of getting divorced? How much does a Diovorce Cost?
 description: A step-by-step guide to getting a divorce in the UK and the support
   available after a difficult breakup
 date: 2025-01-30
-type: latestNews
+type: article
 tags:
   - divorce
 ---

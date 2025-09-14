@@ -4,7 +4,7 @@ seoTitle: Get Accredited as a Divorce Coach by Xmas | Divorce Coaching
 description: Start the New Year with a fresh career or a second income by
   becoming a Breakup and Divorce Coach
 date: 2024-03-11T11:28:32.363Z
-type: latestNews
+type: article
 tags:
   - coaching
 ---

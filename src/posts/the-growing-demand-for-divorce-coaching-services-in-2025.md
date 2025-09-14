@@ -5,7 +5,7 @@ description: Discover the growing demand for divorce coaching in 2025. Learn how
   to become a certified divorce coach and earn £6,000+ monthly in this rewarding
   field.
 date: 2025-09-14
-type: latestNews
+type: article
 tags:
   - article
   - coaching
