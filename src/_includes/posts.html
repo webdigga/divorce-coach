@@ -8,37 +8,76 @@ eleventyComputed:
 {% include "./partials/navbar.html" %}
 {% import "./components/faqs.html" as faqs with context %}
 
-<div class="container mt-6 px-6 flex flex-col lg:flex-row {% if 'latestNews' in tags %}justify-center{% endif %}">
+<div class="container mt-6 px-6 flex flex-col lg:flex-row {% if 'latestNews' in tags or 'divorce' in tags or 'coaching' in tags %}justify-center{% endif %}">
 
-    <div class="lg:pr-8 {% if 'latestNews' in tags %}lg:max-w-screen-lg{% endif %}">
-        <div class="pb-5 mb-5 border-b border-gray-100 flex flex-col md:flex-row md:justify-between {% if 'latestNews' in tags %}md:items-end{% endif %}">
-          <h1 class="font-bold text-5xl text-left inline-block mb-5 md:mb-0">{{ title }}</h1>
+    <div class="lg:pr-8 {% if 'latestNews' in tags or 'divorce' in tags or 'coaching' in tags %}max-w-screen-lg mx-auto{% endif %}">
+        <div class="pb-5 mb-5 border-b border-gray-100">
+          {% if 'divorce' in tags or 'coaching' in tags %}
+            <div class="flex flex-col lg:flex-row lg:justify-between lg:items-start gap-4 mb-4">
+              <h1 class="font-bold text-3xl md:text-4xl lg:text-5xl text-left mb-0">{{ title }}</h1>
 
-          {% if 'latestNews' in tags %}
-              <time class="text-gray-500 text-sm italic block md:text-right min-w-28">
-                {{ date | readableDate }}
+              <div class="flex items-center gap-4 lg:min-w-fit self-end">
+                <div class="flex flex-col items-end">
+                  <a
+                    href="https://www.linkedin.com/in/jonny-rowse-70a09126/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    class="font-medium text-gray-900 hover:text-[color:var(--primary-color)] transition-colors text-lg"
+                  >
+                    Jonny Rowse
+                  </a>
+                  <span class="text-gray-500 text-sm">Editor</span>
+                </div>
+                <img
+                  src="/static/img/jonny-rowse.webp"
+                  alt="Jonny Rowse"
+                  width="80"
+                  height="80"
+                  class="w-20 h-20 rounded-full object-cover"
+                  loading="lazy"
+                />
+              </div>
+            </div>
+
+            <div class="flex items-center justify-between text-gray-500 text-sm">
+              <time datetime="{{ date | iso8601 }}">
+                Published: {{ date | readableDate }}
               </time>
+              <span class="flex items-center gap-1">
+                <svg
+                  width="16px"
+                  height="16px"
+                  xmlns="http://www.w3.org/2000/svg"
+                  fill="none"
+                  viewBox="0 0 24 24"
+                  stroke-width="1.5"
+                  stroke="currentColor"
+                  class="size-4">
+                  <title>Clock icon</title>
+                  <path stroke-linecap="round" stroke-linejoin="round" d="M12 6v6h4.5m4.5 0a9 9 0 1 1-18 0 9 9 0 0 1 18 0Z" />
+                </svg>
+                {{ content | readingTime }} read
+              </span>
+            </div>
+
+            {% if tags %}
+              <div class="flex flex-wrap gap-2 mt-3">
+                {% for tag in tags %}
+                  {% if tag != 'article' and tag != 'latestNews' and tag != 'post' %}
+                    <a
+                      href="/{{ tag }}/"
+                      class="inline-block px-3 py-1 text-xs font-medium rounded-full bg-gray-100 text-gray-700 hover:bg-[color:var(--primary-color)] hover:text-white transition-colors capitalize"
+                    >
+                      {{ tag }}
+                    </a>
+                  {% endif %}
+                {% endfor %}
+              </div>
+            {% endif %}
+          {% else %}
+            <h1 class="font-bold text-5xl text-left inline-block mb-5">{{ title }}</h1>
           {% endif %}
         </div>
-
-        {% if 'latestNews' in tags %}
-          <span class="text-gray-500 text-sm italic md:justify-end pb-3 flex">
-            <svg
-              width="16px"
-              height="16px"
-              xmlns="http://www.w3.org/2000/svg"
-              fill="none"
-              viewBox="0 0 24 24"
-              stroke-width="1.5"
-              stroke="currentColor"
-              class="size-4 mr-2">
-              <title>Clock icon</title>
-              <path stroke-linecap="round" stroke-linejoin="round" d="M12 6v6h4.5m4.5 0a9 9 0 1 1-18 0 9 9 0 0 1 18 0Z" />
-            </svg>
-
-            About {{ content | readingTime }} reading time
-          </span>
-        {% endif %}
     
         <article class="prose my-4 max-w-none flex flex-col md:block">
     
@@ -50,7 +89,7 @@ eleventyComputed:
 
           {% endif %}
 
-          {% if 'latestNews' in tags %}
+          {% if 'divorce' in tags or 'coaching' in tags %}
             <div class="flex justify-end">
               <a
                 href="/book-a-free-call/"
@@ -105,10 +144,38 @@ eleventyComputed:
             </div>
         {% endif %}
 
+        <!-- Related Articles -->
+        {% if 'divorce' in tags or 'coaching' in tags %}
+          <section class="mt-12 pt-8 border-t border-gray-200">
+            <h2 class="text-2xl font-bold mb-6">Related Articles</h2>
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+              {% if 'divorce' in tags %}
+                {% set relatedPosts = collections.divorce %}
+              {% else %}
+                {% set relatedPosts = collections.coaching %}
+              {% endif %}
+
+              {% set count = 0 %}
+              {% for post in relatedPosts | reverse %}
+                {% if post.url != page.url and count < 3 %}
+                  {% set count = count + 1 %}
+                  <a href="{{ post.url }}" class="block bg-white border border-gray-200 rounded-lg p-4 hover:shadow-md transition-shadow no-underline">
+                    <h3 class="font-semibold text-gray-900 mb-2 line-clamp-2">{{ post.data.title }}</h3>
+                    {% if post.data.description %}
+                      <p class="text-sm text-gray-600 mb-3 line-clamp-2">{{ post.data.description }}</p>
+                    {% endif %}
+                    <time class="text-xs text-gray-500">{{ post.data.date | readableDate }}</time>
+                  </a>
+                {% endif %}
+              {% endfor %}
+            </div>
+          </section>
+        {% endif %}
+
     </div>
 
   <!-- Calendly -->
-	{% if 'latestNews' not in tags %}
+	{% if 'divorce' not in tags and 'coaching' not in tags %}
 		<section>
 			<iframe
 				src="https://calendly.com/saradavison/practitioner-call?embed_domain=divorce-coaching.com&amp;embed_type=Inline&amp;hide_gdpr_banner=1&amp;background_color=f1f8f0&amp;text_color=040404&amp;primary_color=894a84&utm_source=arragon-affiliates&utm_content={{ title }}"
