@@ -7,40 +7,40 @@ introText: The coaching world is always evolving, and staying ahead means keepin
 subTitle: Stay Ahead with the Latest Coaching News & Trends
 ---
 
-<section class="mt-15">
+<section class="mt-8">
   {% set coachingNews = collections.coaching %}
 
-  {% for news in coachingNews | reverse %}
-    <article class="pt-6 mt-6 border-t border-gray-200">
+  <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+    {% for news in coachingNews | reverse %}
       <a
         href="{{ news.url | url }}"
-        class="text-xl text-gray-900 mb-3 block no-underline hover:underline lg:pr-24">
-          
-          <span class="font-bold">
+        class="block bg-white rounded-lg shadow-md hover:shadow-lg transition-shadow overflow-hidden no-underline group">
+
+        <div class="h-1 bg-[color:var(--primary-color)]"></div>
+
+        <div class="p-5">
+          <h3 class="font-bold text-lg text-gray-900 mb-2 line-clamp-2 group-hover:text-[color:var(--primary-color)] transition-colors">
             {% if news.data.title %}
               {{ news.data.title }}
             {% else %}
               Untitled
             {% endif %}
-          </span>
-      
-      
-        {% if news.data.description %}
-          <p class="text-base text-gray-500 mb-3">
-            {{ news.data.description }}
-          </p>
-        {% endif %}
+          </h3>
 
-        <time class="text-gray-500 mb-3 text-sm italic inline-block w-full no-underline">{{ news.data.date | readableDate }}</time>
+          {% if news.data.description %}
+            <p class="text-sm text-gray-600 mb-4 line-clamp-3">
+              {{ news.data.description }}
+            </p>
+          {% endif %}
 
-        <p class="text-right sm:text-left mt-2 mb-0">
-          <span
-            class="text-[color:var(--primary-color)] hover:opacity-70 font-bold text-lg">
-            Read more →
-          </span>
-        </p>
+          <div class="flex items-center justify-between text-sm">
+            <time class="text-gray-500">{{ news.data.date | readableDate }}</time>
+            <span class="text-[color:var(--primary-color)] font-medium group-hover:translate-x-1 transition-transform">
+              Read →
+            </span>
+          </div>
+        </div>
       </a>
-
-    </article>
-  {% endfor %}
+    {% endfor %}
+  </div>
 </section>
