@@ -1,6 +1,6 @@
 ---
 title: How Do I Get a Divorce
-seoTitle: Thinking of getting divorced? How much does a Diovorce Cost?
+seoTitle: Thinking of getting divorced? How much does a Divorce Cost?
 description: A step-by-step guide to getting a divorce in the UK and the support
   available after a difficult breakup
 date: 2025-01-30
@@ -62,8 +62,8 @@ Getting professional legal support can make the process less stressful. A divorc
 
 Going through a divorce can be overwhelming, but help is available:
 
-* **[Heartbreak to Happiness Support Groups](/breakup-support-groups/)** – Connect with others experiencing similar challenges
-* **[One-on-One Divorce Coaching](/breakup-support-groups/)** – Get personalised guidance
+* **[Breakup Support Groups](/breakup-support-groups/)** – Connect with others experiencing similar challenges
+* **[One-on-One Divorce Coaching](/book-a-free-call/)** – Get personalised guidance
 * **Become a Certified Breakup & Divorce Coach** – Turn your experience into a career helping others. No prior coaching experience is required, and you can work from home or start a full-time coaching business
 
 🔗 Click here to[ **learn more**](/becoming-a-certified-divorce-coach/)

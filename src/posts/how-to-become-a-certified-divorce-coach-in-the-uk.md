@@ -44,7 +44,7 @@ As someone who's worked in relationship coaching adjacent fields, I can tell you
 
 In the UK, there are several respected divorce coach training programmes. The two most prominent are:
 
-* The Sara Davison Divorce Coach Programme: A UK-based programme that specialises in training coaches using proven methods developed through years of experience. [Learn more](/about-sara-davison/)
+* The Sara Davison Divorce Coach Programme: A UK-based programme that specialises in training coaches using proven methods developed through years of experience. [Learn more](/featured-partner-sara-davison-coaching-academy/)
 * International Divorce Coaching Organisation Excellence (IDCCOE): This global organisation offers comprehensive training recognised internationally
 
 When evaluating programmes, consider:

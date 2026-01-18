@@ -165,7 +165,7 @@ London has one of the highest divorce rates in the UK, influenced by:
 
 This means strong, ongoing demand for quality **divorce coaching services in London**.
 
-[Read more UK divorce statistics](/divorce-rates-in-the-uk/)
+[Read more UK divorce statistics](/uk-divorce-statistics-and-rates/)
 
 ### Get Support Today
 
