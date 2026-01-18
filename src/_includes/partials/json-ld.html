@@ -10,7 +10,7 @@
         "@type": "Organization",
         "image": "{{ env.site }}/static/img/divorce-coaching.jpg",
         "url": "{{ env.site }}",
-        "logo": "{{ env.site }}/android-chrome-512x512.png",
+        "logo": "{{ env.site }}/web-app-manifest-512x512.png",
         "name": "{{ settings.siteName }}",
         "description": "{{ settings.description }}"
       }
@@ -30,7 +30,7 @@
           "@type": "Organization",
           "@id": "{{ env.site }}",
           "name": "{{ settings.siteName }}",
-          "logo": "{{ env.site }}/android-chrome-512x512.png",
+          "logo": "{{ env.site }}/web-app-manifest-512x512.png",
           "telephone": "{{ settings.phoneNumber }}",
           "email": "{{ settings.email }}",
           "url": "{{ env.site }}",
@@ -69,7 +69,7 @@
           "name": "{{ settings.siteName }}",
           "logo": {
             "@type": "ImageObject",
-            "url": "{{ env.site }}/android-chrome-512x512.png"
+            "url": "{{ env.site }}/web-app-manifest-512x512.png"
           }
         }
       }
@@ -94,7 +94,7 @@
           "name": "{{ settings.siteName }}",
           "logo": {
             "@type": "ImageObject",
-            "url": "{{ env.site }}/android-chrome-512x512.png"
+            "url": "{{ env.site }}/web-app-manifest-512x512.png"
           }
         },
         "datePublished": "{{ date | iso8601 | safe }}",
@@ -133,6 +133,57 @@
         }
       }
 
+    {% elseif seoSchemaPageType == 'LocalBusiness' %}
+
+      {# LocalBusiness JSON ld for location pages #}
+
+      {
+        "@context": "https://schema.org",
+        "@type": "LocalBusiness",
+        "@id": "{{ env.site }}{{ page.url }}",
+        "name": "{{ title | safe }}",
+        "description": "{{ description | safe }}",
+        "url": "{{ env.site }}{{ page.url }}",
+        "image": "{{ env.site }}/static/img/divorce-coaching.jpg",
+        "priceRange": "££",
+        "areaServed": {
+          "@type": "City",
+          "name": "London",
+          "containedInPlace": {
+            "@type": "Country",
+            "name": "United Kingdom"
+          }
+        },
+        "serviceType": ["Divorce Coaching", "Relationship Coaching", "Life Coaching"],
+        "hasOfferCatalog": {
+          "@type": "OfferCatalog",
+          "name": "Divorce Coaching Services",
+          "itemListElement": [
+            {
+              "@type": "Offer",
+              "itemOffered": {
+                "@type": "Service",
+                "name": "One-to-One Divorce Coaching",
+                "description": "Personalised divorce coaching sessions in London, available online or in-person"
+              }
+            },
+            {
+              "@type": "Offer",
+              "itemOffered": {
+                "@type": "Service",
+                "name": "Online Divorce Coaching",
+                "description": "Flexible online coaching sessions for London residents"
+              }
+            }
+          ]
+        },
+        "parentOrganization": {
+          "@type": "Organization",
+          "name": "{{ settings.siteName }}",
+          "url": "{{ env.site }}"
+        }
+      }
+
     {% else %}
 
       {# WebSite JSON ld #}
@@ -149,7 +200,7 @@
           "name": "{{ settings.siteName }}",
           "logo": {
             "@type": "ImageObject",
-            "url": "{{ env.site }}/android-chrome-512x512.png"
+            "url": "{{ env.site }}/web-app-manifest-512x512.png"
           }
         }
       }

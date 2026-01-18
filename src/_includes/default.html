@@ -32,13 +32,13 @@
 
     <!-- If we're an article page -->
     {% if description %}
-      <meta property="description" content="{{ description }}"/>
+      <meta name="description" content="{{ description }}"/>
       <meta property="og:description" content="{{ description }}">
-      <meta property="twitter:description" content="{{ description }}">
+      <meta name="twitter:description" content="{{ description }}">
     {% else %}
-      <meta property="description" content="{{ settings.description }}"/>
+      <meta name="description" content="{{ settings.description }}"/>
       <meta property="og:description" content="{{ settings.description }}">
-      <meta property="twitter:description" content="{{ settings.description }}">
+      <meta name="twitter:description" content="{{ settings.description }}">
     {% endif %}
 
     <!-- If we're an article page -->
@@ -64,6 +64,7 @@
     <meta property="og:site_name" content="{{ settings.title }}">
     <meta property="twitter:site" content="{{ settings.title }}">
     <meta property="og:locale" content="en_GB">
+    <meta property="og:url" content="{{ canonical }}">
 
     <link rel="canonical" href="{{ canonical }}" />
 

@@ -14,10 +14,13 @@ ignore: true
     {%- endif %}
     {%- if item.url == '/' %}
     <priority>1.0</priority>
+    <changefreq>weekly</changefreq>
     {%- elif item.data.tags and 'article' in item.data.tags %}
     <priority>0.8</priority>
+    <changefreq>monthly</changefreq>
     {%- else %}
     <priority>0.6</priority>
+    <changefreq>monthly</changefreq>
     {%- endif %}
   </url>
   {%- endif %}

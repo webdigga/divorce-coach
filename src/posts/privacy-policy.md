@@ -1,7 +1,7 @@
 ---
 title: Privacy policy
 seoTitle: Privacy policy | Divorce Coaching
-description: Cookie consent
+description: Privacy policy for Divorce Coaching. Learn how we collect, use, and protect your data, including our cookie policy and Google Analytics usage.
 author: David White
 date: 2024-02-29T17:13:10.382Z
 type: privacy

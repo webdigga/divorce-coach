@@ -8,6 +8,7 @@ tags:
   - article
   - divorce
   - coaching
+seoSchemaPageType: LocalBusiness
 ---
 ## Divorce Coach London: Professional Support for Your Divorce Journey
 

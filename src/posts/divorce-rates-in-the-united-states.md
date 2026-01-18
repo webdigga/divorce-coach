@@ -1,7 +1,7 @@
 ---
 title: Divorce Rates In The United States
 seoTitle: US Divorce Rates Trends, Historical Statistics, and Insights
-description: A brief history of divorce rates amongst men and women in the United States
+description: Explore US divorce rate statistics, historical trends, and key insights. Discover how American divorce rates have changed over the decades and what factors influence them.
 date: 2025-02-28
 type: article
 tags:
