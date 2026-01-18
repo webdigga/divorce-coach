@@ -1,30 +1,65 @@
 {% set hero = collections.hero %}
 
-<section class="content-center grow">
-  <div class="mx-auto max-w-screen-xl px-4 pb-24 pt-20 lg:flex lg:items-center">
-    <div class="mx-auto max-w-xl text-center">
-      <h1 class="text-3xl font-extrabold sm:text-5xl text-white">{{ hero[0].data.title | safe }}</h1>
-      <h2 class="text-xl font-extrabold sm:text-2xl">
-        <strong class="font-extrabold text-[color:var(--secondary-colour)] sm:block"> {{ hero[0].data.description | safe }}. </strong>
-      </h2>
+<section class="gradient-warm min-h-[85vh] flex items-center">
+  <div class="max-w-7xl mx-auto px-4 sm:px-6 py-16 lg:py-24">
+    <div class="grid grid-cols-1 lg:grid-cols-2 gap-12 lg:gap-16 items-center">
 
-      <p class="mt-4 sm:text-xl/relaxed text-white">{{ hero[0].data.introText | safe }}</p>
+      <!-- Text Content -->
+      <div class="text-center lg:text-left order-2 lg:order-1">
+        <h1 class="text-3xl sm:text-4xl lg:text-5xl xl:text-6xl font-bold text-[color:var(--dark-color)] leading-tight mb-6">
+          {{ hero[0].data.title | safe }}
+        </h1>
 
-      <div class="mt-8 flex flex-wrap justify-center gap-4" x-data="">
-        <button
-          @click="document.getElementById('findOutMore').scrollIntoView({ behavior: 'smooth' })"
-          class="block w-full rounded-md bg-[color:var(--secondary-colour)] px-12 py-3 text-sm font-medium text-[color:var(--primary-color)] shadow hover:opacity-70 focus:outline-none focus:ring sm:w-auto"
-        >
-          Get Started
-        </button>
+        <p class="text-lg sm:text-xl text-[color:var(--primary-dark)] font-semibold mb-4">
+          {{ hero[0].data.description | safe }}
+        </p>
 
-        <a
-          class="block w-full rounded-md px-12 py-3 text-sm font-medium bg-white text-[color:var(--primary-color)] shadow hover:opacity-70 focus:outline-none focus:ring sm:w-auto"
-          href="/book-a-free-call/"
-        >
-          Book a Free Call
-        </a>
+        <p class="text-base sm:text-lg text-[color:var(--dark-color)] opacity-80 mb-8 max-w-xl mx-auto lg:mx-0">
+          {{ hero[0].data.introText | safe }}
+        </p>
+
+        <div class="flex flex-col sm:flex-row gap-4 justify-center lg:justify-start">
+          <a
+            href="/book-a-free-call/"
+            class="btn-primary text-center"
+          >
+            Start Your Journey
+          </a>
+
+          <button
+            x-data=""
+            @click="document.getElementById('findOutMore').scrollIntoView({ behavior: 'smooth' })"
+            class="btn-outline text-center"
+          >
+            Learn More
+          </button>
+        </div>
       </div>
+
+      <!-- Image with Blob -->
+      <div class="relative order-1 lg:order-2 flex justify-center">
+        <!-- Decorative blob behind image -->
+        <div class="absolute inset-0 flex items-center justify-center">
+          <div class="w-[90%] h-[90%] bg-[color:var(--secondary-colour)] blob-shape opacity-60"></div>
+        </div>
+
+        <!-- Image placeholder - replace with actual image -->
+        <div class="relative z-10 w-full max-w-md lg:max-w-lg">
+          <div class="aspect-[4/5] rounded-3xl overflow-hidden shadow-soft-lg bg-white">
+            <!-- Placeholder for hero image -->
+            <img
+              src="{{ hero[0].data.heroImage | default('/static/img/divorce-hero.webp') }}"
+              alt="Divorce coaching support"
+              class="w-full h-full object-cover"
+              loading="eager"
+            />
+          </div>
+        </div>
+
+        <!-- Decorative accent blob -->
+        <div class="absolute -bottom-4 -right-4 w-24 h-24 bg-[color:var(--accent-color)] blob-shape-alt opacity-40 hidden lg:block"></div>
+      </div>
+
     </div>
   </div>
 </section>

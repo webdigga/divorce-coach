@@ -77,8 +77,8 @@ Divorce does not automatically resolve financial matters or child arrangements. 
 
 ## **Support After a Difficult Divorce or Breakup**
 
-Going through a tough divorce or breakup can be emotionally overwhelming, but you don’t have to navigate it alone. A **Certified Divorce Coach** can provide guidance and support, many of whom have experienced similar challenges themselves. Or you can join of one many [support groups](https://divorce-coaching.com/breakup-support-groups/) where you can share your experiences, gain insights, and receive encouragement from others who are going through similar situations as yourself.
+Going through a tough divorce or breakup can be emotionally overwhelming, but you don’t have to navigate it alone. A **Certified Divorce Coach** can provide guidance and support, many of whom have experienced similar challenges themselves. Or you can join of one many [support groups](/breakup-support-groups/) where you can share your experiences, gain insights, and receive encouragement from others who are going through similar situations as yourself.
 
-Alternatively, you can **turn your own heartbreak into strength** by becoming a **[Certified Divorce Coach](https://divorce-coaching.com/book-a-free-call/)**. Not only can you help others through their journeys, but you can also create a meaningful career while earning additional income.
+Alternatively, you can **turn your own heartbreak into strength** by becoming a **[Certified Divorce Coach](/book-a-free-call/)**. Not only can you help others through their journeys, but you can also create a meaningful career while earning additional income.
 
-Looking for support or considering a new path? Explore how **[Divorce Coaching](https://divorce-coaching.com/book-a-free-call/)** can empower both you and others. 💙
+Looking for support or considering a new path? Explore how **[Divorce Coaching](/book-a-free-call/)** can empower both you and others. 💙

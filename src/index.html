@@ -9,30 +9,37 @@ eleventyComputed:
 
 {% import "./_includes/components/seoIntroText.html" as seoIntroText with context %}
 
-<section class="min-h-dvh bg-[color:var(--primary-color)] flex flex-col">
-
+<!-- Hero Section -->
+<section class="bg-[color:var(--light-bg)]">
   {% include "./_includes/partials/navbar.html" %}
-
   {% include "./_includes/components/hero.html" %}
-
 </section>
 
-<section id="findOutMore">
-  <div class="container mx-auto flex flex-col justify-center items-center">
+<!-- Homepage Intro -->
+{% include "./_includes/components/homepageSpiel.html" %}
 
-    {% include "./_includes/components/homepageSpiel.html" %}
+<!-- Product Cards Section -->
+<section class="py-16 md:py-20 bg-white">
+  <div class="max-w-7xl mx-auto px-4 sm:px-6">
 
-    <!-- Product cards -->
-    <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-3 lg:mx-0">
-    {% set productCardList = collections.productCard %}
+    <div class="text-center mb-12">
+      <h2 class="text-2xl md:text-3xl lg:text-4xl font-bold text-[color:var(--dark-color)] mb-4">
+        Explore Our Programmes
+      </h2>
+      <p class="text-[color:var(--dark-color)] opacity-70 max-w-2xl mx-auto">
+        Discover the training and resources that will help you build a rewarding career in divorce coaching.
+      </p>
+    </div>
 
+    <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 lg:gap-8">
+      {% set productCardList = collections.productCard %}
       {% for productCard in productCardList | sort(false, true, 'data.order') %}
         {% include "./_includes/components/product-card.html" %}
       {% endfor %}
     </div>
+
   </div>
 </section>
 
-<section class="bg-[color:var(--secondary-colour)] py-8 mb-[-1.5rem]">
-  {{ seoIntroText.seoIntroTextComponent() }}
-</section>
+<!-- SEO Content Section -->
+{{ seoIntroText.seoIntroTextComponent() }}

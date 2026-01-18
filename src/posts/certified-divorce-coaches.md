@@ -1,55 +1,65 @@
 ---
 title: Recommended Coaching Programmes
 seoTitle: Recommended Coaching Programmes | Divorce Coaching
-description: Explore accredited divorce coaching programmes and why
-  accreditation matters. Compare top providers and discover leading options,
-  including Sara Davison.
+description: Explore accredited divorce coaching programmes and why accreditation matters. Compare top providers and discover leading training options for aspiring coaches.
 date: 2025-08-29T11:28:32.363Z
 type: article
 tags:
   - article
 ---
-Our go to recommendation is **Sara Davison -** better known as The Divorce Coach. 
+## Finding the Right Coaching Programme
 
-## **Why Choose Training with Sara Davison?**
+Choosing the right training programme is one of the most important decisions you'll make as an aspiring divorce coach. The programme you select will shape your skills, credibility, and career opportunities.
 
-Sara Davison is a globally recognised **Divorce Coach, podcaster, and bestselling author** who has helped thousands of people rebuild their lives after breakups. Drawing on her own experience of divorce, Sara developed a proven framework of **strategies, tools, and practical techniques** to help people manage emotional challenges, recover faster, and regain confidence.
+We've researched and evaluated various coaching programmes to help you make an informed decision. Here are our recommended providers.
 
-Through the **Sara Davison Coaching Academy**, she has trained more than **750 coaches across 28+ countries**, creating a truly international coaching community. Her programmes are designed to give aspiring and established coaches the skills, resources, and support needed to grow a successful coaching business.
+## Why Coaching Accreditations Matter
 
-## **Divorce Coaching Accreditations with Sara Davison**
-
-Sara Davison Global offers internationally recognised and respected qualifications, including:
-
-* **Breakup & Divorce Coach Accreditation Programme** - accredited by the **CPD Standards Office** and the **International Coaching Federation (ICF)**.
-* **Master Practitioner Programme** - specialising in **Domestic Abuse & Narcissistic Abuse Coaching**, accredited by **The Dash Charity**, a leading UK domestic abuse charity.
-* With coaches trained in over **30 countries and 5 continents**, the Sara Davison brand is a world leader in **breakup, divorce, domestic abuse and narcissistic coaching.**
-
-<a href="/book-a-free-call/"><img src="/static/img/divorce-coaching-banner.avif" alt="Earn up to and over £6k per month, start your new coaching journey today, book now" title="" class="Centre" width="1456px" height="180px" loading="lazy"/></a>
-
-## **Why Coaching Accreditations Matter**
-
-When it comes to coaching, accreditation isn’t optional - it's essential. Accredited programmes:
+When it comes to coaching, accreditation isn't optional - it's essential. Accredited programmes:
 
 * Meet **industry-recognised professional standards**
 * Enhance your **credibility** as a coach
 * Count towards **CPD requirements**
 * Provide **international recognition**
-* Equip you with **specialist skills** to support clients through divorce, toxic relationships, and narcissistic abuse
-* For that reason, we only recommend accredited training providers who meet these standards
+* Equip you with **specialist skills** to support clients through divorce and relationship breakdown
 
-## **How to Find the Best Accredited Coaching Course**
+For that reason, we only recommend accredited training providers who meet these standards.
 
-Before choosing a coaching programme, make sure you:
+<a href="/book-a-free-call/"><img src="/static/img/divorce-coaching-banner.avif" alt="Start your new coaching journey today" title="" class="Centre" width="1456px" height="180px" loading="lazy"/></a>
+
+## Recommended Training Providers
+
+### Sara Davison Coaching Academy
+
+Sara Davison is a globally recognised divorce coach, podcaster, and bestselling author who has trained over **750 coaches across 28+ countries**. Her programmes include:
+
+* **Breakup & Divorce Coach Accreditation Programme** - accredited by the CPD Standards Office and the International Coaching Federation (ICF)
+* **Master Practitioner Programme** - specialising in Domestic Abuse & Narcissistic Abuse Coaching
+
+[Learn more about Sara Davison Coaching Academy](/featured-partner-sara-davison-coaching-academy/)
+
+### The Divorce Coaching Academy
+
+The Divorce Coaching Academy offers a **Diploma in Professional Divorce Coaching** accredited by the Association for Coaching. Their programme provides comprehensive training for those looking to specialise in divorce support.
+
+[Visit The Divorce Coaching Academy](https://www.thedivorcecoachingacademy.com/?utm_source=divorce-coaching.com&utm_medium=website&utm_campaign=recommended_programmes)
+
+### ICF Coaching Programmes
+
+The **International Coaching Federation (ICF)** is one of the most respected coaching bodies worldwide. With over 3,700 members in the UK alone, ICF certification is highly valuable for coaches seeking global recognition.
+
+[Explore ICF Coaching Programmes](https://www.tobecome.org/icf-coaching-diploma/?utm_source=divorce-coaching.com&utm_medium=website&utm_campaign=recommended_programmes)
+
+## How to Choose the Best Programme for You
+
+Before selecting a coaching programme, consider:
 
 1. **Check accreditations** - verify training is backed by professional organisations
 2. **Research testimonials** - read and watch stories from past students
 3. **Speak to graduates** - learn about their experience and results
-4. **Compare providers** - ensure the training aligns with your professional goals.
+4. **Compare providers** - ensure the training aligns with your professional goals
+5. **Consider your budget** - look for flexible payment options if needed
 
-## **Other Recognised Coaching Accreditation Bodies**
+## Need Help Deciding?
 
-* **The Divorce Coaching Academy -** [www.thedivorcecoachingacademy.com
-  ](https://www.thedivorcecoachingacademy.com/?utm_source=divorce-coaching.com)Offers a **Diploma in Professional Divorce Coaching** accredited by the **Association for Coaching**
-* **ICF Coaching Programmes -** [ICF Coaching Diploma
-  ](https://www.tobecome.org/icf-coaching-diploma/?utm_source=divorce-coaching.com)The **International Coaching Federation (ICF)** is one of the most respected coaching bodies worldwide. In the UK alone, the ICF has over **3,700 members**, making this certification highly valuable for coaches who want global recognition
+Not sure which programme is right for you? [Get in touch](/book-a-free-call/) and we can help guide you through your options based on your background, goals, and circumstances.

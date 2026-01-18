@@ -2,86 +2,250 @@
 @tailwind components;
 @tailwind utilities;
 
-/*Your Custom CSS Goes here*/
+/* ========================================
+   WARM & HUMAN DESIGN SYSTEM
+   Theme: Soft Blush/Rose
+   ======================================== */
 
 :root {
-  --primary-color: #2C3E50;
-  --secondary-colour: #B4E1D4;
+  /* Primary Colors */
+  --primary-color: #C9A9A6;      /* Dusty Rose */
+  --primary-dark: #A67F7B;       /* Deep Rose (hover) */
+  --secondary-colour: #F5E6E0;   /* Blush Pink */
+  --accent-color: #7D9B8E;       /* Sage Green */
+
+  /* Neutrals */
+  --dark-color: #4A4545;         /* Warm Charcoal */
+  --light-bg: #FDF9F8;           /* Warm Cream */
   --white: #ffffff;
 }
 
 body {
-  font-family: "Roboto", sans-serif;
+  font-family: "Nunito", sans-serif;
   font-style: normal;
   font-weight: 400;
+  color: var(--dark-color);
+  background-color: var(--light-bg);
 }
 
 h1 {
-  @apply text-4xl tracking-tighter mb-3 text-center lg:text-7xl;
+  @apply text-4xl tracking-tight mb-4 lg:text-6xl font-bold;
+}
+
+h2 {
+  @apply text-2xl md:text-3xl font-bold mb-4;
 }
 
 h3 {
-  @apply text-2xl font-bold mb-3;
+  @apply text-xl md:text-2xl font-semibold mb-3;
 }
 
+/* ========================================
+   CONTAINER SYSTEM - Consistent widths
+   ======================================== */
 .container {
-  @apply p-4 sm:p-5 md:p-6;
+  @apply px-4 sm:px-6 mx-auto;
 }
-
-/* Syntax Highlighting*/
-body :not(pre) > code[class*="language-"],
-body pre[class*="language-"] {
-  @apply bg-gray-800;
-}
-
-.booking-form {
-	min-height: 1130px;
-}
-
-@media (min-width: 640px) {
-	.booking-form {
-		min-width: 400px;
-	}
-}
-
-@media (min-width: 768px) {
-	.booking-form {
-		min-height: 1220px;
-	}
-}
-
-@media (min-width: 1024px) {
-	.booking-form {
-		min-height: 1155px;
-	}
-}
-
-@media (min-width: 1280px) {
-	.booking-form {
-		min-width: 500px;
-	}
-}
-
-/*
-  Article image component
-*/
-img.Centre {
-  @apply mx-auto;
-}
-
-img.Left {
-  @apply m-0 md:float-left md:pr-12 md:pb-8 md:max-w-[50%];
-}
-
-img.Right {
-  @apply m-0 md:float-right md:pl-12 md:pb-8 md:max-w-[50%];
-}
-
-/* To stop flicker after deferring Alpine JS */
-[x-cloak] { display: none !important; }
 
 @layer components {
   .container {
-    @apply max-w-none sm:max-w-screen-sm md:max-w-screen-md lg:max-w-screen-lg xl:max-w-screen-xl 2xl:max-w-screen-2xl;
+    @apply max-w-7xl;
   }
+
+  .container-narrow {
+    @apply max-w-4xl mx-auto px-4 sm:px-6;
+  }
+}
+
+/* ========================================
+   ORGANIC SHAPES & DECORATIVE ELEMENTS
+   ======================================== */
+
+/* Blob shapes for decorative backgrounds */
+.blob-shape {
+  border-radius: 60% 40% 30% 70% / 60% 30% 70% 40%;
+}
+
+.blob-shape-alt {
+  border-radius: 30% 70% 70% 30% / 30% 30% 70% 70%;
+}
+
+/* Wave dividers */
+.wave-divider {
+  position: relative;
+  overflow: hidden;
+}
+
+.wave-divider::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 80px;
+  background: var(--light-bg);
+  clip-path: ellipse(80% 100% at 50% 0%);
+}
+
+.wave-divider-bottom::after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 80px;
+  background: var(--light-bg);
+  clip-path: ellipse(80% 100% at 50% 100%);
+}
+
+/* Soft section backgrounds */
+.section-cream {
+  background-color: var(--light-bg);
+}
+
+.section-blush {
+  background-color: var(--secondary-colour);
+}
+
+.section-white {
+  background-color: var(--white);
+}
+
+/* Gradient backgrounds */
+.gradient-warm {
+  background: linear-gradient(135deg, var(--light-bg) 0%, var(--secondary-colour) 100%);
+}
+
+.gradient-hero {
+  background: linear-gradient(180deg, var(--light-bg) 0%, var(--secondary-colour) 50%, var(--light-bg) 100%);
+}
+
+/* ========================================
+   BUTTON STYLES
+   ======================================== */
+
+.btn-primary {
+  @apply inline-block px-8 py-3 rounded-full font-semibold transition-all duration-300 ease-in-out;
+  background-color: var(--primary-color);
+  color: white;
+}
+
+.btn-primary:hover {
+  background-color: var(--primary-dark);
+  @apply transform scale-105 shadow-lg;
+}
+
+.btn-secondary {
+  @apply inline-block px-8 py-3 rounded-full font-semibold transition-all duration-300 ease-in-out;
+  background-color: white;
+  color: var(--dark-color);
+  @apply shadow-md;
+}
+
+.btn-secondary:hover {
+  @apply transform scale-105 shadow-xl;
+  background-color: var(--secondary-colour);
+}
+
+.btn-outline {
+  @apply inline-block px-8 py-3 rounded-full font-semibold transition-all duration-300 ease-in-out border-2;
+  border-color: var(--primary-color);
+  color: var(--primary-color);
+  background: transparent;
+}
+
+.btn-outline:hover {
+  background-color: var(--primary-color);
+  color: white;
+  @apply transform scale-105;
+}
+
+/* ========================================
+   CARD STYLES
+   ======================================== */
+
+.card {
+  @apply bg-white rounded-2xl shadow-sm transition-all duration-300 ease-in-out overflow-hidden;
+}
+
+.card:hover {
+  @apply shadow-xl transform -translate-y-1;
+}
+
+.card-blush {
+  background-color: var(--secondary-colour);
+  @apply rounded-2xl shadow-sm transition-all duration-300;
+}
+
+/* ========================================
+   UTILITY CLASSES
+   ======================================== */
+
+/* Syntax Highlighting */
+body :not(pre) > code[class*="language-"],
+body pre[class*="language-"] {
+  @apply bg-gray-800 rounded-lg;
+}
+
+/* Lead capture form styling */
+.lead-capture-container {
+  @apply max-w-lg mx-auto bg-white p-8 rounded-2xl shadow-lg;
+}
+
+/* Article image component */
+img.Centre {
+  @apply mx-auto rounded-xl;
+}
+
+img.Left {
+  @apply m-0 md:float-left md:pr-8 md:pb-6 md:max-w-[45%] rounded-xl;
+}
+
+img.Right {
+  @apply m-0 md:float-right md:pl-8 md:pb-6 md:max-w-[45%] rounded-xl;
+}
+
+/* Alpine.js cloak */
+[x-cloak] { display: none !important; }
+
+/* ========================================
+   TYPOGRAPHY ENHANCEMENTS
+   ======================================== */
+
+.text-warm {
+  color: var(--dark-color);
+}
+
+.text-rose {
+  color: var(--primary-color);
+}
+
+.text-rose-dark {
+  color: var(--primary-dark);
+}
+
+/* Link styles within prose */
+.prose a {
+  color: var(--primary-dark);
+  text-decoration: underline;
+  text-decoration-color: var(--primary-color);
+  text-underline-offset: 2px;
+  transition: all 0.2s ease;
+}
+
+.prose a:hover {
+  color: var(--primary-color);
+  text-decoration-color: var(--primary-dark);
+}
+
+/* ========================================
+   SECTION SPACING
+   ======================================== */
+
+.section-padding {
+  @apply py-16 md:py-20 lg:py-24;
+}
+
+.section-padding-sm {
+  @apply py-10 md:py-14 lg:py-16;
 }

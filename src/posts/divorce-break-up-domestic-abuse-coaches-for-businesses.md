@@ -25,8 +25,8 @@ Divorce Training Programmes Provide You with the Essential Business Tools to Suc
 * Position yourself as an indispensable asset for any corporate team
 * Maximise your revenue potential with corporate clients
 
-## Act Now?
+## Act Now
 
-If you’ve been considering enrolling in divorce and breakup training program, now is the perfect time to join one of the fastest coaching niches and earn an additional revenue stream or start your own business and new career.
+If you've been considering enrolling in a divorce and breakup training programme, now is the perfect time to join one of the fastest-growing coaching niches and earn an additional revenue stream or start your own business and new career.
 
-Book you’re a call now with the world’s leading Divorce and Breakup Coach, Sara Davison today!
+[Book a free call today](/book-a-free-call/) to learn more about training options and how you can get started.

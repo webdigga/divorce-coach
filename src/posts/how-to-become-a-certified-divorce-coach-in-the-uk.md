@@ -44,7 +44,7 @@ As someone who's worked in relationship coaching adjacent fields, I can tell you
 
 In the UK, there are several respected divorce coach training programmes. The two most prominent are:
 
-* The Sara Davison Divorce Coach Programme: Founded by the "Divorce Coach" author Sara Davison, this UK-based programme specialises in training coaches using proven methods developed through years of experience
+* The Sara Davison Divorce Coach Programme: A UK-based programme that specialises in training coaches using proven methods developed through years of experience. [Learn more](/about-sara-davison/)
 * International Divorce Coaching Organisation Excellence (IDCCOE): This global organisation offers comprehensive training recognised internationally
 
 When evaluating programmes, consider:
@@ -151,7 +151,7 @@ We believe the most successful divorce coaches have both professional skills and
 
 If you're specifically interested in coaching people through both breakups and divorces, you'll want to:
 
-1. Select a programme that covers both married and unmarried relationship endings. The Sara Davison programme specifically addresses this broader scope.
+1. Select a programme that covers both married and unmarried relationship endings. Look for programmes that specifically address this broader scope.
 
 2. Develop understanding of the differences between divorce and non-marital breakups, including: 
 
@@ -222,4 +222,4 @@ If you're drawn to this work, I encourage you to:
 
 The journey to becoming a divorce coach is both professional and personal—it will challenge you, change you, and ultimately reward you with the knowledge that you're making a profound difference during people's most vulnerable moments.
 
-Ready to take the next step? [Visit Sara Davison's Coach Signup](https://saradavison.com/become-a-coach-signup?utm_source=arragon_affiliates&utm_content=guide_to_coaching) or IDCCOE to learn more about upcoming training opportunities.
+Ready to take the next step? [Get in touch](/book-a-free-call/) to learn more about training opportunities and find the right programme for you.

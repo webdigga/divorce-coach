@@ -102,6 +102,37 @@
         "timeRequired": "PT{{ content | readingTime | replace(' min', '') }}M"
       }
 
+    {% elseif type == 'landing' or (tags and 'landing' in tags) %}
+
+      {# Course JSON ld for training/landing pages #}
+
+      {
+        "@context": "https://schema.org",
+        "@type": "Course",
+        "name": "{{ title | safe }}",
+        "description": "{{ description | safe }}",
+        "provider": {
+          "@type": "Organization",
+          "name": "{{ settings.siteName }}",
+          "url": "{{ env.site }}"
+        },
+        "hasCourseInstance": {
+          "@type": "CourseInstance",
+          "courseMode": "online",
+          "courseWorkload": "PT40H"
+        },
+        "offers": {
+          "@type": "Offer",
+          "category": "Professional Training",
+          "availability": "https://schema.org/InStock"
+        },
+        "educationalLevel": "Professional",
+        "audience": {
+          "@type": "Audience",
+          "audienceType": "Aspiring Divorce Coaches"
+        }
+      }
+
     {% else %}
 
       {# WebSite JSON ld #}
@@ -126,8 +157,8 @@
     {% endif %}
   </script>
 
-  {# Breadcrumb Schema - for articles and category pages #}
-  {% if seoSchemaPageType == 'Article' or (tags and 'divorce' in tags) or (tags and 'coaching' in tags) %}
+  {# Breadcrumb Schema - for all pages except homepage #}
+  {% if page.url != '/' and title %}
   <script type="application/ld+json">
     {
       "@context": "https://schema.org",
@@ -149,7 +180,8 @@
         {
           "@type": "ListItem",
           "position": 3,
-          "name": "{{ title | safe }}"
+          "name": "{{ title | safe }}",
+          "item": "{{ env.site }}{{ page.url }}"
         }
         {% elseif tags and 'coaching' in tags %},
         {
@@ -161,13 +193,15 @@
         {
           "@type": "ListItem",
           "position": 3,
-          "name": "{{ title | safe }}"
+          "name": "{{ title | safe }}",
+          "item": "{{ env.site }}{{ page.url }}"
         }
         {% else %},
         {
           "@type": "ListItem",
           "position": 2,
-          "name": "{{ title | safe }}"
+          "name": "{{ title | safe }}",
+          "item": "{{ env.site }}{{ page.url }}"
         }
         {% endif %}
       ]

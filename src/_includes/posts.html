@@ -7,235 +7,224 @@ eleventyComputed:
 
 {% include "./partials/navbar.html" %}
 {% import "./components/faqs.html" as faqs with context %}
+{% import "./components/breadcrumbs.html" as breadcrumbsComponent with context %}
 
-<div class="container mt-6 px-6 flex flex-col lg:flex-row {% if 'latestNews' in tags or 'divorce' in tags or 'coaching' in tags %}justify-center{% endif %}">
+<main class="bg-[color:var(--light-bg)] py-8 md:py-12">
+  <div class="max-w-7xl mx-auto px-4 sm:px-6">
 
-    <div class="lg:pr-8 {% if 'latestNews' in tags or 'divorce' in tags or 'coaching' in tags %}max-w-screen-lg mx-auto{% endif %}">
-        <div class="pb-5 mb-5 border-b border-gray-100">
-          {% if 'divorce' in tags or 'coaching' in tags %}
-            <div class="flex flex-col lg:flex-row lg:justify-between lg:items-start gap-4 mb-4">
-              <h1 class="font-bold text-3xl md:text-4xl lg:text-5xl text-left mb-0">{{ title }}</h1>
+    <article class="max-w-4xl mx-auto">
 
-              <div class="flex items-center gap-4 lg:min-w-fit self-end">
-                <div class="flex flex-col items-end">
-                  <a
-                    href="https://www.linkedin.com/in/jonny-rowse-70a09126/"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    class="font-medium text-gray-900 hover:text-[color:var(--primary-color)] transition-colors text-lg"
-                  >
-                    Jonny Rowse
-                  </a>
-                  <span class="text-gray-500 text-sm">Editor</span>
-                </div>
-                <img
-                  src="/static/img/jonny-rowse.webp"
-                  alt="Jonny Rowse"
-                  width="80"
-                  height="80"
-                  class="w-20 h-20 rounded-full object-cover"
-                  loading="lazy"
-                />
-              </div>
-            </div>
+      <!-- Breadcrumbs -->
+      {{ breadcrumbsComponent.breadcrumbs() }}
 
-            <div class="flex items-center justify-between text-gray-500 text-sm">
-              <time datetime="{{ date | iso8601 }}">
-                Published: {{ date | readableDate }}
-              </time>
-              <span class="flex items-center gap-1">
-                <svg
-                  width="16px"
-                  height="16px"
-                  xmlns="http://www.w3.org/2000/svg"
-                  fill="none"
-                  viewBox="0 0 24 24"
-                  stroke-width="1.5"
-                  stroke="currentColor"
-                  class="size-4">
-                  <title>Clock icon</title>
-                  <path stroke-linecap="round" stroke-linejoin="round" d="M12 6v6h4.5m4.5 0a9 9 0 1 1-18 0 9 9 0 0 1 18 0Z" />
-                </svg>
-                {{ content | readingTime }} read
-              </span>
-            </div>
-
-            {% if tags %}
-              <div class="flex flex-wrap gap-2 mt-3">
-                {% for tag in tags %}
-                  {% if tag != 'article' and tag != 'latestNews' and tag != 'post' %}
-                    <a
-                      href="/{{ tag }}/"
-                      class="inline-block px-3 py-1 text-xs font-medium rounded-full bg-gray-100 text-gray-700 hover:bg-[color:var(--primary-color)] hover:text-white transition-colors capitalize"
-                    >
-                      {{ tag }}
-                    </a>
-                  {% endif %}
-                {% endfor %}
-              </div>
-            {% endif %}
-          {% else %}
-            <h1 class="font-bold text-5xl text-left inline-block mb-5">{{ title }}</h1>
-          {% endif %}
-        </div>
-    
-        <article class="prose my-4 max-w-none flex flex-col md:block">
-    
-          {{ content | safe }}          
-
-          {% if 'faq' in tags %}
-          
-            {{ faqs.faqs() }}
-
-          {% endif %}
-
-          {% if 'divorce' in tags or 'coaching' in tags %}
-            <div class="flex justify-end">
-              <a
-                href="/book-a-free-call/"
-                class="no-underline bg-[color:var(--primary-color)] text-white py-4 px-12 rounded-md hover:opacity-70">
-                Book a Free Discovery Call
-              </a>
-            </div>
-          {% endif %}
-
-        </article>
-
-        <!-- Highlight boxes -->
-        {% if highlightsBoxes[0] %}
-            <div class="grid grid-cols-1 md:grid-cols-2 gap-3 my-5 lg:mx-0">
-                {% for highlightsBox in highlightsBoxes %}
-                    <div class="bg-white border border-gray-200 rounded-md shadow flex flex-col">
-
-                        <div class="p-5 flex flex-col grow">
-                            {% if highlightsBox.title %}
-                                <h3 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 pb-2 border-b border-gray-200">{{ highlightsBox.title }}</h3>
-                            {% endif %}
-
-                            {% if highlightsBox.highlightsListItem[0] %}
-                                <ul>
-                                    {% for highlight in highlightsBox.highlightsListItem %}
-                                        <li class="mb-3 last:mb-0 first:mt-3 font-normal text-gray-700 grow flex items-center">
-                                            <span>
-                                                <svg
-                                                    xmlns="http://www.w3.org/2000/svg"
-                                                    viewBox="0 0 24 24"
-                                                    fill="var(--primary-color)"
-                                                    class="w-6 h-6"
-                                                    width="24px"
-                                                    height="24px">
-                                                    <path
-                                                        fill-rule="evenodd"
-                                                        d="M8.603 3.799A4.49 4.49 0 0 1 12 2.25c1.357 0 2.573.6 3.397 1.549a4.49 4.49 0 0 1 3.498 1.307 4.491 4.491 0 0 1 1.307 3.497A4.49 4.49 0 0 1 21.75 12a4.49 4.49 0 0 1-1.549 3.397 4.491 4.491 0 0 1-1.307 3.497 4.491 4.491 0 0 1-3.497 1.307A4.49 4.49 0 0 1 12 21.75a4.49 4.49 0 0 1-3.397-1.549 4.49 4.49 0 0 1-3.498-1.306 4.491 4.491 0 0 1-1.307-3.498A4.49 4.49 0 0 1 2.25 12c0-1.357.6-2.573 1.549-3.397a4.49 4.49 0 0 1 1.307-3.497 4.49 4.49 0 0 1 3.497-1.307Zm7.007 6.387a.75.75 0 1 0-1.22-.872l-3.236 4.53L9.53 12.22a.75.75 0 0 0-1.06 1.06l2.25 2.25a.75.75 0 0 0 1.14-.094l3.75-5.25Z"
-                                                        clip-rule="evenodd"
-                                                    />
-                                                </svg>
-                                            </span>
-
-                                            <span class="ml-2">{{ highlight.highlight }}</span>
-                                        </li>
-                                    {% endfor %}
-                                </ul>
-                            {% endif %}
-
-                        </div>
-                    </div>
-                {% endfor %}
-            </div>
-        {% endif %}
-
-        <!-- Related Articles -->
+      <!-- Article Header -->
+      <header class="mb-8 pb-8 border-b border-[color:var(--secondary-colour)]">
         {% if 'divorce' in tags or 'coaching' in tags %}
-          <section class="mt-12 pt-8 border-t border-gray-200">
-            <h2 class="text-2xl font-bold mb-6">Related Articles</h2>
-            <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
-              {% if 'divorce' in tags %}
-                {% set relatedPosts = collections.divorce %}
-              {% else %}
-                {% set relatedPosts = collections.coaching %}
-              {% endif %}
 
-              {% set count = 0 %}
-              {% for post in relatedPosts | reverse %}
-                {% if post.url != page.url and count < 3 %}
-                  {% set count = count + 1 %}
-                  <a href="{{ post.url }}" class="block bg-white border border-gray-200 rounded-lg p-4 hover:shadow-md transition-shadow no-underline">
-                    <h3 class="font-semibold text-gray-900 mb-2 line-clamp-2">{{ post.data.title }}</h3>
-                    {% if post.data.description %}
-                      <p class="text-sm text-gray-600 mb-3 line-clamp-2">{{ post.data.description }}</p>
-                    {% endif %}
-                    <time class="text-xs text-gray-500">{{ post.data.date | readableDate }}</time>
+          <!-- Title and Author -->
+          <div class="flex flex-col lg:flex-row lg:justify-between lg:items-start gap-6 mb-6">
+            <h1 class="text-3xl md:text-4xl lg:text-5xl font-bold text-[color:var(--dark-color)] leading-tight">
+              {{ title }}
+            </h1>
+
+            <div class="flex items-center gap-4 lg:flex-shrink-0">
+              <div class="text-right">
+                <a
+                  href="https://www.linkedin.com/in/jonny-rowse-70a09126/?utm_source=divorce-coaching.com&utm_medium=website&utm_campaign=author_profile"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  class="font-semibold text-[color:var(--dark-color)] hover:text-[color:var(--primary-color)] transition-colors"
+                >
+                  Jonny Rowse
+                </a>
+                <p class="text-sm text-[color:var(--dark-color)] opacity-60">Editor</p>
+              </div>
+              <img
+                src="/static/img/jonny-rowse.webp"
+                alt="Jonny Rowse"
+                width="64"
+                height="64"
+                class="w-16 h-16 rounded-full object-cover ring-2 ring-[color:var(--secondary-colour)]"
+                loading="lazy"
+              />
+            </div>
+          </div>
+
+          <!-- Meta Info -->
+          <div class="flex items-center justify-between text-sm text-[color:var(--dark-color)] opacity-60 mb-4">
+            <time datetime="{{ date | iso8601 }}">
+              {{ date | readableDate }}
+            </time>
+            <span class="flex items-center gap-1">
+              <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z"/>
+              </svg>
+              {{ content | readingTime }} read
+            </span>
+          </div>
+
+          <!-- Tags -->
+          {% if tags %}
+            <div class="flex flex-wrap gap-2">
+              {% for tag in tags %}
+                {% if tag != 'article' and tag != 'latestNews' and tag != 'post' %}
+                  <a
+                    href="/{{ tag }}/"
+                    class="inline-block px-3 py-1 text-xs font-medium rounded-full bg-[color:var(--secondary-colour)] text-[color:var(--dark-color)] hover:bg-[color:var(--primary-color)] hover:text-white transition-all duration-200 capitalize"
+                  >
+                    {{ tag }}
                   </a>
                 {% endif %}
               {% endfor %}
             </div>
-          </section>
-        {% endif %}
-
-    </div>
-
-  <!-- Calendly -->
-	{% if 'divorce' not in tags and 'coaching' not in tags %}
-		<section>
-			<iframe
-				src="https://calendly.com/saradavison/practitioner-call?embed_domain=divorce-coaching.com&amp;embed_type=Inline&amp;hide_gdpr_banner=1&amp;background_color=f1f8f0&amp;text_color=040404&amp;primary_color=894a84&utm_source=arragon-affiliates&utm_content={{ title }}"
-				width="100%"
-				id="booking-form-calendly"
-				height="100%"
-				frameborder="0"
-				loading="lazy"
-				class="booking-form">
-			</iframe>
-		</section>
-	{% endif %}
-</div>
-
-<!-- In the media and accreditations copy -->
-{% if inTheMediaAndAccreditationsCopy %}
-  <section class="container 2xl:max-w-6xl px-6 pt-8 mt-8 border-t mb-8">
-    <div class="lg:pr-8">
-      <article class="prose my-4 max-w-none flex flex-col md:block">
-        {{ inTheMediaAndAccreditationsCopy }}
-      </article>
-    </div>
-  </section>
-{% endif %}	
-
-<!-- YouTube videos -->
-{% if youTubeVideos %}
-  <section class="container 2xl:max-w-6xl px-6 lg:flex lg:relative lg:justify-center lg:mb-11">
-      {% set cls = cycler(true, false) %}
-      {% for youTubeVideo in youTubeVideos %}
-          {% if youTubeVideo.videoTitle and youTubeVideo.embedPath %}
-              <div class="lg:w-1/2 h-96 mb-24  prose max-w-full {% if cls.next() %}lg:mr-5{% endif %}">
-                  <h3 class="mt-0">{{ youTubeVideo.videoTitle }}</h3>		
-                  <iframe
-                      width="100%"
-                      height="100%"
-                      src="{{ youTubeVideo.embedPath }}"
-                      title="{{ youTubeVideo.videoTitle }}"
-                      frameborder="0"
-                      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                      allowfullscreen
-                      class="relative">
-                  </iframe>
-              </div>			
           {% endif %}
-      {% endfor %}
+
+        {% else %}
+          <h1 class="text-3xl md:text-4xl lg:text-5xl font-bold text-[color:var(--dark-color)]">
+            {{ title }}
+          </h1>
+        {% endif %}
+      </header>
+
+      <!-- Article Content -->
+      <div class="prose prose-lg max-w-none text-[color:var(--dark-color)]">
+        {{ content | safe }}
+
+        {% if 'faq' in tags %}
+          {{ faqs.faqs() }}
+        {% endif %}
+      </div>
+
+      <!-- CTA Button -->
+      {% if 'divorce' in tags or 'coaching' in tags %}
+        <div class="flex justify-center mt-12">
+          <a href="/book-a-free-call/" class="btn-primary text-center">
+            Start Your Journey
+          </a>
+        </div>
+      {% endif %}
+
+      <!-- Highlight Boxes -->
+      {% if highlightsBoxes[0] %}
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-6 my-12">
+          {% for highlightsBox in highlightsBoxes %}
+            <div class="bg-white rounded-2xl shadow-soft p-6">
+              {% if highlightsBox.title %}
+                <h3 class="text-xl font-bold text-[color:var(--dark-color)] pb-4 mb-4 border-b border-[color:var(--secondary-colour)]">
+                  {{ highlightsBox.title }}
+                </h3>
+              {% endif %}
+
+              {% if highlightsBox.highlightsListItem[0] %}
+                <ul class="space-y-3">
+                  {% for highlight in highlightsBox.highlightsListItem %}
+                    <li class="flex items-start gap-3">
+                      <svg class="w-6 h-6 flex-shrink-0 text-[color:var(--accent-color)]" fill="currentColor" viewBox="0 0 24 24">
+                        <path fill-rule="evenodd" d="M8.603 3.799A4.49 4.49 0 0 1 12 2.25c1.357 0 2.573.6 3.397 1.549a4.49 4.49 0 0 1 3.498 1.307 4.491 4.491 0 0 1 1.307 3.497A4.49 4.49 0 0 1 21.75 12a4.49 4.49 0 0 1-1.549 3.397 4.491 4.491 0 0 1-1.307 3.497 4.491 4.491 0 0 1-3.497 1.307A4.49 4.49 0 0 1 12 21.75a4.49 4.49 0 0 1-3.397-1.549 4.49 4.49 0 0 1-3.498-1.306 4.491 4.491 0 0 1-1.307-3.498A4.49 4.49 0 0 1 2.25 12c0-1.357.6-2.573 1.549-3.397a4.49 4.49 0 0 1 1.307-3.497 4.49 4.49 0 0 1 3.497-1.307Zm7.007 6.387a.75.75 0 1 0-1.22-.872l-3.236 4.53L9.53 12.22a.75.75 0 0 0-1.06 1.06l2.25 2.25a.75.75 0 0 0 1.14-.094l3.75-5.25Z" clip-rule="evenodd"/>
+                      </svg>
+                      <span class="text-[color:var(--dark-color)]">{{ highlight.highlight }}</span>
+                    </li>
+                  {% endfor %}
+                </ul>
+              {% endif %}
+            </div>
+          {% endfor %}
+        </div>
+      {% endif %}
+
+      <!-- Related Articles -->
+      {% if 'divorce' in tags or 'coaching' in tags %}
+        <section class="mt-16 pt-12 border-t border-[color:var(--secondary-colour)]">
+          <h2 class="text-2xl font-bold text-[color:var(--dark-color)] mb-8">Related Articles</h2>
+          <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+            {% if 'divorce' in tags %}
+              {% set relatedPosts = collections.divorce %}
+            {% else %}
+              {% set relatedPosts = collections.coaching %}
+            {% endif %}
+
+            {% set count = 0 %}
+            {% for post in relatedPosts | reverse %}
+              {% if post.url != page.url and count < 3 %}
+                {% set count = count + 1 %}
+                <a
+                  href="{{ post.url }}"
+                  class="group bg-white rounded-2xl p-5 shadow-soft hover:shadow-soft-lg transition-all duration-300 hover:-translate-y-1 no-underline"
+                >
+                  <h3 class="font-semibold text-[color:var(--dark-color)] mb-2 line-clamp-2 group-hover:text-[color:var(--primary-color)] transition-colors">
+                    {{ post.data.title }}
+                  </h3>
+                  {% if post.data.description %}
+                    <p class="text-sm text-[color:var(--dark-color)] opacity-60 mb-3 line-clamp-2">
+                      {{ post.data.description }}
+                    </p>
+                  {% endif %}
+                  <time class="text-xs text-[color:var(--primary-color)]">
+                    {{ post.data.date | readableDate }}
+                  </time>
+                </a>
+              {% endif %}
+            {% endfor %}
+          </div>
+        </section>
+      {% endif %}
+
+    </article>
+
+  </div>
+</main>
+
+<!-- Additional Content Sections -->
+{% if inTheMediaAndAccreditationsCopy %}
+  <section class="bg-white py-12">
+    <div class="max-w-4xl mx-auto px-4 sm:px-6">
+      <div class="prose prose-lg max-w-none">
+        {{ inTheMediaAndAccreditationsCopy }}
+      </div>
+    </div>
   </section>
 {% endif %}
 
-<!-- Accreditations -->
+{% if youTubeVideos %}
+  <section class="bg-[color:var(--light-bg)] py-12">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6">
+      <div class="grid grid-cols-1 lg:grid-cols-2 gap-8">
+        {% for youTubeVideo in youTubeVideos %}
+          {% if youTubeVideo.videoTitle and youTubeVideo.embedPath %}
+            <div class="bg-white rounded-2xl shadow-soft overflow-hidden">
+              <div class="p-6 border-b border-[color:var(--secondary-colour)]">
+                <h3 class="text-xl font-bold text-[color:var(--dark-color)]">{{ youTubeVideo.videoTitle }}</h3>
+              </div>
+              <div class="aspect-video">
+                <iframe
+                  class="w-full h-full"
+                  src="{{ youTubeVideo.embedPath }}"
+                  title="{{ youTubeVideo.videoTitle }}"
+                  frameborder="0"
+                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                  allowfullscreen
+                ></iframe>
+              </div>
+            </div>
+          {% endif %}
+        {% endfor %}
+      </div>
+    </div>
+  </section>
+{% endif %}
+
 {% if accreditationImages %}
-  <section class="container 2xl:max-w-6xl px-6 flex flex-col items-center sm:flex-row sm:justify-center">
+  <section class="bg-white py-12">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 flex flex-wrap items-center justify-center gap-8">
       {% for accreditationImage in accreditationImages %}
-          <img
-              src="{{ accreditationImage.accreditationImage.image }}"
-              alt="{{ accreditationImage.accreditationImage.imageAlt }}"
-              width="200px"
-              class="inline-block"
-              loading="lazy"
-          />
+        <img
+          src="{{ accreditationImage.accreditationImage.image }}"
+          alt="{{ accreditationImage.accreditationImage.imageAlt }}"
+          width="150"
+          class="h-auto opacity-80 hover:opacity-100 transition-opacity"
+          loading="lazy"
+        />
       {% endfor %}
+    </div>
   </section>
 {% endif %}

@@ -39,10 +39,10 @@ The five reasons for divorce no longer apply. Now, couples can simply state that
 
 If you’re struggling with the emotional impact of divorce, you don’t have to go through it alone. You can:
 
-💙 Speak to a [Certified Divorce Coach ](https://divorce-coaching.com/the-divorce-coach/)for personalised guidance.
+💙 Speak to a [Certified Divorce Coach ](/the-divorce-coach/)for personalised guidance.
 
-💙 Join a [supportive community](https://divorce-coaching.com/breakup-support-groups/) of people navigating similar challenges.
+💙 Join a [supportive community](/breakup-support-groups/) of people navigating similar challenges.
 
-💙 Turn your experience into purpose by becoming an [Accredited Breakup & Divorce Coach](https://divorce-coaching.com/becoming-a-certified-divorce-coach/), helping others while earning additional income.
+💙 Turn your experience into purpose by becoming an [Accredited Breakup & Divorce Coach](/becoming-a-certified-divorce-coach/), helping others while earning additional income.
 
 Looking for the next step? Get support or explore a new career in divorce coaching today! 🚀

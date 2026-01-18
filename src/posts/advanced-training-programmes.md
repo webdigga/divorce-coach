@@ -55,13 +55,13 @@ highlightsBoxes:
 
 ### What is the Master Practitioner Accreditation Programme?
 
-The triple-accredited training program offered by Sara Davison, CPD Standards Office, and The Dash Charity provides comprehensive and reputable education for coaches seeking to support victims of domestic abuse through the breakup and divorce process.
+Advanced training programmes accredited by the CPD Standards Office and The Dash Charity provide comprehensive and reputable education for coaches seeking to support victims of domestic abuse through the breakup and divorce process.
 
 This advanced skills coaching course is designed to provide you with a wealth of information that will elevate your coaching practice to new heights.
 
 By participating in this course, you will expand your coaching repertoire and enhance your skill set, enabling you to facilitate profound transformations with your clients. Specifically, you will learn how to adeptly coach individuals who are navigating divorces with challenging partners and who require assistance in recovering from toxic relationships.
 
-Accredited by Sara Davison, a distinguished expert in divorce coaching, as well as The Dash Charity, a respected UK domestic abuse charity, this training program upholds rigorous standards of excellence. You can trust that the curriculum has been meticulously crafted to meet the needs of coaches seeking to provide effective support to clients experiencing domestic abuse and navigating the complexities of divorce.
+Accredited by leading bodies including The Dash Charity, a respected UK domestic abuse charity, advanced training programmes uphold rigorous standards of excellence. You can trust that the curriculum has been meticulously crafted to meet the needs of coaches seeking to provide effective support to clients experiencing domestic abuse and navigating the complexities of divorce.
 
 Prepare to be inspired, challenged, and empowered as you embark on this journey to deepen your coaching skills and make a meaningful impact in the lives of your clients.
 

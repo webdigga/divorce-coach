@@ -72,8 +72,8 @@ If you're unsure about applying for a Decree Absolute or dealing with the emotio
 
 💙 Get guidance from a Certified Divorce Coach for one-on-one support.
 
-💙[ Join a community](https://divorce-coaching.com/breakup-support-groups/) of others going through similar experiences.
+💙[ Join a community](/breakup-support-groups/) of others going through similar experiences.
 
-💙 Turn your experience into a career by becoming a [Certified Divorce & Breakup Coach.](https://divorce-coaching.com/becoming-a-certified-divorce-coach/)
+💙 Turn your experience into a career by becoming a [Certified Divorce & Breakup Coach.](/becoming-a-certified-divorce-coach/)
 
 Need expert help or step-by-step assistance? Let’s get started today! 🚀

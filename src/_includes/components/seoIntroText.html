@@ -1,20 +1,38 @@
-{% macro seoIntroTextComponent() %} 
+{% macro seoIntroTextComponent() %}
 
-  <div class="container container--medium text-center">
-    <div class="max-w-7xl mx-auto">
-      {% if seoIntroText.seoIntroText %}
-        
-        <div class="section prose max-w-full">
-          <h2>{{ seoIntroText.seoIntroText.heading }}</h2>
-          
-            <p>{{ seoIntroText.seoIntroText.content | markdown | safe }}</p>
-          
-        </div>
-        
-      {% else %}
-        <p>No content available.</p>
-      {% endif %}
-    </div>
-  </div>  
+<!-- Wave divider from white to blush -->
+<div class="bg-white">
+  <svg class="w-full h-12 md:h-20" viewBox="0 0 1440 100" preserveAspectRatio="none" fill="none" xmlns="http://www.w3.org/2000/svg">
+    <path d="M0 100C360 60 720 80 1080 40C1260 20 1380 30 1440 40V100H0Z" fill="#F5E6E0"/>
+  </svg>
+</div>
+
+<section class="bg-[color:var(--secondary-colour)] py-16 md:py-20">
+  <div class="max-w-7xl mx-auto px-4 sm:px-6">
+    {% if seoIntroText.seoIntroText %}
+
+      <div class="max-w-4xl mx-auto text-center mb-10">
+        <h2 class="text-3xl md:text-4xl font-bold text-[color:var(--dark-color)] mb-4">
+          {{ seoIntroText.seoIntroText.heading }}
+        </h2>
+      </div>
+
+      <div class="prose prose-lg max-w-4xl mx-auto text-[color:var(--dark-color)]">
+        {{ seoIntroText.seoIntroText.content | markdown | safe }}
+      </div>
+
+    {% else %}
+      <p class="text-center text-[color:var(--dark-color)]">No content available.</p>
+    {% endif %}
+  </div>
+</section>
+
+<!-- Wave divider from blush to cream -->
+<div class="bg-[color:var(--secondary-colour)]">
+  <svg class="w-full h-12 md:h-20" viewBox="0 0 1440 100" preserveAspectRatio="none" fill="none" xmlns="http://www.w3.org/2000/svg">
+    <path d="M0 0C360 40 720 20 1080 60C1260 80 1380 70 1440 60V0H0Z" fill="#F5E6E0"/>
+    <path d="M0 100C360 60 720 80 1080 40C1260 20 1380 30 1440 40V100H0Z" fill="#FDF9F8"/>
+  </svg>
+</div>
 
 {% endmacro %}

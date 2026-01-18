@@ -1,20 +1,17 @@
 ---
-title: The Divorce Coach
-seoTitle: The Divorce Coach | Expert Guidance for Your Divorce Journey
-description: Learn how to become an accredited break up and divorce coach with Sara Davison
+title: Featured Partner - Sara Davison Coaching Academy
+seoTitle: Sara Davison Coaching Academy | Featured Training Partner
+description: Learn about Sara Davison's internationally recognised divorce coach training programme - one of our featured training partners for aspiring coaches.
 date: 2024-03-11T11:28:32.363Z
 type: article
 tags:
   - article
 inTheMediaAndAccreditationsCopy: Sara Davison, known as The Divorce Coach, is a
-  highly acclaimed professional in her field. With a track record of excellence,
+  highly acclaimed professional in the coaching industry. With a track record of excellence,
   she has earned recognition as an award-winning coach, a two-time best-selling
-  author, and a prominent figure in the media landscape worldwide. Sara's
+  author, and a prominent figure in the media landscape worldwide. Her
   expertise extends across various platforms, including television appearances,
-  podcasting, and contributions as a media commentator. Her vast experience and
-  insights make her a trusted authority in the realm of divorce coaching,
-  empowering individuals globally to navigate the complexities of divorce with
-  confidence and clarity.
+  podcasting, and contributions as a media commentator.
 youTubeVideos:
   - embedPath: https://www.youtube.com/embed/syuXcUGdnU0?si=2iFTEFmODpfTFYFQ
     videoTitle: Breakup & Divorce Webinar
@@ -31,16 +28,47 @@ accreditationImages:
       image: /static/img/download.png
       imageAlt: The International Divorce Coach of Excellence
 ---
-Sara Davison, a renowned Coach, podcaster, and bestselling author, is dedicated to assisting individuals worldwide in navigating their breakups with resilience. Drawing from her personal experience of overcoming a marriage breakdown, Sara has curated a comprehensive toolkit comprising techniques, strategies, and practical advice to help individuals mitigate negative emotions and progress with newfound confidence.
+## About Sara Davison Coaching Academy
 
-Established by Sara Davison, The Divorce Coach, a multi-award-winning author, podcaster, and media commentator, offers a unique opportunity to join an inclusive International Coaching Community. With Sara's guidance, aspiring Coaches gain access to invaluable resources and support to establish and expand their coaching ventures successfully.
+Sara Davison is one of the leading providers of accredited divorce and breakup coach training programmes. Her academy has trained over 750 coaches across 28+ countries, making it one of the most established programmes in this growing field.
 
-## Meet Your Certified Divorce Coach
+Drawing from her personal experience and 28 years of coaching expertise, Sara has developed a comprehensive curriculum that equips aspiring coaches with practical techniques, strategies, and business tools.
 
-Joining her vibrant coaching community not only provides a supportive environment but also equips you with essential business tools necessary for cultivating a thriving coaching practice tailored to your passion.
+## What the Programme Offers
 
-Her Breakup & Divorce Coaching Accreditations empower Coaches to effectively support individuals, regardless of gender, through the emotional upheaval and practical hurdles of any breakup.
+The Sara Davison Coaching Academy provides:
 
-Through Sara's 28 years of coaching experience, her methodologies have been refined to deliver tangible results. By sharing her proven techniques, Sara ensures that Coaches are equipped with the necessary skills to facilitate positive transformations in their clients' lives.
+- **Accredited Training** - CPD-accredited courses recognised internationally
+- **Comprehensive Curriculum** - Techniques refined over decades of practice
+- **Community Support** - Access to an international network of coaches
+- **Business Tools** - Resources to help establish and grow your coaching practice
+- **Ongoing Development** - Advanced training programmes for continued growth
 
-Whether you're new to coaching or seeking to enhance your existing practice, her training program offers a fast-track to proficiency. With Sara's tried-and-tested tools, you'll confidently guide your clients towards lasting positive changes, accelerating your journey to becoming a competent and successful coach.
+## Programme Structure
+
+The training programme covers essential areas including:
+
+- Understanding the emotional stages of breakup and divorce
+- Effective coaching techniques for supporting clients
+- Building rapport and trust with clients
+- Practical business skills for running a coaching practice
+- Marketing and client acquisition strategies
+
+## Is This Programme Right for You?
+
+The Sara Davison Coaching Academy may be a good fit if you're looking for:
+
+- An established, recognised training programme
+- A supportive community of fellow coaches
+- Practical, hands-on coaching techniques
+- Flexibility in how you complete your training
+
+## Explore Your Options
+
+While we feature the Sara Davison Coaching Academy as a recommended provider, we encourage you to explore various training options to find the best fit for your goals. Other reputable organisations offering coach training include:
+
+- The Divorce Coaching Academy
+- ICF-accredited coaching programmes
+- Local counselling and coaching institutes
+
+Ready to learn more about becoming a certified divorce coach? [Contact us](/book-a-free-call/) to discuss your options and find the right path for your coaching career.

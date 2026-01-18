@@ -62,14 +62,14 @@ Getting professional legal support can make the process less stressful. A divorc
 
 Going through a divorce can be overwhelming, but help is available:
 
-* **[Heartbreak to Happiness Support Groups](https://divorce-coaching.com/breakup-support-groups/)** – Connect with others experiencing similar challenges
-* **[One-on-One Divorce Coaching](https://divorce-coaching.com/breakup-support-groups/)** – Get personalised guidance
+* **[Heartbreak to Happiness Support Groups](/breakup-support-groups/)** – Connect with others experiencing similar challenges
+* **[One-on-One Divorce Coaching](/breakup-support-groups/)** – Get personalised guidance
 * **Become a Certified Breakup & Divorce Coach** – Turn your experience into a career helping others. No prior coaching experience is required, and you can work from home or start a full-time coaching business
 
-🔗 Click here to[ **learn more**](https://divorce-coaching.com/becoming-a-certified-divorce-coach/)
+🔗 Click here to[ **learn more**](/becoming-a-certified-divorce-coach/)
 
 ## **Are you an Employer and have seen the impact a Breakup and Divorce can have on your staff?**
 
 There is overwhelming evidence to suggest that employee productivity is reduced by up to 40% and absenteeism is up to 23% (as of January 2025).
 
-Find out more [here.](https://divorce-coaching.com/support-for-businesses/)
+Find out more [here.](/support-for-businesses/)

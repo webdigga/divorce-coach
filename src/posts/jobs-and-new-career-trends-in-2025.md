@@ -81,4 +81,4 @@ Many professionals from management, education, healthcare, and corporate sectors
 If you’re looking for a rewarding, flexible, and impactful career, Breakup & Divorce Coaching might be the
 perfect path for you!
 
-📅 Book a [FREE Discovery Call Today](https://divorce-coaching.com/book-a-free-call/) to learn more about this exciting opportunity! 🚀
+📅 Book a [FREE Discovery Call Today](/book-a-free-call/) to learn more about this exciting opportunity! 🚀

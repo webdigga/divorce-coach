@@ -9,17 +9,50 @@ eleventyComputed:
 ---
 
 {% include "./partials/navbar.html" %}
+{% import "./components/breadcrumbs.html" as breadcrumbsComponent with context %}
 
-<div class="container max-w-screen-lg mt-6 prose">
+<main class="bg-[color:var(--light-bg)]">
 
-    <h1 class="text-left font-bold text-5xl">{{ title | safe }}</h1>
+  <!-- Hero Header Section -->
+  <section class="py-12 md:py-16 bg-gradient-to-br from-[color:var(--light-bg)] via-white to-[color:var(--secondary-colour)]">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6">
+      <div class="max-w-4xl">
 
-    <h2 class="font-bold text-3xl">{{ subTitle | safe }}</h2>
+        <!-- Breadcrumbs -->
+        {{ breadcrumbsComponent.breadcrumbs() }}
 
-    <p class="mb-8">
-      {{ introText | safe }}
-    </p>
+        <h1 class="text-3xl md:text-4xl lg:text-5xl font-bold text-[color:var(--dark-color)] mb-4">
+          {{ title | safe }}
+        </h1>
 
-    {{ content | safe }}
+        {% if subTitle %}
+          <h2 class="text-xl md:text-2xl font-semibold text-[color:var(--primary-color)] mb-6">
+            {{ subTitle | safe }}
+          </h2>
+        {% endif %}
 
-</div>
+        {% if introText %}
+          <p class="text-lg text-[color:var(--dark-color)] opacity-80 leading-relaxed max-w-3xl">
+            {{ introText | safe }}
+          </p>
+        {% endif %}
+
+      </div>
+    </div>
+  </section>
+
+  <!-- Wave Divider -->
+  <div class="bg-gradient-to-br from-[color:var(--light-bg)] via-white to-[color:var(--secondary-colour)]">
+    <svg class="w-full h-8 md:h-12" viewBox="0 0 1440 100" preserveAspectRatio="none" fill="none" xmlns="http://www.w3.org/2000/svg">
+      <path d="M0 100C360 60 720 80 1080 40C1260 20 1380 30 1440 40V100H0Z" fill="#FDF9F8"/>
+    </svg>
+  </div>
+
+  <!-- Articles Section -->
+  <section class="py-12 md:py-16">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6">
+      {{ content | safe }}
+    </div>
+  </section>
+
+</main>

@@ -1,3 +1,24 @@
 [build]
   publish = "_site"
   command = "npm run build"
+
+# 301 Redirects for URL changes
+[[redirects]]
+  from = "/the-divorce-coach/"
+  to = "/about-sara-davison/"
+  status = 301
+
+[[redirects]]
+  from = "/the-divorce-coach"
+  to = "/about-sara-davison/"
+  status = 301
+
+[[redirects]]
+  from = "/start-your-coaching-journey/"
+  to = "/book-a-free-call/"
+  status = 301
+
+[[redirects]]
+  from = "/start-your-coaching-journey"
+  to = "/book-a-free-call/"
+  status = 301

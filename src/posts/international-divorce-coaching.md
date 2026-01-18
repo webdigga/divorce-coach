@@ -1,25 +1,54 @@
 ---
-title: International programme
-seoTitle: International programme | Global Certification & Training
-description: Join our International Divorce Coaching Program to gain global certification and expertise. Enhance your skills and reach clients worldwide
+title: International Programme
+seoTitle: International Programme | Global Certification & Training
+description: Explore international divorce coaching programmes and gain globally recognised certification. Train to support clients worldwide with accredited qualifications.
 date: 2024-03-11T11:28:32.363Z
 type: article
 tags:
   - article
 ---
-Embark on a transformative journey to become an Accredited Breakup and Divorce Coach under the mentorship of Sara Davison, recognised as the UK's leading Divorce Coach.
+## International Divorce Coach Training
 
-Through our comprehensive training program, you'll receive unparalleled guidance and expertise from Sara Davison herself, leveraging her years of experience and proven methodologies in the field of divorce coaching.
+Are you looking for a coaching qualification that's recognised globally? International divorce coach training programmes offer the opportunity to gain accreditation that's valued across borders, allowing you to support clients anywhere in the world.
 
-## Here's what our programme offers:
+### Why Choose an International Programme?
 
-1. Expert Guidance from the Best: Learn from Sara Davison, renowned as the UK's #1 Divorce Coach, who will share her insights, strategies, and techniques honed over decades of coaching experience.
-2. Comprehensive Training: Acquire the essential skills and knowledge needed to support individuals through the emotional and practical challenges of breakup and divorce with confidence and compassion.
-3. Tailored Mentorship: Receive personalised mentorship and guidance tailored to your individual needs and goals, ensuring you have the support you need to succeed as a Breakup and Divorce Coach.
-4. Accreditation and Recognition: Upon completion of the program, you'll receive accreditation as a Breakup and Divorce Coach, enhancing your credibility and authority in the field.
-5. Access to Resources: Gain access to a wealth of resources, tools, and materials developed by Sara Davison to support your ongoing growth and development as a coach.
-6. Join a Thriving Community: Connect with fellow coaches and professionals in our supportive community, where you can share insights, exchange ideas, and collaborate on projects.
+Global recognition opens doors that local-only certifications cannot. With an internationally accredited qualification, you can:
 
-Whether you're new to coaching or seeking to specialise in breakup and divorce coaching, our program provides the training, mentorship, and support you need to excel in this impactful and rewarding field.
+1. **Work with clients worldwide:** Support individuals regardless of their location, expanding your potential client base exponentially
+2. **Gain respected credentials:** International accreditations from bodies like the ICF and CPD Standards Office are recognised by employers and clients globally
+3. **Access diverse perspectives:** Learn methodologies developed and refined across multiple cultures and legal systems
+4. **Join a global community:** Connect with fellow coaches from around the world, sharing insights and best practices
 
-Don't miss this opportunity to learn from the best and make a difference in the lives of those going through breakup and divorce. Enrol now and start your journey towards becoming an Accredited Breakup and Divorce Coach with Sara Davison.
+### What International Training Programmes Offer
+
+Comprehensive international divorce coach training typically includes:
+
+- **Core coaching skills:** Fundamental techniques that work across cultural boundaries
+- **Cultural awareness training:** Understanding how divorce and separation are viewed in different societies
+- **Legal framework overview:** Awareness of how divorce processes differ internationally
+- **Remote coaching techniques:** Skills for effectively supporting clients via video calls
+- **Business development:** Building a coaching practice that can serve international clients
+
+### Accreditation and Recognition
+
+When choosing an international programme, look for accreditations from:
+
+- **CPD Standards Office** - Internationally recognised continuing professional development
+- **International Coaching Federation (ICF)** - The gold standard in coaching accreditation
+- **Association for Coaching** - A leading professional body for coaches
+
+These accreditations ensure your training meets rigorous professional standards and will be respected by clients and colleagues worldwide.
+
+### Building Your International Practice
+
+Once certified, you can build a truly global coaching practice by:
+
+- Offering flexible scheduling to accommodate different time zones
+- Developing expertise in cross-cultural divorce situations
+- Creating content that resonates with international audiences
+- Building referral relationships with coaches and professionals in other countries
+
+### Get Started
+
+Ready to explore international training options? [Contact us](/book-a-free-call/) to discuss which programme might be the best fit for your goals and circumstances. We can help you understand the different pathways to internationally recognised certification.

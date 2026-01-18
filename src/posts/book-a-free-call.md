@@ -1,27 +1,69 @@
 ---
-title: Book a free call
-seoTitle: Book a free call | Get Expert Guidance Today
-description: Book a free call with our expert divorce coaches to get personalised advice and support. Start your journey to a smoother divorce process today
+title: Book a Free Call
+seoTitle: Book a Free Call | Get Expert Guidance Today
+description: Book a free call with our expert team to discuss divorce coaching training, career opportunities, or get support for your situation.
 date: 2024-03-13T09:11:44.082Z
-type: article
-tags:
-  - article
+layout: landing
+permalink: /book-a-free-call/
+wideLayout: true
 ---
-* Are you looking for a career change or additional revenue stream?
-* Are you passionate about helping others?
-* Do you want a career that makes a positive difference?
-* Have you had a personal breakup experience that could help others?
-* Are you interested in becoming a coach?
-* Would you like to be working in a fast-growing coaching niche?
-* Are you already a coach looking to widen your toolkit of techniques and strategies?
-* Do you need a focus for an existing coaching practice?
-* Would you like help marketing your coaching business?  
-* Have you been through a difficult divorce or breakup and would like to help others?
 
-## Schedule Your Free Divorce Coaching Consultation Today
+<div class="grid grid-cols-1 lg:grid-cols-2 gap-8 lg:gap-12">
 
-If you answered “Yes” to any of the above, then The Sara Davison Break-Up & Divorce Coach Practitioner Accreditation Programme is a fantastic opportunity for you.
+  <div class="order-2 lg:order-1">
+    <p class="text-lg mb-6">Whether you're interested in becoming a certified divorce coach or need support going through your own divorce journey, we're here to help.</p>
 
-Get in touch today to discuss a payment plan that works for you.
+    <div class="space-y-6">
+      <div class="bg-white rounded-xl p-6 shadow-soft">
+        <h3 class="text-xl font-bold text-[color:var(--dark-color)] mb-4">For Aspiring Coaches</h3>
+        <p class="text-[color:var(--dark-color)] opacity-70 mb-4">Considering a career in divorce coaching? Book a call to discuss:</p>
+        <ul class="space-y-2">
+          <li class="flex items-start gap-2">
+            <svg class="w-5 h-5 text-[color:var(--accent-color)] flex-shrink-0 mt-0.5" fill="currentColor" viewBox="0 0 20 20"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"/></svg>
+            <span>Accredited training programmes</span>
+          </li>
+          <li class="flex items-start gap-2">
+            <svg class="w-5 h-5 text-[color:var(--accent-color)] flex-shrink-0 mt-0.5" fill="currentColor" viewBox="0 0 20 20"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"/></svg>
+            <span>Career opportunities and earning potential</span>
+          </li>
+          <li class="flex items-start gap-2">
+            <svg class="w-5 h-5 text-[color:var(--accent-color)] flex-shrink-0 mt-0.5" fill="currentColor" viewBox="0 0 20 20"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"/></svg>
+            <span>How to build your coaching practice</span>
+          </li>
+          <li class="flex items-start gap-2">
+            <svg class="w-5 h-5 text-[color:var(--accent-color)] flex-shrink-0 mt-0.5" fill="currentColor" viewBox="0 0 20 20"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"/></svg>
+            <span>Flexible payment options</span>
+          </li>
+        </ul>
+      </div>
 
-Book your free discovery call here and start your new journey with The World’s #1 divorce coach, Sara Davison.
+      <div class="bg-white rounded-xl p-6 shadow-soft">
+        <h3 class="text-xl font-bold text-[color:var(--dark-color)] mb-4">For Those Going Through Divorce</h3>
+        <p class="text-[color:var(--dark-color)] opacity-70 mb-4">Need support during this challenging time? We can connect you with:</p>
+        <ul class="space-y-2">
+          <li class="flex items-start gap-2">
+            <svg class="w-5 h-5 text-[color:var(--accent-color)] flex-shrink-0 mt-0.5" fill="currentColor" viewBox="0 0 20 20"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"/></svg>
+            <span>Certified divorce coaches</span>
+          </li>
+          <li class="flex items-start gap-2">
+            <svg class="w-5 h-5 text-[color:var(--accent-color)] flex-shrink-0 mt-0.5" fill="currentColor" viewBox="0 0 20 20"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"/></svg>
+            <span>Support groups and resources</span>
+          </li>
+          <li class="flex items-start gap-2">
+            <svg class="w-5 h-5 text-[color:var(--accent-color)] flex-shrink-0 mt-0.5" fill="currentColor" viewBox="0 0 20 20"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"/></svg>
+            <span>Guidance for your next steps</span>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+
+  <div class="order-1 lg:order-2">
+    <div class="bg-white rounded-2xl shadow-soft-lg p-6 lg:p-8 sticky top-24">
+      <div id="kabooly-form-6"></div>
+    </div>
+  </div>
+
+</div>
+
+<script src="/static/js/kabooly-form.js"></script>
