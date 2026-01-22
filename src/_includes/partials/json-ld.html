@@ -218,41 +218,59 @@
         {
           "@type": "ListItem",
           "position": 1,
-          "name": "Home",
-          "item": "{{ env.site }}/"
+          "item": {
+            "@type": "WebPage",
+            "@id": "{{ env.site }}/",
+            "name": "Home"
+          }
         }
         {% if tags and 'divorce' in tags %},
         {
           "@type": "ListItem",
           "position": 2,
-          "name": "Divorce",
-          "item": "{{ env.site }}/divorce/"
+          "item": {
+            "@type": "WebPage",
+            "@id": "{{ env.site }}/divorce/",
+            "name": "Divorce"
+          }
         },
         {
           "@type": "ListItem",
           "position": 3,
-          "name": "{{ title | safe }}",
-          "item": "{{ env.site }}{{ page.url }}"
+          "item": {
+            "@type": "WebPage",
+            "@id": "{{ env.site }}{{ page.url }}",
+            "name": "{{ title | safe }}"
+          }
         }
         {% elseif tags and 'coaching' in tags %},
         {
           "@type": "ListItem",
           "position": 2,
-          "name": "Coaching",
-          "item": "{{ env.site }}/coaching/"
+          "item": {
+            "@type": "WebPage",
+            "@id": "{{ env.site }}/coaching/",
+            "name": "Coaching"
+          }
         },
         {
           "@type": "ListItem",
           "position": 3,
-          "name": "{{ title | safe }}",
-          "item": "{{ env.site }}{{ page.url }}"
+          "item": {
+            "@type": "WebPage",
+            "@id": "{{ env.site }}{{ page.url }}",
+            "name": "{{ title | safe }}"
+          }
         }
         {% else %},
         {
           "@type": "ListItem",
           "position": 2,
-          "name": "{{ title | safe }}",
-          "item": "{{ env.site }}{{ page.url }}"
+          "item": {
+            "@type": "WebPage",
+            "@id": "{{ env.site }}{{ page.url }}",
+            "name": "{{ title | safe }}"
+          }
         }
         {% endif %}
       ]
