@@ -67,5 +67,5 @@ Accredited divorce coach training programmes typically include:
 Ready to learn more about becoming an Accredited Breakup & Divorce Coach? Get in touch to discover how this career can offer you flexibility, fulfilment, and financial independence.
 
 <div class="flex justify-end">
-<a href="/book-a-free-call/" class="self-end inline md:block bg-[color:var(--primary-color)] text-white py-4 px-12 rounded-md hover:opacity-70 no-underline">Start Your Journey</a>
+<a href="/book-a-free-call/" class="btn-primary">Start Your Journey</a>
 </div>

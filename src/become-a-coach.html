@@ -1,0 +1,827 @@
+---
+layout: default
+title: Become a Certified Coach | Start Your Coaching Career
+seoTitle: Become a Certified Coach - Turn Your Passion Into Profit
+description: Discover how coaching can become your rewarding side hustle or full-time career. Join the fastest growing coaching niches and start earning while helping others.
+type: landing
+ignore: true
+eleventyComputed:
+  canonical: "{{ env.site }}/become-a-coach/"
+---
+
+<!-- FAQ Schema for Rich Results -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "How much can a coach typically earn a year part-time?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Part-time earnings vary widely depending on rates and hours worked. For example, if you charge between £30-£75 per hour and see a small roster of clients weekly, part-time income can be £10,000-£30,000+ annually depending on hours, niche, and clients. Coaches with more experience who charge premium rates may earn more even part-time."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How much can a coach typically earn a year full-time?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Many full-time life coaches in the UK earn roughly £30,000-£80,000+ annually. In broader data including the US market, averages fall in approximately $50,000-$100,000+ per year for full-time practice. Top coaches who specialise, build scalable offerings (courses, packages, group coaching), or work with executives can earn significantly more."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How much does it cost to train as a Life Coach?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Training costs vary based on accreditation and depth. Shorter online courses can start from £500-£3,000. More comprehensive, professionally accredited programmes, especially those aligned with recognised bodies, often cost around £3,000-£7,000+."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How much does it cost to train as a Relationship Coach?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Some introductory or certificate programmes can be low cost (e.g., under £200) but may not be accredited by major bodies. ICF-aligned or professional relationship coach training typically ranges from a few hundred to several thousand pounds/dollars depending on length and depth."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How much does it cost to train as a Divorce and Breakup Coach?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Accredited programmes in divorce and breakup coaching usually cost in the mid-range, often roughly £1,000-£5,000+ depending on provider and support included. Higher-level specialist programmes with mentoring and extended business training may cost more."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Are the coaching programmes accredited by a reputable body?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Not all coaching courses are accredited, so check carefully. Some professional programmes are accredited by recognised bodies such as the International Coaching Federation (ICF) or other industry bodies -which can enhance credibility and client trust. Accredited courses often meet industry standards, support eligibility for later credentialing (e.g., ACC, CPD, PCC with ICF), and include ethical frameworks and consistent quality training."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Do the courses cover theory, practice, and real-world application?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Strong programmes include core coaching models and theory, practical coaching skills and live/peer practice, application to real client scenarios, and business and ethical best practice. Look for courses that combine theory + practicum + supervised practice -these prepare you better for real coaching situations."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What support is offered during and after training?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Quality training programmes typically offer live trainer mentoring and supervision sessions, peer practice groups, feedback on coaching practice, business development guidance, and continued community or alumni support. Some accredited programmes include ongoing webinars, community groups, or mentoring after training."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Do I need any experience to become a coach?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "No prior coaching experience is strictly required. Many programmes accept beginners as long as you are motivated to learn and practice coaching skills. However, life experience, strong interpersonal skills, and a growth mindset are helpful -especially for niches like divorce coaching where empathy and communication are vital."
+      }
+    }
+  ]
+}
+</script>
+
+<!-- Hero Section with Navbar -->
+<section class="bg-[color:var(--light-bg)]">
+  {% include "./_includes/partials/navbar.html" %}
+
+  <div class="gradient-warm min-h-[70vh] lg:min-h-[85vh] flex items-center">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 py-12 sm:py-16 lg:py-20">
+      <div class="grid grid-cols-1 lg:grid-cols-2 gap-10 lg:gap-16 items-center">
+
+        <!-- Text Content -->
+        <div class="text-center lg:text-left order-2 lg:order-1">
+          <span class="inline-block bg-[color:var(--accent-color)] text-white text-sm font-semibold px-4 py-1.5 rounded-full mb-6">
+            The Coaching Industry is Booming
+          </span>
+
+          <h1 class="text-3xl sm:text-4xl lg:text-5xl xl:text-6xl font-bold text-[color:var(--dark-color)] leading-tight mb-6">
+            Turn Your Passion for Helping Others Into a <span class="text-[color:var(--primary-color)]">Rewarding Career</span>
+          </h1>
+
+          <p class="text-lg sm:text-xl text-[color:var(--dark-color)] opacity-80 mb-8 max-w-xl mx-auto lg:mx-0">
+            Join the 30% of UK workers who have discovered the power of a side hustle. Coaching is one of the most popular and profitable ways to earn extra income while making a real difference in people's lives.
+          </p>
+
+          <div class="flex flex-col sm:flex-row gap-4 justify-center lg:justify-start mb-8">
+            <button
+              x-data=""
+              @click="document.getElementById('coaching-form').scrollIntoView({ behavior: 'smooth' })"
+              class="btn-primary text-center"
+            >
+              Start Your Journey Today
+            </button>
+            <button
+              x-data=""
+              @click="document.getElementById('earnings').scrollIntoView({ behavior: 'smooth' })"
+              class="btn-outline text-center"
+            >
+              See Earning Potential
+            </button>
+          </div>
+
+          <!-- Trust Indicators -->
+          <div class="flex flex-wrap justify-center lg:justify-start gap-6 text-sm text-[color:var(--dark-color)] opacity-70">
+            <div class="flex items-center gap-2">
+              <svg class="w-5 h-5 text-[color:var(--accent-color)]" fill="currentColor" viewBox="0 0 20 20">
+                <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"/>
+              </svg>
+              <span>CPD Accredited</span>
+            </div>
+            <div class="flex items-center gap-2">
+              <svg class="w-5 h-5 text-[color:var(--accent-color)]" fill="currentColor" viewBox="0 0 20 20">
+                <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"/>
+              </svg>
+              <span>Flexible Training</span>
+            </div>
+            <div class="flex items-center gap-2">
+              <svg class="w-5 h-5 text-[color:var(--accent-color)]" fill="currentColor" viewBox="0 0 20 20">
+                <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"/>
+              </svg>
+              <span>Ongoing Support</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Benefits List -->
+        <div class="relative order-1 lg:order-2 flex justify-center">
+          <div class="absolute inset-0 flex items-center justify-center">
+            <div class="w-[95%] h-[95%] bg-[color:var(--secondary-colour)] blob-shape opacity-60"></div>
+          </div>
+          <div class="relative z-10 w-full max-w-md lg:max-w-lg">
+            <div class="bg-[color:var(--light-bg)] rounded-3xl shadow-xl p-8 md:p-10">
+              <h2 class="text-2xl md:text-3xl font-bold text-[color:var(--dark-color)] mb-8 text-center">What You'll Get</h2>
+              <ul class="space-y-5">
+                <li class="flex items-center gap-4">
+                  <div class="w-10 h-10 bg-[color:var(--accent-color)] rounded-full flex items-center justify-center flex-shrink-0">
+                    <svg class="w-6 h-6 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                      <path stroke-linecap="round" stroke-linejoin="round" stroke-width="3" d="M5 13l4 4L19 7"/>
+                    </svg>
+                  </div>
+                  <span class="text-lg font-medium text-[color:var(--dark-color)]">Work anytime, anywhere</span>
+                </li>
+                <li class="flex items-center gap-4">
+                  <div class="w-10 h-10 bg-[color:var(--accent-color)] rounded-full flex items-center justify-center flex-shrink-0">
+                    <svg class="w-6 h-6 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                      <path stroke-linecap="round" stroke-linejoin="round" stroke-width="3" d="M5 13l4 4L19 7"/>
+                    </svg>
+                  </div>
+                  <span class="text-lg font-medium text-[color:var(--dark-color)]">Earn a second income</span>
+                </li>
+                <li class="flex items-center gap-4">
+                  <div class="w-10 h-10 bg-[color:var(--accent-color)] rounded-full flex items-center justify-center flex-shrink-0">
+                    <svg class="w-6 h-6 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                      <path stroke-linecap="round" stroke-linejoin="round" stroke-width="3" d="M5 13l4 4L19 7"/>
+                    </svg>
+                  </div>
+                  <span class="text-lg font-medium text-[color:var(--dark-color)]">Grow your own business</span>
+                </li>
+                <li class="flex items-center gap-4">
+                  <div class="w-10 h-10 bg-[color:var(--accent-color)] rounded-full flex items-center justify-center flex-shrink-0">
+                    <svg class="w-6 h-6 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                      <path stroke-linecap="round" stroke-linejoin="round" stroke-width="3" d="M5 13l4 4L19 7"/>
+                    </svg>
+                  </div>
+                  <span class="text-lg font-medium text-[color:var(--dark-color)]">Learn a new coaching skill</span>
+                </li>
+                <li class="flex items-center gap-4">
+                  <div class="w-10 h-10 bg-[color:var(--accent-color)] rounded-full flex items-center justify-center flex-shrink-0">
+                    <svg class="w-6 h-6 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                      <path stroke-linecap="round" stroke-linejoin="round" stroke-width="3" d="M5 13l4 4L19 7"/>
+                    </svg>
+                  </div>
+                  <span class="text-lg font-medium text-[color:var(--dark-color)]">Digital marketing support</span>
+                </li>
+                <li class="flex items-center gap-4">
+                  <div class="w-10 h-10 bg-[color:var(--accent-color)] rounded-full flex items-center justify-center flex-shrink-0">
+                    <svg class="w-6 h-6 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                      <path stroke-linecap="round" stroke-linejoin="round" stroke-width="3" d="M5 13l4 4L19 7"/>
+                    </svg>
+                  </div>
+                  <span class="text-lg font-medium text-[color:var(--dark-color)]">Web development and management</span>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div class="absolute -bottom-4 -right-4 w-24 h-24 bg-[color:var(--accent-color)] blob-shape-alt opacity-40 hidden lg:block"></div>
+        </div>
+
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<!-- Statistics Section -->
+<section class="py-16 md:py-20 bg-white">
+  <div class="max-w-7xl mx-auto px-4 sm:px-6">
+    <div class="text-center mb-12">
+      <h2 class="text-2xl md:text-3xl lg:text-4xl font-bold text-[color:var(--dark-color)] mb-4">
+        The Side Hustle Revolution is Here
+      </h2>
+      <p class="text-[color:var(--dark-color)] opacity-70 max-w-3xl mx-auto text-lg">
+        People are searching for new ways to earn income, and coaching has emerged as one of the most rewarding and profitable opportunities available.
+      </p>
+    </div>
+
+    <div class="grid grid-cols-1 md:grid-cols-3 gap-8 mb-12">
+      <!-- Stat 1 -->
+      <div class="text-center p-8 rounded-2xl bg-gradient-to-br from-[color:var(--light-bg)] to-[color:var(--secondary-colour)]">
+        <div class="text-5xl lg:text-6xl font-bold text-[color:var(--primary-color)] mb-2">90%</div>
+        <p class="text-[color:var(--dark-color)] font-medium">Increase in 'side hustle' searches at the turn of the year</p>
+      </div>
+
+      <!-- Stat 2 -->
+      <div class="text-center p-8 rounded-2xl bg-gradient-to-br from-[color:var(--light-bg)] to-[color:var(--secondary-colour)]">
+        <div class="text-5xl lg:text-6xl font-bold text-[color:var(--primary-color)] mb-2">20%</div>
+        <p class="text-[color:var(--dark-color)] font-medium">Growth in UK side hustlers during 2024</p>
+      </div>
+
+      <!-- Stat 3 -->
+      <div class="text-center p-8 rounded-2xl bg-gradient-to-br from-[color:var(--light-bg)] to-[color:var(--secondary-colour)]">
+        <div class="text-5xl lg:text-6xl font-bold text-[color:var(--primary-color)] mb-2">30%</div>
+        <p class="text-[color:var(--dark-color)] font-medium">Of UK workers now have a side hustle</p>
+      </div>
+    </div>
+
+    <div class="text-center">
+      <p class="text-lg text-[color:var(--dark-color)] opacity-80 max-w-3xl mx-auto">
+        One of the most popular side hustles is in <strong>coaching</strong>. Not just personal training, but also other coaching niches such as Personal & Wellness Coaching, Life Coaching, Relationship Coaching, Dating Coaching, and <strong>Breakup & Divorce Coaching</strong> - which is one of the <span class="text-[color:var(--primary-color)] font-semibold">fastest growing and most profitable coaching niches</span>.
+      </p>
+    </div>
+  </div>
+</section>
+
+
+<!-- Coaching Niches Section -->
+<section class="py-16 md:py-20 bg-[color:var(--light-bg)]">
+  <div class="max-w-7xl mx-auto px-4 sm:px-6">
+    <div class="text-center mb-12">
+      <h2 class="text-2xl md:text-3xl lg:text-4xl font-bold text-[color:var(--dark-color)] mb-4">
+        Discover Your Coaching Path
+      </h2>
+      <p class="text-[color:var(--dark-color)] opacity-70 max-w-2xl mx-auto text-lg">
+        Whether you're passionate about wellness, relationships, or helping people through life's transitions, there's a coaching niche perfect for you.
+      </p>
+    </div>
+
+    <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
+
+      <!-- Niche Card 1 -->
+      <div class="bg-white rounded-2xl p-6 shadow-sm hover:shadow-xl transition-all duration-300 hover:-translate-y-1 border border-gray-100">
+        <div class="w-14 h-14 bg-[color:var(--secondary-colour)] rounded-2xl flex items-center justify-center mb-4">
+          <svg class="w-7 h-7 text-[color:var(--primary-color)]" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4.318 6.318a4.5 4.5 0 000 6.364L12 20.364l7.682-7.682a4.5 4.5 0 00-6.364-6.364L12 7.636l-1.318-1.318a4.5 4.5 0 00-6.364 0z"/>
+          </svg>
+        </div>
+        <h3 class="text-xl font-bold text-[color:var(--dark-color)] mb-2">Personal & Wellness Coaching</h3>
+        <p class="text-[color:var(--dark-color)] opacity-70">Help clients achieve their health, fitness, and personal development goals through structured guidance and accountability.</p>
+      </div>
+
+      <!-- Niche Card 2 -->
+      <div class="bg-white rounded-2xl p-6 shadow-sm hover:shadow-xl transition-all duration-300 hover:-translate-y-1 border border-gray-100">
+        <div class="w-14 h-14 bg-[color:var(--secondary-colour)] rounded-2xl flex items-center justify-center mb-4">
+          <svg class="w-7 h-7 text-[color:var(--primary-color)]" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9.663 17h4.673M12 3v1m6.364 1.636l-.707.707M21 12h-1M4 12H3m3.343-5.657l-.707-.707m2.828 9.9a5 5 0 117.072 0l-.548.547A3.374 3.374 0 0014 18.469V19a2 2 0 11-4 0v-.531c0-.895-.356-1.754-.988-2.386l-.548-.547z"/>
+          </svg>
+        </div>
+        <h3 class="text-xl font-bold text-[color:var(--dark-color)] mb-2">Life Coaching</h3>
+        <p class="text-[color:var(--dark-color)] opacity-70">Guide clients to discover their purpose, set meaningful goals, and create the life they truly want to live.</p>
+      </div>
+
+      <!-- Niche Card 3 -->
+      <div class="bg-white rounded-2xl p-6 shadow-sm hover:shadow-xl transition-all duration-300 hover:-translate-y-1 border border-gray-100">
+        <div class="w-14 h-14 bg-[color:var(--secondary-colour)] rounded-2xl flex items-center justify-center mb-4">
+          <svg class="w-7 h-7 text-[color:var(--primary-color)]" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 20h5v-2a3 3 0 00-5.356-1.857M17 20H7m10 0v-2c0-.656-.126-1.283-.356-1.857M7 20H2v-2a3 3 0 015.356-1.857M7 20v-2c0-.656.126-1.283.356-1.857m0 0a5.002 5.002 0 019.288 0M15 7a3 3 0 11-6 0 3 3 0 016 0zm6 3a2 2 0 11-4 0 2 2 0 014 0zM7 10a2 2 0 11-4 0 2 2 0 014 0z"/>
+          </svg>
+        </div>
+        <h3 class="text-xl font-bold text-[color:var(--dark-color)] mb-2">Relationship Coaching</h3>
+        <p class="text-[color:var(--dark-color)] opacity-70">Support individuals and couples in building healthier, more fulfilling relationships through improved communication and connection.</p>
+      </div>
+
+      <!-- Niche Card 4 -->
+      <div class="bg-white rounded-2xl p-6 shadow-sm hover:shadow-xl transition-all duration-300 hover:-translate-y-1 border border-gray-100">
+        <div class="w-14 h-14 bg-[color:var(--secondary-colour)] rounded-2xl flex items-center justify-center mb-4">
+          <svg class="w-7 h-7 text-[color:var(--primary-color)]" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 12h.01M12 12h.01M16 12h.01M21 12c0 4.418-4.03 8-9 8a9.863 9.863 0 01-4.255-.949L3 20l1.395-3.72C3.512 15.042 3 13.574 3 12c0-4.418 4.03-8 9-8s9 3.582 9 8z"/>
+          </svg>
+        </div>
+        <h3 class="text-xl font-bold text-[color:var(--dark-color)] mb-2">Dating Coaching</h3>
+        <p class="text-[color:var(--dark-color)] opacity-70">Help singles navigate the modern dating landscape with confidence, from building self-esteem to finding meaningful connections.</p>
+      </div>
+
+      <!-- Niche Card 5 - Featured -->
+      <div class="bg-gradient-to-br from-[color:var(--primary-color)] to-[color:var(--primary-dark)] rounded-2xl p-6 shadow-lg hover:shadow-xl transition-all duration-300 hover:-translate-y-1 sm:col-span-2 lg:col-span-2">
+        <div class="flex flex-col md:flex-row gap-6 items-start">
+          <div class="w-14 h-14 bg-white/20 rounded-2xl flex items-center justify-center flex-shrink-0">
+            <svg class="w-7 h-7 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M11.049 2.927c.3-.921 1.603-.921 1.902 0l1.519 4.674a1 1 0 00.95.69h4.915c.969 0 1.371 1.24.588 1.81l-3.976 2.888a1 1 0 00-.363 1.118l1.518 4.674c.3.922-.755 1.688-1.538 1.118l-3.976-2.888a1 1 0 00-1.176 0l-3.976 2.888c-.783.57-1.838-.197-1.538-1.118l1.518-4.674a1 1 0 00-.363-1.118l-3.976-2.888c-.784-.57-.38-1.81.588-1.81h4.914a1 1 0 00.951-.69l1.519-4.674z"/>
+            </svg>
+          </div>
+          <div>
+            <span class="inline-block bg-white/20 text-white text-xs font-semibold px-3 py-1 rounded-full mb-3">
+              Fastest Growing Niche
+            </span>
+            <h3 class="text-2xl font-bold text-white mb-2">Breakup & Divorce Coaching</h3>
+            <p class="text-white/90 mb-4">One of the fastest growing and most profitable coaching niches. Help people navigate one of life's most challenging transitions with empathy, practical guidance, and emotional support. High demand, meaningful work, and strong earning potential.</p>
+            <button
+              x-data=""
+              @click="document.getElementById('coaching-form').scrollIntoView({ behavior: 'smooth' })"
+              class="inline-block bg-white text-[color:var(--primary-dark)] px-6 py-2.5 rounded-full font-semibold hover:bg-[color:var(--secondary-colour)] transition-all duration-200"
+            >
+              Learn More
+            </button>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+
+<!-- Why Coaching CTA Section -->
+<section class="py-16 md:py-20 bg-white">
+  <div class="max-w-7xl mx-auto px-4 sm:px-6">
+    <div class="bg-gradient-to-r from-[color:var(--secondary-colour)] to-white rounded-3xl p-8 md:p-12 lg:p-16">
+      <div class="grid grid-cols-1 lg:grid-cols-2 gap-10 items-center">
+        <div>
+          <h2 class="text-2xl md:text-3xl lg:text-4xl font-bold text-[color:var(--dark-color)] mb-6">
+            Are You Ready to Create an Extra Revenue Stream?
+          </h2>
+          <p class="text-lg text-[color:var(--dark-color)] opacity-80 mb-6">
+            If you are interested in creating an extra revenue stream and are passionate about helping others whilst earning, then we can help point you in the right direction.
+          </p>
+          <ul class="space-y-4 mb-8">
+            <li class="flex items-start gap-3">
+              <svg class="w-6 h-6 text-[color:var(--accent-color)] flex-shrink-0 mt-0.5" fill="currentColor" viewBox="0 0 20 20">
+                <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"/>
+              </svg>
+              <span class="text-[color:var(--dark-color)]">Work flexible hours that suit your lifestyle</span>
+            </li>
+            <li class="flex items-start gap-3">
+              <svg class="w-6 h-6 text-[color:var(--accent-color)] flex-shrink-0 mt-0.5" fill="currentColor" viewBox="0 0 20 20">
+                <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"/>
+              </svg>
+              <span class="text-[color:var(--dark-color)]">Make a meaningful difference in people's lives</span>
+            </li>
+            <li class="flex items-start gap-3">
+              <svg class="w-6 h-6 text-[color:var(--accent-color)] flex-shrink-0 mt-0.5" fill="currentColor" viewBox="0 0 20 20">
+                <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"/>
+              </svg>
+              <span class="text-[color:var(--dark-color)]">Build a business with global client potential</span>
+            </li>
+            <li class="flex items-start gap-3">
+              <svg class="w-6 h-6 text-[color:var(--accent-color)] flex-shrink-0 mt-0.5" fill="currentColor" viewBox="0 0 20 20">
+                <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"/>
+              </svg>
+              <span class="text-[color:var(--dark-color)]">Earn while doing something you're passionate about</span>
+            </li>
+          </ul>
+          <button
+            x-data=""
+            @click="document.getElementById('coaching-form').scrollIntoView({ behavior: 'smooth' })"
+            class="btn-primary"
+          >
+            Answer a Few Questions to Get Started
+          </button>
+        </div>
+        <div class="hidden lg:block">
+          <img
+            src="/static/img/coaching-support.webp"
+            alt="Coaching career opportunity"
+            class="rounded-2xl shadow-xl"
+            loading="lazy"
+            onerror="this.style.display='none'"
+          />
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<!-- Earnings Potential Section -->
+<section id="earnings" class="py-16 md:py-20 bg-[color:var(--light-bg)]">
+  <div class="max-w-7xl mx-auto px-4 sm:px-6">
+    <div class="text-center mb-12">
+      <h2 class="text-2xl md:text-3xl lg:text-4xl font-bold text-[color:var(--dark-color)] mb-4">
+        What Can You Earn as a Coach?
+      </h2>
+      <p class="text-[color:var(--dark-color)] opacity-70 max-w-3xl mx-auto text-lg">
+        Coaching offers flexible earning potential whether you're looking for a side hustle or a full-time career change. Here's what's possible.
+      </p>
+    </div>
+
+    <!-- Earnings Table -->
+    <div class="bg-white rounded-2xl shadow-lg overflow-hidden mb-12">
+      <div class="overflow-x-auto">
+        <table class="w-full">
+          <thead>
+            <tr class="bg-[color:var(--dark-color)] text-white">
+              <th class="px-6 py-4 text-left font-semibold">Topic</th>
+              <th class="px-6 py-4 text-left font-semibold">What's Possible</th>
+            </tr>
+          </thead>
+          <tbody class="divide-y divide-gray-100">
+            <tr class="hover:bg-[color:var(--light-bg)] transition-colors">
+              <td class="px-6 py-4 font-medium text-[color:var(--dark-color)]">Part-time earnings</td>
+              <td class="px-6 py-4 text-[color:var(--dark-color)] opacity-80">&pound;10,000-&pound;30,000+ per year, with flexibility to grow alongside other commitments</td>
+            </tr>
+            <tr class="hover:bg-[color:var(--light-bg)] transition-colors">
+              <td class="px-6 py-4 font-medium text-[color:var(--dark-color)]">Full-time earnings</td>
+              <td class="px-6 py-4 text-[color:var(--dark-color)] opacity-80">&pound;30,000-&pound;80,000+ per year, with strong potential to exceed this as your expertise and visibility grow</td>
+            </tr>
+            <tr class="hover:bg-[color:var(--light-bg)] transition-colors">
+              <td class="px-6 py-4 font-medium text-[color:var(--dark-color)]">Life coach training investment</td>
+              <td class="px-6 py-4 text-[color:var(--dark-color)] opacity-80">&pound;500-&pound;7,000+, depending on the depth, accreditation, and level of support provided</td>
+            </tr>
+            <tr class="hover:bg-[color:var(--light-bg)] transition-colors">
+              <td class="px-6 py-4 font-medium text-[color:var(--dark-color)]">Relationship coach training investment</td>
+              <td class="px-6 py-4 text-[color:var(--dark-color)] opacity-80">&pound;200-&pound;5,000+, based on specialisation and professional recognition</td>
+            </tr>
+            <tr class="hover:bg-[color:var(--light-bg)] transition-colors">
+              <td class="px-6 py-4 font-medium text-[color:var(--dark-color)]">Divorce coach training investment</td>
+              <td class="px-6 py-4 text-[color:var(--dark-color)] opacity-80">&pound;1,000-&pound;5,000+ for in-depth, specialist training designed to support real client transformation</td>
+            </tr>
+            <tr class="hover:bg-[color:var(--light-bg)] transition-colors">
+              <td class="px-6 py-4 font-medium text-[color:var(--dark-color)]">Accreditation</td>
+              <td class="px-6 py-4 text-[color:var(--dark-color)] opacity-80">While not legally required, accreditation with recognised bodies such as the ICF adds credibility and confidence</td>
+            </tr>
+            <tr class="hover:bg-[color:var(--light-bg)] transition-colors">
+              <td class="px-6 py-4 font-medium text-[color:var(--dark-color)]">Course content</td>
+              <td class="px-6 py-4 text-[color:var(--dark-color)] opacity-80">Comprehensive programmes blend proven coaching models, practical experience, and real-world application</td>
+            </tr>
+            <tr class="hover:bg-[color:var(--light-bg)] transition-colors">
+              <td class="px-6 py-4 font-medium text-[color:var(--dark-color)]">Support</td>
+              <td class="px-6 py-4 text-[color:var(--dark-color)] opacity-80">Ongoing mentoring, supervision, and a supportive professional community to help you grow with confidence</td>
+            </tr>
+            <tr class="hover:bg-[color:var(--light-bg)] transition-colors">
+              <td class="px-6 py-4 font-medium text-[color:var(--dark-color)]">Experience needed</td>
+              <td class="px-6 py-4 text-[color:var(--dark-color)] opacity-80">No prior coaching experience required - your life experience, empathy, and commitment to learning are powerful assets</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+
+    <!-- Earnings Highlight Cards -->
+    <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+      <div class="bg-white rounded-2xl p-8 shadow-sm border border-gray-100">
+        <h3 class="text-xl font-bold text-[color:var(--dark-color)] mb-4">Part-Time Coach</h3>
+        <div class="text-3xl font-bold text-[color:var(--primary-color)] mb-2">&pound;10k - &pound;30k+</div>
+        <p class="text-[color:var(--dark-color)] opacity-70 mb-4">Per year working part-time hours</p>
+        <p class="text-[color:var(--dark-color)] opacity-80 text-sm">
+          Part-time earnings vary widely depending on rates and hours worked. If you charge between &pound;30-&pound;75 per hour and see a small roster of clients weekly, part-time income can reach &pound;10,000-&pound;30,000+ annually. Coaches with more experience who charge premium rates may earn more even part-time.
+        </p>
+      </div>
+      <div class="bg-white rounded-2xl p-8 shadow-sm border border-gray-100">
+        <h3 class="text-xl font-bold text-[color:var(--dark-color)] mb-4">Full-Time Coach</h3>
+        <div class="text-3xl font-bold text-[color:var(--primary-color)] mb-2">&pound;30k - &pound;80k+</div>
+        <p class="text-[color:var(--dark-color)] opacity-70 mb-4">Per year as your full-time career</p>
+        <p class="text-[color:var(--dark-color)] opacity-80 text-sm">
+          Many full-time life coaches in the UK earn roughly &pound;30,000-&pound;80,000+ annually. In broader data including the US market, averages fall in approximately $50,000-$100,000+ per year. Top coaches who specialise, build scalable offerings (courses, packages, group coaching), or work with executives can earn significantly more.
+        </p>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<!-- Form Section -->
+<section id="coaching-form" class="py-16 md:py-20 bg-white">
+  <div class="max-w-4xl mx-auto px-4 sm:px-6">
+    <div class="text-center mb-10">
+      <h2 class="text-2xl md:text-3xl lg:text-4xl font-bold text-[color:var(--dark-color)] mb-4">
+        Start Your Journey to Becoming a Successful Coach
+      </h2>
+      <p class="text-[color:var(--dark-color)] opacity-70 max-w-2xl mx-auto text-lg">
+        Simply answer the below questions and take your first step towards a rewarding coaching career.
+      </p>
+    </div>
+
+    <!-- Form Embed -->
+    <div class="bg-gradient-to-br from-[color:var(--light-bg)] to-[color:var(--secondary-colour)] rounded-2xl p-8 md:p-12 shadow-lg">
+      <div id="kabooly-form-8"></div>
+      <script>
+      (function() {
+        var form = document.getElementById('kabooly-form-8');
+        var iframe = document.createElement('iframe');
+
+        // Build iframe URL with theme and UTM parameters from parent page
+        var baseUrl = 'https://crm.kabooly.com/embed/form/8';
+        var params = [];
+
+        // Forward UTM parameters from parent page URL to iframe
+        var urlParams = new URLSearchParams(window.location.search);
+        ['utm_source', 'utm_campaign', 'utm_medium', 'utm_content', 'utm_term'].forEach(function(param) {
+          var value = urlParams.get(param);
+          if (value) params.push(param + '=' + encodeURIComponent(value));
+        });
+
+        iframe.src = baseUrl + (params.length ? '?' + params.join('&') : '');
+        iframe.style.width = '100%';
+        iframe.style.border = 'none';
+        iframe.style.minHeight = '400px';
+        iframe.onload = function() {
+          // Auto-resize iframe based on content
+          window.addEventListener('message', function(e) {
+            if (e.data.formId === '8' && e.data.height) {
+              iframe.style.height = e.data.height + 'px';
+            }
+          });
+        };
+        form.appendChild(iframe);
+      })();
+      </script>
+    </div>
+  </div>
+</section>
+
+
+<!-- FAQs Section -->
+<section class="py-16 md:py-20 bg-[color:var(--light-bg)]">
+  <div class="max-w-4xl mx-auto px-4 sm:px-6">
+    <div class="text-center mb-12">
+      <h2 class="text-2xl md:text-3xl lg:text-4xl font-bold text-[color:var(--dark-color)] mb-4">
+        Frequently Asked Questions
+      </h2>
+      <p class="text-[color:var(--dark-color)] opacity-70 max-w-2xl mx-auto text-lg">
+        Everything you need to know about starting your coaching career.
+      </p>
+    </div>
+
+    <!-- FAQ Accordion -->
+    <div class="space-y-4" x-data="{ openFaq: null }">
+
+      <!-- FAQ 1 -->
+      <div class="bg-white rounded-2xl shadow-sm border border-gray-100 overflow-hidden">
+        <button
+          @click="openFaq = openFaq === 1 ? null : 1"
+          class="w-full px-6 py-5 text-left flex items-center justify-between gap-4 hover:bg-[color:var(--light-bg)] transition-colors"
+        >
+          <h3 class="text-lg font-semibold text-[color:var(--dark-color)] pr-4 mb-0">How much can a coach typically earn a year part-time?</h3>
+          <svg
+            class="w-5 h-5 text-[color:var(--primary-color)] flex-shrink-0 transition-transform duration-200"
+            :class="{ 'rotate-180': openFaq === 1 }"
+            fill="none"
+            stroke="currentColor"
+            viewBox="0 0 24 24"
+          >
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"/>
+          </svg>
+        </button>
+        <div x-show="openFaq === 1" x-collapse>
+          <div class="px-6 pb-5 text-[color:var(--dark-color)] opacity-80">
+            <p>Part-time earnings vary widely depending on rates and hours worked. For example, if you charge between &pound;30-&pound;75 per hour and see a small roster of clients weekly, part-time income can be &pound;10,000-&pound;30,000+ annually depending on hours, niche, and clients. Coaches with more experience who charge premium rates may earn more even part-time.</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- FAQ 2 -->
+      <div class="bg-white rounded-2xl shadow-sm border border-gray-100 overflow-hidden">
+        <button
+          @click="openFaq = openFaq === 2 ? null : 2"
+          class="w-full px-6 py-5 text-left flex items-center justify-between gap-4 hover:bg-[color:var(--light-bg)] transition-colors"
+        >
+          <h3 class="text-lg font-semibold text-[color:var(--dark-color)] pr-4 mb-0">How much can a coach typically earn a year full-time?</h3>
+          <svg
+            class="w-5 h-5 text-[color:var(--primary-color)] flex-shrink-0 transition-transform duration-200"
+            :class="{ 'rotate-180': openFaq === 2 }"
+            fill="none"
+            stroke="currentColor"
+            viewBox="0 0 24 24"
+          >
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"/>
+          </svg>
+        </button>
+        <div x-show="openFaq === 2" x-collapse>
+          <div class="px-6 pb-5 text-[color:var(--dark-color)] opacity-80">
+            <p>Many full-time life coaches in the UK earn roughly &pound;30,000-&pound;80,000+ annually. In broader data including the US market, averages fall in approximately $50,000-$100,000+ per year for full-time practice. Top coaches who specialise, build scalable offerings (courses, packages, group coaching), or work with executives can earn significantly more.</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- FAQ 3 -->
+      <div class="bg-white rounded-2xl shadow-sm border border-gray-100 overflow-hidden">
+        <button
+          @click="openFaq = openFaq === 3 ? null : 3"
+          class="w-full px-6 py-5 text-left flex items-center justify-between gap-4 hover:bg-[color:var(--light-bg)] transition-colors"
+        >
+          <h3 class="text-lg font-semibold text-[color:var(--dark-color)] pr-4 mb-0">How much does it cost to train as a Life Coach?</h3>
+          <svg
+            class="w-5 h-5 text-[color:var(--primary-color)] flex-shrink-0 transition-transform duration-200"
+            :class="{ 'rotate-180': openFaq === 3 }"
+            fill="none"
+            stroke="currentColor"
+            viewBox="0 0 24 24"
+          >
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"/>
+          </svg>
+        </button>
+        <div x-show="openFaq === 3" x-collapse>
+          <div class="px-6 pb-5 text-[color:var(--dark-color)] opacity-80">
+            <p>Training costs vary based on accreditation and depth. Shorter online courses can start from &pound;500-&pound;3,000. More comprehensive, professionally accredited programmes, especially those aligned with recognised bodies, often cost around &pound;3,000-&pound;7,000+.</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- FAQ 4 -->
+      <div class="bg-white rounded-2xl shadow-sm border border-gray-100 overflow-hidden">
+        <button
+          @click="openFaq = openFaq === 4 ? null : 4"
+          class="w-full px-6 py-5 text-left flex items-center justify-between gap-4 hover:bg-[color:var(--light-bg)] transition-colors"
+        >
+          <h3 class="text-lg font-semibold text-[color:var(--dark-color)] pr-4 mb-0">How much does it cost to train as a Relationship Coach?</h3>
+          <svg
+            class="w-5 h-5 text-[color:var(--primary-color)] flex-shrink-0 transition-transform duration-200"
+            :class="{ 'rotate-180': openFaq === 4 }"
+            fill="none"
+            stroke="currentColor"
+            viewBox="0 0 24 24"
+          >
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"/>
+          </svg>
+        </button>
+        <div x-show="openFaq === 4" x-collapse>
+          <div class="px-6 pb-5 text-[color:var(--dark-color)] opacity-80">
+            <p>Some introductory or certificate programmes can be low cost (e.g., under &pound;200) but may not be accredited by major bodies. ICF-aligned or professional relationship coach training typically ranges from a few hundred to several thousand pounds/dollars depending on length and depth.</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- FAQ 5 -->
+      <div class="bg-white rounded-2xl shadow-sm border border-gray-100 overflow-hidden">
+        <button
+          @click="openFaq = openFaq === 5 ? null : 5"
+          class="w-full px-6 py-5 text-left flex items-center justify-between gap-4 hover:bg-[color:var(--light-bg)] transition-colors"
+        >
+          <h3 class="text-lg font-semibold text-[color:var(--dark-color)] pr-4 mb-0">How much does it cost to train as a Divorce and Breakup Coach?</h3>
+          <svg
+            class="w-5 h-5 text-[color:var(--primary-color)] flex-shrink-0 transition-transform duration-200"
+            :class="{ 'rotate-180': openFaq === 5 }"
+            fill="none"
+            stroke="currentColor"
+            viewBox="0 0 24 24"
+          >
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"/>
+          </svg>
+        </button>
+        <div x-show="openFaq === 5" x-collapse>
+          <div class="px-6 pb-5 text-[color:var(--dark-color)] opacity-80">
+            <p>Accredited programmes in divorce and breakup coaching usually cost in the mid-range, often roughly &pound;1,000-&pound;5,000+ depending on provider and support included. Higher-level specialist programmes with mentoring and extended business training may cost more.</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- FAQ 6 -->
+      <div class="bg-white rounded-2xl shadow-sm border border-gray-100 overflow-hidden">
+        <button
+          @click="openFaq = openFaq === 6 ? null : 6"
+          class="w-full px-6 py-5 text-left flex items-center justify-between gap-4 hover:bg-[color:var(--light-bg)] transition-colors"
+        >
+          <h3 class="text-lg font-semibold text-[color:var(--dark-color)] pr-4 mb-0">Are the coaching programmes accredited by a reputable body?</h3>
+          <svg
+            class="w-5 h-5 text-[color:var(--primary-color)] flex-shrink-0 transition-transform duration-200"
+            :class="{ 'rotate-180': openFaq === 6 }"
+            fill="none"
+            stroke="currentColor"
+            viewBox="0 0 24 24"
+          >
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"/>
+          </svg>
+        </button>
+        <div x-show="openFaq === 6" x-collapse>
+          <div class="px-6 pb-5 text-[color:var(--dark-color)] opacity-80">
+            <p>Not all coaching courses are accredited, so check carefully. Some professional programmes are accredited by recognised bodies such as the International Coaching Federation (ICF) or other industry bodies - which can enhance credibility and client trust.</p>
+            <p class="mt-3">Accredited courses often:</p>
+            <ul class="list-disc list-inside mt-2 space-y-1">
+              <li>Meet industry standards</li>
+              <li>Support eligibility for later credentialing (e.g., ACC, CPD, PCC with ICF)</li>
+              <li>Include ethical frameworks and consistent quality training</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+      <!-- FAQ 7 -->
+      <div class="bg-white rounded-2xl shadow-sm border border-gray-100 overflow-hidden">
+        <button
+          @click="openFaq = openFaq === 7 ? null : 7"
+          class="w-full px-6 py-5 text-left flex items-center justify-between gap-4 hover:bg-[color:var(--light-bg)] transition-colors"
+        >
+          <h3 class="text-lg font-semibold text-[color:var(--dark-color)] pr-4 mb-0">Do the courses cover theory, practice, and real-world application?</h3>
+          <svg
+            class="w-5 h-5 text-[color:var(--primary-color)] flex-shrink-0 transition-transform duration-200"
+            :class="{ 'rotate-180': openFaq === 7 }"
+            fill="none"
+            stroke="currentColor"
+            viewBox="0 0 24 24"
+          >
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"/>
+          </svg>
+        </button>
+        <div x-show="openFaq === 7" x-collapse>
+          <div class="px-6 pb-5 text-[color:var(--dark-color)] opacity-80">
+            <p>Strong programmes include:</p>
+            <ul class="list-disc list-inside mt-2 space-y-1">
+              <li>Core coaching models and theory</li>
+              <li>Practical coaching skills and live/peer practice</li>
+              <li>Application to real client scenarios</li>
+              <li>Business and ethical best practice</li>
+            </ul>
+            <p class="mt-3">Look for courses that combine theory + practicum + supervised practice - these prepare you better for real coaching situations.</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- FAQ 8 -->
+      <div class="bg-white rounded-2xl shadow-sm border border-gray-100 overflow-hidden">
+        <button
+          @click="openFaq = openFaq === 8 ? null : 8"
+          class="w-full px-6 py-5 text-left flex items-center justify-between gap-4 hover:bg-[color:var(--light-bg)] transition-colors"
+        >
+          <h3 class="text-lg font-semibold text-[color:var(--dark-color)] pr-4 mb-0">What support is offered during and after training?</h3>
+          <svg
+            class="w-5 h-5 text-[color:var(--primary-color)] flex-shrink-0 transition-transform duration-200"
+            :class="{ 'rotate-180': openFaq === 8 }"
+            fill="none"
+            stroke="currentColor"
+            viewBox="0 0 24 24"
+          >
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"/>
+          </svg>
+        </button>
+        <div x-show="openFaq === 8" x-collapse>
+          <div class="px-6 pb-5 text-[color:var(--dark-color)] opacity-80">
+            <p>Quality training programmes typically offer:</p>
+            <ul class="list-disc list-inside mt-2 space-y-1">
+              <li>Live trainer mentoring and supervision sessions</li>
+              <li>Peer practice groups</li>
+              <li>Feedback on coaching practice</li>
+              <li>Business development guidance</li>
+              <li>Continued community or alumni support</li>
+            </ul>
+            <p class="mt-3">Some accredited programmes include ongoing webinars, community groups, or mentoring after training.</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- FAQ 9 -->
+      <div class="bg-white rounded-2xl shadow-sm border border-gray-100 overflow-hidden">
+        <button
+          @click="openFaq = openFaq === 9 ? null : 9"
+          class="w-full px-6 py-5 text-left flex items-center justify-between gap-4 hover:bg-[color:var(--light-bg)] transition-colors"
+        >
+          <h3 class="text-lg font-semibold text-[color:var(--dark-color)] pr-4 mb-0">Do I need any experience to become a coach?</h3>
+          <svg
+            class="w-5 h-5 text-[color:var(--primary-color)] flex-shrink-0 transition-transform duration-200"
+            :class="{ 'rotate-180': openFaq === 9 }"
+            fill="none"
+            stroke="currentColor"
+            viewBox="0 0 24 24"
+          >
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"/>
+          </svg>
+        </button>
+        <div x-show="openFaq === 9" x-collapse>
+          <div class="px-6 pb-5 text-[color:var(--dark-color)] opacity-80">
+            <p>No prior coaching experience is strictly required. Many programmes accept beginners as long as you are motivated to learn and practice coaching skills. However, life experience, strong interpersonal skills, and a growth mindset are helpful - especially for niches like divorce coaching where empathy and communication are vital.</p>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+
+<!-- Final CTA Section -->
+<section class="py-16 md:py-20 bg-gradient-to-br from-[color:var(--primary-color)] to-[color:var(--primary-dark)]">
+  <div class="max-w-4xl mx-auto px-4 sm:px-6 text-center">
+    <h2 class="text-2xl md:text-3xl lg:text-4xl font-bold text-white mb-6">
+      Ready to Start Your Coaching Journey?
+    </h2>
+    <p class="text-xl text-white/90 mb-8 max-w-2xl mx-auto">
+      Take the first step towards a fulfilling career helping others. Answer a few quick questions and we'll help point you in the right direction.
+    </p>
+    <button
+      x-data=""
+      @click="document.getElementById('coaching-form').scrollIntoView({ behavior: 'smooth' })"
+      class="inline-block bg-white text-[color:var(--primary-dark)] px-10 py-4 rounded-full font-bold text-lg hover:bg-[color:var(--secondary-colour)] hover:scale-105 transition-all duration-200 shadow-lg"
+    >
+      Get Started Now
+    </button>
+  </div>
+</section>
