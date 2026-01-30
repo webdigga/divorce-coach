@@ -11,6 +11,8 @@ tags:
 
 The coaching industry has come a long way. What was once considered a fringe occupation has grown into a multi-billion dollar global market. If you have ever thought about [becoming a divorce coach](/becoming-a-certified-divorce-coach/) or entering the personal development space, the numbers tell a compelling story.
 
+<img src="/static/img/coaching-industry-growth-rates.svg" alt="Bar chart showing annual growth rates by coaching segment: US Life Coaching at 5%, Life Coaching Global at 6-9%, Wellness Coaching Global at 7-11%, and UK Wellness Coaching leading at 12-16%" title="Annual Growth Rates by Coaching Segment" class="Centre" width="600px" height="400px" loading="lazy"/>
+
 ## How Big is the Coaching Industry Today?
 
 The global coaching industry, which includes life coaching as a major segment, is now worth somewhere between 4.6 and 5.3 billion USD as of 2026. That figure has roughly doubled since 2019, and the growth shows no signs of slowing down.
