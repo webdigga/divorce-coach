@@ -16,7 +16,7 @@ wideLayout: true
     <div class="space-y-6">
       <div class="bg-white rounded-xl p-6 shadow-soft">
         <h3 class="text-xl font-bold text-[color:var(--dark-color)] mb-4">For Aspiring Coaches</h3>
-        <p class="text-[color:var(--dark-color)] opacity-70 mb-4">Considering a career in divorce coaching? Book a call to discuss:</p>
+        <p class="text-[color:var(--dark-color)] mb-4">Considering a career in divorce coaching? Book a call to discuss:</p>
         <ul class="space-y-2">
           <li class="flex items-start gap-2">
             <svg class="w-5 h-5 text-[color:var(--accent-color)] flex-shrink-0 mt-0.5" fill="currentColor" viewBox="0 0 20 20"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"/></svg>
@@ -39,7 +39,7 @@ wideLayout: true
 
       <div class="bg-white rounded-xl p-6 shadow-soft">
         <h3 class="text-xl font-bold text-[color:var(--dark-color)] mb-4">For Those Going Through Divorce</h3>
-        <p class="text-[color:var(--dark-color)] opacity-70 mb-4">Need support during this challenging time? We can connect you with:</p>
+        <p class="text-[color:var(--dark-color)] mb-4">Need support during this challenging time? We can connect you with:</p>
         <ul class="space-y-2">
           <li class="flex items-start gap-2">
             <svg class="w-5 h-5 text-[color:var(--accent-color)] flex-shrink-0 mt-0.5" fill="currentColor" viewBox="0 0 20 20"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"/></svg>

@@ -36,13 +36,13 @@ subTitle: Stay Ahead with the Latest Coaching News & Trends
           </h2>
 
           {% if featuredPost.data.description %}
-            <p class="text-[color:var(--dark-color)] opacity-70 mb-6 text-lg max-w-2xl">
+            <p class="text-[color:var(--dark-color)] mb-6 text-lg max-w-2xl">
               {{ featuredPost.data.description }}
             </p>
           {% endif %}
 
           <div class="flex items-center gap-6">
-            <time class="text-sm text-[color:var(--dark-color)] opacity-50">
+            <time class="text-sm text-[color:var(--dark-color)]">
               {{ featuredPost.data.date | readableDate }}
             </time>
             <span class="inline-flex items-center text-[color:var(--primary-color)] font-semibold group-hover:translate-x-2 transition-transform duration-300">
@@ -83,13 +83,13 @@ subTitle: Stay Ahead with the Latest Coaching News & Trends
           </h3>
 
           {% if news.data.description %}
-            <p class="text-sm text-[color:var(--dark-color)] opacity-60 mb-4 line-clamp-3">
+            <p class="text-sm text-[color:var(--dark-color)] mb-4 line-clamp-3">
               {{ news.data.description }}
             </p>
           {% endif %}
 
           <div class="flex items-center justify-between text-sm pt-4 border-t border-[color:var(--secondary-colour)]">
-            <time class="text-[color:var(--dark-color)] opacity-50">
+            <time class="text-[color:var(--dark-color)]">
               {{ news.data.date | readableDate }}
             </time>
             <span class="text-[color:var(--primary-color)] font-medium flex items-center group-hover:translate-x-1 transition-transform">
@@ -113,7 +113,7 @@ subTitle: Stay Ahead with the Latest Coaching News & Trends
     <h3 class="text-2xl font-bold text-[color:var(--dark-color)] mb-4">
       Ready to Become a Certified Divorce Coach?
     </h3>
-    <p class="text-[color:var(--dark-color)] opacity-70 mb-6">
+    <p class="text-[color:var(--dark-color)] mb-6">
       Take the first step towards a rewarding career helping others navigate their divorce journey.
     </p>
     <a href="/book-a-free-call/" class="btn-primary">

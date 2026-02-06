@@ -9,14 +9,14 @@
 
 :root {
   /* Primary Colors */
-  --primary-color: #C9A9A6;      /* Dusty Rose */
-  --primary-dark: #A67F7B;       /* Deep Rose (hover) */
-  --secondary-colour: #F5E6E0;   /* Blush Pink */
-  --accent-color: #7D9B8E;       /* Sage Green */
+  --primary-color: #8B4570;      /* Warm Plum */
+  --primary-dark: #6B2E54;       /* Deep Plum (hover) */
+  --secondary-colour: #F3E8EF;   /* Soft Lavender */
+  --accent-color: #1B7A6E;       /* Deep Teal */
 
   /* Neutrals */
-  --dark-color: #4A4545;         /* Warm Charcoal */
-  --light-bg: #FDF9F8;           /* Warm Cream */
+  --dark-color: #140F0F;         /* Near Black */
+  --light-bg: #FBF7FA;           /* Warm Lavender Cream */
   --white: #ffffff;
 }
 
@@ -198,14 +198,27 @@ body pre[class*="language-"] {
 /* Article image component */
 img.Centre {
   @apply mx-auto rounded-xl;
+  max-width: 100%;
+  height: auto;
 }
 
 img.Left {
-  @apply m-0 md:float-left md:pr-8 md:pb-6 md:max-w-[45%] rounded-xl;
+  @apply m-0 md:float-left md:pr-8 md:pb-6 rounded-xl;
+  max-width: 100%;
+  height: auto;
 }
 
 img.Right {
-  @apply m-0 md:float-right md:pl-8 md:pb-6 md:max-w-[45%] rounded-xl;
+  @apply m-0 md:float-right md:pl-8 md:pb-6 rounded-xl;
+  max-width: 100%;
+  height: auto;
+}
+
+@media (min-width: 768px) {
+  img.Left,
+  img.Right {
+    max-width: 45%;
+  }
 }
 
 /* Alpine.js cloak */
@@ -227,7 +240,43 @@ img.Right {
   color: var(--primary-dark);
 }
 
-/* Link styles within prose */
+/* ========================================
+   PROSE / EDITORIAL STYLES
+   ======================================== */
+
+/* Base prose colors */
+.prose {
+  color: var(--dark-color);
+}
+
+.prose h2,
+.prose h3,
+.prose h4 {
+  color: var(--dark-color);
+}
+
+.prose h2 {
+  @apply text-2xl md:text-3xl font-bold mt-10 mb-4;
+}
+
+.prose h3 {
+  @apply text-xl md:text-2xl font-semibold mt-8 mb-3;
+}
+
+.prose h4 {
+  @apply text-lg md:text-xl font-semibold mt-6 mb-2;
+}
+
+.prose p {
+  @apply text-base md:text-lg leading-relaxed mb-5;
+}
+
+.prose strong {
+  color: var(--dark-color);
+  font-weight: 700;
+}
+
+/* Links within prose */
 .prose a:not(.btn-primary):not(.btn-secondary):not(.btn-outline) {
   color: var(--primary-dark);
   text-decoration: underline;
@@ -239,6 +288,106 @@ img.Right {
 .prose a:not(.btn-primary):not(.btn-secondary):not(.btn-outline):hover {
   color: var(--primary-color);
   text-decoration-color: var(--primary-dark);
+}
+
+/* Lists */
+.prose ul,
+.prose ol {
+  @apply my-4 pl-6 space-y-2;
+}
+
+.prose ul {
+  list-style-type: disc;
+}
+
+.prose ol {
+  list-style-type: decimal;
+}
+
+.prose li {
+  @apply text-base md:text-lg leading-relaxed;
+}
+
+.prose li::marker {
+  color: var(--primary-color);
+}
+
+/* Nested lists */
+.prose li > ul,
+.prose li > ol {
+  @apply mt-2 mb-0;
+}
+
+/* Blockquotes */
+.prose blockquote {
+  @apply border-l-4 pl-5 py-2 my-6 italic;
+  border-color: var(--primary-color);
+  background-color: var(--secondary-colour);
+  @apply rounded-r-lg pr-5;
+}
+
+.prose blockquote p {
+  @apply mb-0;
+}
+
+/* Tables - mobile friendly */
+.prose table {
+  @apply my-6 text-sm md:text-base;
+  width: 100%;
+  table-layout: auto;
+}
+
+/* Scrollable table wrapper for mobile */
+@media (max-width: 767px) {
+  .prose table {
+    display: block;
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+  }
+}
+
+.prose thead {
+  border-bottom: 2px solid var(--primary-color);
+}
+
+.prose th {
+  @apply px-3 py-3 text-left font-bold whitespace-nowrap;
+  color: var(--dark-color);
+  background-color: var(--secondary-colour);
+}
+
+.prose td {
+  @apply px-3 py-3;
+  border-bottom: 1px solid var(--secondary-colour);
+}
+
+.prose tbody tr:hover {
+  background-color: var(--secondary-colour);
+}
+
+/* Images within prose - force responsive */
+.prose img {
+  max-width: 100%;
+  height: auto;
+  @apply rounded-xl my-6;
+}
+
+/* Horizontal rules */
+.prose hr {
+  @apply my-8;
+  border-color: var(--secondary-colour);
+}
+
+/* Code blocks */
+.prose code {
+  @apply text-sm px-1.5 py-0.5 rounded;
+  background-color: var(--secondary-colour);
+  color: var(--primary-dark);
+}
+
+.prose pre code {
+  @apply p-0 bg-transparent;
+  color: inherit;
 }
 
 /* ========================================

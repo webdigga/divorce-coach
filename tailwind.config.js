@@ -12,21 +12,21 @@ module.exports = {
         'xs': '440px'
       },
       colors: {
-        // Warm & Human Color Palette
+        // Warm & Human Color Palette - Warm Plum + Teal
         primary: {
-          DEFAULT: '#C9A9A6',  // Dusty Rose
-          dark: '#A67F7B',     // Deep Rose
-          light: '#D9C4C2',    // Light Rose
+          DEFAULT: '#8B4570',  // Warm Plum
+          dark: '#6B2E54',     // Deep Plum
+          light: '#A86B90',    // Light Plum
         },
-        secondary: '#F5E6E0',  // Blush Pink
-        accent: '#7D9B8E',     // Sage Green
-        dark: '#4A4545',       // Warm Charcoal
-        'light-bg': '#FDF9F8', // Warm Cream
-        cream: '#FDF9F8',
-        blush: '#F5E6E0',
+        secondary: '#F3E8EF',  // Soft Lavender
+        accent: '#1B7A6E',     // Deep Teal
+        dark: '#140F0F',       // Near Black
+        'light-bg': '#FBF7FA', // Warm Lavender Cream
+        cream: '#FBF7FA',
+        blush: '#F3E8EF',
         rose: {
-          DEFAULT: '#C9A9A6',
-          dark: '#A67F7B',
+          DEFAULT: '#8B4570',
+          dark: '#6B2E54',
         },
       },
       fontFamily: {
@@ -38,6 +38,43 @@ module.exports = {
       boxShadow: {
         'soft': '0 2px 15px -3px rgba(0, 0, 0, 0.07), 0 10px 20px -2px rgba(0, 0, 0, 0.04)',
         'soft-lg': '0 10px 40px -10px rgba(0, 0, 0, 0.1)',
+      },
+      typography: {
+        DEFAULT: {
+          css: {
+            color: '#140F0F',
+            maxWidth: 'none',
+            a: {
+              color: '#6B2E54',
+              textDecoration: 'underline',
+              '&:hover': {
+                color: '#8B4570',
+              },
+            },
+            strong: {
+              color: '#140F0F',
+            },
+            h2: {
+              color: '#140F0F',
+            },
+            h3: {
+              color: '#140F0F',
+            },
+            h4: {
+              color: '#140F0F',
+            },
+            blockquote: {
+              color: '#140F0F',
+              borderLeftColor: '#8B4570',
+            },
+            'thead th': {
+              color: '#140F0F',
+            },
+            code: {
+              color: '#6B2E54',
+            },
+          },
+        },
       },
     },
   },

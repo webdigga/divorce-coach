@@ -21,63 +21,116 @@ eleventyComputed:
       <header class="mb-8 pb-8 border-b border-[color:var(--secondary-colour)]">
         {% if 'divorce' in tags or 'coaching' in tags %}
 
-          <!-- Title and Author -->
-          <div class="flex flex-col lg:flex-row lg:justify-between lg:items-start gap-6 mb-6">
-            <h1 class="text-3xl md:text-4xl lg:text-5xl font-bold text-[color:var(--dark-color)] leading-tight">
+          <!-- MOBILE HEADER (below lg) -->
+          <div class="lg:hidden">
+            <h1 class="text-3xl md:text-4xl font-bold text-[color:var(--dark-color)] leading-tight mb-5">
               {{ title }}
             </h1>
 
-            <div class="flex items-center gap-4 lg:flex-shrink-0">
-              <div class="text-right">
+            <div class="flex items-center gap-3 mb-4">
+              <img
+                src="/static/img/jonny-rowse.webp"
+                alt="Jonny Rowse"
+                width="48"
+                height="48"
+                class="w-10 h-10 rounded-full object-cover ring-2 ring-[color:var(--secondary-colour)] flex-shrink-0"
+                loading="lazy"
+              />
+              <div>
                 <a
                   href="https://www.linkedin.com/in/jonny-rowse-70a09126/?utm_source=divorce-coaching.com&utm_medium=website&utm_campaign=author_profile"
                   target="_blank"
                   rel="noopener noreferrer"
-                  class="font-semibold text-[color:var(--dark-color)] hover:text-[color:var(--primary-color)] transition-colors"
+                  class="font-semibold text-sm text-[color:var(--dark-color)] hover:text-[color:var(--primary-color)] transition-colors"
                 >
                   Jonny Rowse
                 </a>
-                <p class="text-sm text-[color:var(--dark-color)] opacity-60">Editor</p>
+                <div class="flex items-center gap-2 text-xs text-[color:var(--dark-color)]">
+                  <time datetime="{{ date | iso8601 }}">{{ date | readableDate }}</time>
+                  <span aria-hidden="true">&middot;</span>
+                  <span class="flex items-center gap-1">
+                    <svg class="w-3.5 h-3.5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                      <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z"/>
+                    </svg>
+                    {{ content | readingTime }} read
+                  </span>
+                </div>
               </div>
-              <img
-                src="/static/img/jonny-rowse.webp"
-                alt="Jonny Rowse"
-                width="64"
-                height="64"
-                class="w-16 h-16 rounded-full object-cover ring-2 ring-[color:var(--secondary-colour)]"
-                loading="lazy"
-              />
             </div>
+
+            {% if tags %}
+              <div class="flex flex-wrap gap-2">
+                {% for tag in tags %}
+                  {% if tag != 'article' and tag != 'latestNews' and tag != 'post' %}
+                    <a
+                      href="/{{ tag }}/"
+                      class="inline-block px-3 py-1 text-xs font-medium rounded-full bg-[color:var(--secondary-colour)] text-[color:var(--dark-color)] hover:bg-[color:var(--primary-color)] hover:text-white transition-all duration-200 capitalize"
+                    >
+                      {{ tag }}
+                    </a>
+                  {% endif %}
+                {% endfor %}
+              </div>
+            {% endif %}
           </div>
 
-          <!-- Meta Info -->
-          <div class="flex items-center justify-between text-sm text-[color:var(--dark-color)] opacity-60 mb-4">
-            <time datetime="{{ date | iso8601 }}">
-              {{ date | readableDate }}
-            </time>
-            <span class="flex items-center gap-1">
-              <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z"/>
-              </svg>
-              {{ content | readingTime }} read
-            </span>
-          </div>
+          <!-- DESKTOP HEADER (lg and above) - original layout -->
+          <div class="hidden lg:block">
+            <div class="flex justify-between items-start gap-6 mb-6">
+              <h1 class="text-5xl font-bold text-[color:var(--dark-color)] leading-tight">
+                {{ title }}
+              </h1>
 
-          <!-- Tags -->
-          {% if tags %}
-            <div class="flex flex-wrap gap-2">
-              {% for tag in tags %}
-                {% if tag != 'article' and tag != 'latestNews' and tag != 'post' %}
+              <div class="flex items-center gap-4 flex-shrink-0">
+                <div class="text-right">
                   <a
-                    href="/{{ tag }}/"
-                    class="inline-block px-3 py-1 text-xs font-medium rounded-full bg-[color:var(--secondary-colour)] text-[color:var(--dark-color)] hover:bg-[color:var(--primary-color)] hover:text-white transition-all duration-200 capitalize"
+                    href="https://www.linkedin.com/in/jonny-rowse-70a09126/?utm_source=divorce-coaching.com&utm_medium=website&utm_campaign=author_profile"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    class="font-semibold text-[color:var(--dark-color)] hover:text-[color:var(--primary-color)] transition-colors"
                   >
-                    {{ tag }}
+                    Jonny Rowse
                   </a>
-                {% endif %}
-              {% endfor %}
+                  <p class="text-sm text-[color:var(--dark-color)]">Editor</p>
+                </div>
+                <img
+                  src="/static/img/jonny-rowse.webp"
+                  alt="Jonny Rowse"
+                  width="64"
+                  height="64"
+                  class="w-16 h-16 rounded-full object-cover ring-2 ring-[color:var(--secondary-colour)]"
+                  loading="lazy"
+                />
+              </div>
             </div>
-          {% endif %}
+
+            <div class="flex items-center justify-between text-sm text-[color:var(--dark-color)] mb-4">
+              <time datetime="{{ date | iso8601 }}">
+                {{ date | readableDate }}
+              </time>
+              <span class="flex items-center gap-1">
+                <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z"/>
+                </svg>
+                {{ content | readingTime }} read
+              </span>
+            </div>
+
+            {% if tags %}
+              <div class="flex flex-wrap gap-2">
+                {% for tag in tags %}
+                  {% if tag != 'article' and tag != 'latestNews' and tag != 'post' %}
+                    <a
+                      href="/{{ tag }}/"
+                      class="inline-block px-3 py-1 text-xs font-medium rounded-full bg-[color:var(--secondary-colour)] text-[color:var(--dark-color)] hover:bg-[color:var(--primary-color)] hover:text-white transition-all duration-200 capitalize"
+                    >
+                      {{ tag }}
+                    </a>
+                  {% endif %}
+                {% endfor %}
+              </div>
+            {% endif %}
+          </div>
 
         {% else %}
           <h1 class="text-3xl md:text-4xl lg:text-5xl font-bold text-[color:var(--dark-color)]">
@@ -155,7 +208,7 @@ eleventyComputed:
                     {{ post.data.title }}
                   </h3>
                   {% if post.data.description %}
-                    <p class="text-sm text-[color:var(--dark-color)] opacity-60 mb-3 line-clamp-2">
+                    <p class="text-sm text-[color:var(--dark-color)] mb-3 line-clamp-2">
                       {{ post.data.description }}
                     </p>
                   {% endif %}
