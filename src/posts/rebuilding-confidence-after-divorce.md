@@ -59,7 +59,7 @@ Counselling provides a private, professional space to work through the deeper em
 
 Counselling is particularly valuable if you are experiencing persistent low mood, difficulty sleeping, or finding it hard to function at work or at home. Your GP can refer you to NHS counselling services, or you can find a private counsellor through directories such as the British Association for Counselling and Psychotherapy (BACP).
 
-[Understand the differences between counselling and coaching](/divorce-coaching-vs-counselling-whats-the-difference/) to decide which approach is right for you.
+[Understand the differences between counselling and coaching](/divorce-coaching-vs-counselling-what-s-the-difference/) to decide which approach is right for you.
 
 ### Divorce Coaching: A Forward-Focused Approach
 
@@ -167,7 +167,7 @@ There is no fixed timeline. Most people begin to feel more like themselves withi
 Absolutely. Mixed emotions are one of the most common experiences after divorce. You can feel relieved that a difficult situation has ended while also grieving the loss of the life you planned. Both feelings are valid and can coexist.
 
 **Should I try counselling or coaching first?**
-It depends on where you are emotionally. If you are struggling with intense emotions, grief, or mental health concerns, counselling is a good starting point. If you are feeling more stable but need help making decisions and moving forward, [coaching](/divorce-coaching-vs-counselling-whats-the-difference/) may be more suitable. Many people benefit from both.
+It depends on where you are emotionally. If you are struggling with intense emotions, grief, or mental health concerns, counselling is a good starting point. If you are feeling more stable but need help making decisions and moving forward, [coaching](/divorce-coaching-vs-counselling-what-s-the-difference/) may be more suitable. Many people benefit from both.
 
 **Can support groups really help?**
 Research consistently shows that peer support improves outcomes after major life transitions. [Support groups](/breakup-support-groups/) reduce isolation, provide practical advice, and offer hope by connecting you with people who have come through similar experiences.
