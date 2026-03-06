@@ -5,7 +5,7 @@ description: Explore accredited divorce coaching programmes and why accreditatio
 date: 2025-08-29T11:28:32.363Z
 type: article
 tags:
-  - article
+  - coaching
 ---
 ## Finding the Right Coaching Programme
 

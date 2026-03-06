@@ -5,7 +5,7 @@ description: Want to become a certified divorce coach? Learn about divorce coach
 date: 2024-03-11T11:28:32.363Z
 type: article
 tags:
-  - article
+  - coaching
 ---
 ## How to Become a Certified Divorce Coach in the UK
 

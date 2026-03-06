@@ -5,7 +5,7 @@ description: Advance your career with our practitioner training programs. Gain e
 date: 2024-03-11T11:28:32.363Z
 type: article
 tags:
-  - article
+  - coaching
 highlightsBoxes:
   - title: " Is the Divorce & Breakup Practitioner Accreditation Programme For Me?"
     highlightsListItem:

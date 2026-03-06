@@ -6,7 +6,7 @@ description: The most important questions answered if you are interested in
 date: 2024-03-11T11:28:32.363Z
 type: article
 tags:
-  - article
+  - coaching
   - faq
 seoSchemaPageType: FAQPage
 ---

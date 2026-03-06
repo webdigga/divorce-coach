@@ -5,7 +5,7 @@ description: Explore international divorce coaching programmes and gain globally
 date: 2024-03-11T11:28:32.363Z
 type: article
 tags:
-  - article
+  - coaching
 ---
 ## International Divorce Coach Training
 

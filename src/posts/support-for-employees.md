@@ -5,7 +5,7 @@ description: Provide support for employees going through divorce with our expert
 date: 2024-03-11T11:28:32.363Z
 type: article
 tags:
-  - article
+  - divorce
 highlightsBoxes:
   - title: Breakup & Divorce Coaching
     highlightsListItem:

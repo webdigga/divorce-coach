@@ -5,7 +5,7 @@ description: Find breakup support groups and divorce support communities in the 
 date: 2024-03-11T11:28:32.363Z
 type: article
 tags:
-  - article
+  - divorce
 highlightsBoxes:
   - title: Online Divorce & Breakup Support Groups
     highlightsListItem:

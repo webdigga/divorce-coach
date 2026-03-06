@@ -5,7 +5,7 @@ description: Boost employee well-being and productivity with divorce support pro
 date: 2024-03-11T11:28:32.363Z
 type: article
 tags:
-  - article
+  - coaching
 ---
 **By offering breakup and divorce support can contribute to a more compassionate and resilient workplace culture, benefiting both employees and the organisation as a whole.**
 

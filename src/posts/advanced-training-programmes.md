@@ -5,7 +5,7 @@ description: Elevate your expertise with our advanced divorce coaching training 
 date: 2024-03-11T11:28:32.363Z
 type: article
 tags:
-  - article
+  - coaching
 highlightsBoxes:
   - title: Learn how to coach your clients
     highlightsListItem:
