@@ -18,7 +18,7 @@
 - **Short paragraphs:** Max 3-4 sentences, scannable with subheadings and bullet points
 - **Primary keyword focus:** Each post should target a specific keyword/phrase
 - **Strong opening:** Hook the reader and summarise the value in the first 2-3 sentences (helps with AI answer extraction for AEO)
-- **Image dimensions:** Always check existing blog images in the repo to determine the required width and height, and provide these to the user
+- **Image dimensions:** No images required for blog posts on this site
 - **Alt text:** Descriptive alt text on any SVGs/images for accessibility and SEO
 - **Call to action:** Tie back to the coaching services where natural. CTA page: `/book-a-free-call/` (Kabooly form)
 - **Reading time:** Calculate based on ~230 words per minute
@@ -67,7 +67,7 @@ Divorce coaching certification course and information site.
 
 | Type | Count | Location |
 |------|-------|----------|
-| Blog posts | 42 | `src/posts/` |
+| Blog posts | 43 | `src/posts/` |
 
 ## Status: Live
 Ongoing content updates.
