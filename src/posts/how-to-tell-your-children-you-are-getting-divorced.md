@@ -100,8 +100,7 @@ Teenagers may react with anger, silence, or apparent indifference. Some will wan
 
 - Do not over-share adult details (finances, infidelity, legal disputes), no matter how mature they seem
 - Give them space to process; do not demand an immediate emotional response
-- Respect that they may want to talk to someone outside the family, such as a friend, school counsellor, or helpline like [Childline (0800 1111)](https://www.childline.org.uk/){target="_blank" rel="noopener noreferrer"} ↗
-- Avoid leaning on them for emotional support; they are your child, not your confidant
+- Respect that they may want to talk to someone outside the family, such as a friend, school counsellor, or helpline like [Childline (0800 1111)](https://www.childline.org.uk/)- Avoid leaning on them for emotional support; they are your child, not your confidant
 
 ## Common Reactions and How to Respond
 
