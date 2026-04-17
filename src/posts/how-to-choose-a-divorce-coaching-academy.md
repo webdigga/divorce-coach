@@ -227,7 +227,7 @@ Many academies encourage practice clients (pro bono or low fee) during the progr
 
 ### What is the difference between a divorce coach and a divorce counsellor?
 
-Counselling looks backwards to help you process emotions and heal. Coaching looks forwards to help you set goals and take action. Our guide to [divorce coaching vs counselling](/divorce-coaching-vs-counselling-whats-the-difference) explains this in more detail. A good divorce coaching academy will train you to work within the coaching scope and recognise when to refer a client to a counsellor instead.
+Counselling looks backwards to help you process emotions and heal. Coaching looks forwards to help you set goals and take action. Our guide to [divorce coaching vs counselling](/divorce-coaching-vs-counselling-what-s-the-difference) explains this in more detail. A good divorce coaching academy will train you to work within the coaching scope and recognise when to refer a client to a counsellor instead.
 
 ### Does a divorce coaching academy help me build my business?
 
