@@ -1,7 +1,7 @@
 ---
 title: "Divorce Coach Training in the UK: What It Costs, How Long It Takes, and How to Pick a Programme"
 seoTitle: Divorce Coach Training UK | Costs, Duration, Accreditation
-description: Divorce coach training in the UK explained: what accredited programmes cost, how long they take, and how to choose the right one for your career goals.
+description: "Divorce coach training in the UK explained: what accredited programmes cost, how long they take, and how to choose the right one for your career goals."
 date: 2026-04-24
 type: article
 tags:
